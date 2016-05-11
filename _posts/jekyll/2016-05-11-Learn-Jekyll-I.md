@@ -7,5 +7,6 @@ tags: jekyll
 
 ## 第一篇日志
 
-新建文件
-> /_posts/yyyy-MM-dd-title.md
+1. 新建文件
+
+_posts/yyyy-MM-dd-title.md
