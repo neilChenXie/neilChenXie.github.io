@@ -2,6 +2,7 @@
 layout: post
 title: Start Jekyll I
 date: 2016-05-11 9:30:15 +0800
+category: ChenBlog
 tags: jekyll
 ---
 
