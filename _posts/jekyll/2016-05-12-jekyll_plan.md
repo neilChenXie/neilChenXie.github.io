@@ -6,7 +6,7 @@ category: ChenBlog
 tags: [jekyll, plan]
 ---
 
-## To-DO list
+## To-Do List
 
 下面是**倒序**学习过程
 
@@ -16,7 +16,7 @@ tags: [jekyll, plan]
 - [x] 显示归类
 - [x] 第一篇博客
 
-## Timeline
+## Time-Line
 
 ### 2016-05-11
 
