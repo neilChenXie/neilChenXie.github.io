@@ -10,11 +10,11 @@ tags: [jekyll, plan]
 
 下面是**倒序**学习过程
 
-[ ] link of tags
-[ ] liquid语言
-[ ] 独立域名
-[x] 显示归类
-[x] 第一篇博客
+- [ ] link of tags
+- [ ] liquid语言
+- [ ] 独立域名
+- [x] 显示归类
+- [x] 第一篇博客
 
 ## Timeline
 
