@@ -26,6 +26,7 @@ tags: [jekyll, plan]
 ### 2016-05-12
 
 独立域名:
+
 1. 在name.github.io项目根目录增加CNAME文件
 2. CNAME文件写入独立域名（不用http://或https://)
 3. 上传到github仓库，项目settings中GitHub Page显示“Your Site is published to {新URL}”
