@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Start Jekyll I
+title: 安装Jekyll 
 date: 2016-05-11 9:30:15 +0800
 category: ChenBlog
-tags: jekyll
+tags: [jekyll, tutorial]
 ---
 
 ## 环境
@@ -19,13 +19,9 @@ tags: jekyll
 
 ### GEM
 
-*.gem 
+gem install
 
-> Ruby包框架,类似jar,war对于Java。
-
-gem install 
-
-> gem管理工具
+> gem管理工具, \*.gem 是Ruby包文件扩展名
 
 [官网](https://rubygems.org/)
 
@@ -34,10 +30,3 @@ gem install
 项目管理工具，与Java的Maven，Node.js的npm类似。
 
 [官网](http://bundler.io/)
-
-
-## 第一篇日志
-
-新建文件
-
-> _posts/yyyy-MM-dd-title.md
