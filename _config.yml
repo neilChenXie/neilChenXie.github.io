@@ -1,7 +1,7 @@
 # Setup
 title:        ChenBlog
 tagline:      A responsive theme for your project on GitHub Pages
-url           "http://chen-node.com"
+url:          "http://chen-node.com"
 baseurl:      "http://neilChenXie.github.io"
 paginate:     1
 
