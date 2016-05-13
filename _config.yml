@@ -2,7 +2,7 @@
 title:        ChenBlog
 tagline:      A responsive theme for your project on GitHub Pages
 url:          "http://chen-node.com"
-baseurl:      "http://neilChenXie.github.io"
+baseurl:      ""
 paginate:     1
 
 # About/contact

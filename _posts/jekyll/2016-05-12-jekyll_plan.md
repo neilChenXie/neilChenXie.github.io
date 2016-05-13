@@ -10,8 +10,8 @@ tags: [jekyll, plan]
 
 下面是**倒序**学习过程
 
-- [ ] link of tags
-- [ ] liquid语言
+- [x] 已入门
+- [x] liquid语言 & link of tags
 - [x] 独立域名
 - [x] 显示归类
 - [x] 第一篇博客
@@ -36,4 +36,4 @@ tags: [jekyll, plan]
 
 ### 2016-05-13
 
-liquid语言
+liquid语言:见 05/13/2015 Liquid 经验
