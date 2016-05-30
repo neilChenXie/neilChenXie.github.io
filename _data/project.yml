@@ -6,3 +6,6 @@
 
 - name: ChenJava
   github: /ChenJava
+
+- name: ChenLinux
+  github: /ChenLinux
