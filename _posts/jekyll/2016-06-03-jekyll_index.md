@@ -6,6 +6,6 @@ category: ChenBlog
 tags: [jekyll, checklist]
 ---
 
-### Index
+### 索引
 
 [variable](https://jekyllrb.com/docs/variables/)
