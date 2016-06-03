@@ -8,4 +8,5 @@ tags: [jekyll, checklist]
 
 ### 索引
 
-[variable](https://jekyllrb.com/docs/variables/)
+* [variable](https://jekyllrb.com/docs/variables/)
+* [permalink](https://jekyllrb.com/docs/permalinks/)
