@@ -1,9 +1,10 @@
 ---
 layout: post
-title: IOS Tips
+title: 邮件只看未读
+permalink: /:categories/mail_unread
 date: 2016-05-19 17:46:15 +0800
-category: Tips
-tags: [ios]
+category: IOS
+tags: [ios, mail]
 ---
 
 
