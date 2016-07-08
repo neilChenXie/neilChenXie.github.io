@@ -9,3 +9,6 @@
 
 - name: ChenLinux
   github: /ChenLinux
+
+- name: Sekorm
+  github: /Sekorm
