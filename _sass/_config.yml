@@ -1,0 +1,18 @@
+# Setup
+title:        ChenBlog
+tagline:      A responsive theme for your project on GitHub Pages
+url:          "http://chen-node.com"
+baseurl:      ""
+paginate:     1
+
+# About/contact
+author:
+  name:       Chen Xie
+  url:        https://github.com/neilChenXie
+
+# Gems
+gems:
+  - jekyll-paginate
+
+#Others
+markdown: kramdown

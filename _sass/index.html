@@ -1,0 +1,37 @@
+---
+layout: default
+title: {{ site.name }}
+---
+
+<div id="home">
+    <!--Project Section-->
+    <h1>Project List</h1>
+    <ul class="arc-list">
+        {% for project in site.data.project %}
+        <li><a href="{{ project.github }}">{{ project.name }}</a></li>
+        {% endfor %}
+    </ul>
+
+    <!--Post Section-->
+    <h1>Blog Posts</h1>
+    <!--category-->
+    {% for category in site.categories %}
+    <h2>{{ category | first }}</h2>
+    <!-- </span>{{ category | last | size }}</span> -->
+    <ul class="arc-list">
+        {% for post in category.last %}
+        <li>{{ post.date | date:"%m/%d/%Y" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
+
+    <!--posts-->
+    <!--
+    <ul class="posts">
+    {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+-->
+
+</div>
