@@ -1,4 +1,25 @@
+# general
+*.[oa] *~
+.*.sw[po]
+
+# java
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# ignore Maven generated target folders
+target
+
+# ignore eclipse files
+.project
+.classpath
+.settings
+.metadata
+
+# jekyll
 _site
 .sass-cache
 .jekyll-metadata
-.*.swp
