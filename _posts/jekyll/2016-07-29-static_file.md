@@ -11,3 +11,5 @@ tags: [github, setup]
 ```bash
 jekyll build
 ```
+
+[官方文档](https://jekyllrb.com/docs/usage/)
