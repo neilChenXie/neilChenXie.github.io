@@ -23,11 +23,11 @@
 
 	/*override the original setting*/
 	.main-content {
-		width: 100%;
+		width: 50%;
 		max-width: 64rem;
-		padding: 2rem 6rem 2rem 0;
-		margin-left: 6rem;
+		padding: 2rem 6rem 2rem 6rem;
 		font-size: 1.1rem; 
+		margin: 0;
 	}
 
 	/*complement the original setting*/
