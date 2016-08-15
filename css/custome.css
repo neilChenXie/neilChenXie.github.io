@@ -30,6 +30,10 @@
 		margin: 0;
 	}
 
+	.main-article-content {
+		width: 90%;
+	}
+
 	/*complement the original setting*/
 	body {
 		width: 100%;
