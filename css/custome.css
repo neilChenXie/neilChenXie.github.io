@@ -17,7 +17,7 @@
 
 	.left-slide {
 		padding: 2rem 0 2rem 3rem;
-		width: 300px;
+		min-width: 300px;
 		background: ghostwhite;
 	}
 
@@ -38,13 +38,12 @@
 	body {
 		width: 100%;
 		height: 100%;
-		display: -webkit-box;
-		display: -moz-box;
+		display: flex;
 	}
 
 	#big_toc {
 		width:200px;
-		position: fixed;
+		/*position: fixed;*/
 	}
 }
 
