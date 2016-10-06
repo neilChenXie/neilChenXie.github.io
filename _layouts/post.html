@@ -18,7 +18,7 @@
 
 		<div id="tiny_toc"></div>
 
-        {{ content }}
+		{{ content | replace: '<li>[ ]', '<li class = "box"> <input type="checkbox" />' | replace: '<li>[x]', '<li class = "box_done"><input type="checkbox" checked="checked"/>'  }}
 
         <!--Links-->
         <span class="tag-list">
