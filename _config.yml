@@ -19,12 +19,12 @@ gems:
 markdown: kramdown
 
 collections:
-  my_tags:
+  tags_page:
       output: true
       permalink: /tag/:slug/
 defaults:
     - scope:
         path: ""
-        type: my_tags
+        type: tags_page
       values:
-        layout: articles_by_tag
+        layout: page_tag

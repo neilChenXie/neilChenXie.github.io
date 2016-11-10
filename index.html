@@ -8,10 +8,9 @@ title: {{ site.name }}
 	<h1><span class="article-list-h1">Blog Posts</span></h1>
 
 	<!--category-->
-	{% for category in site.categories reversed %}
 	<!--<h2><span class="article-list-h2">{{ category | first }}</span></h2>-->
 	<!-- </span>{{ category | last | size }}</span> -->
-	{% for post in category.last %}
+	{% for post in site.posts %}
 	<div class="article-list-div">
 		<a href="{{ post.url }}" title="{{ post.title }}">
 			<h3 class="article-list-h3">
@@ -36,6 +35,5 @@ title: {{ site.name }}
 			</ul>
 		</div>
 	</div>
-	{% endfor %}
 	{% endfor %}
 </div>
