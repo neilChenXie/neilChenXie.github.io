@@ -1,18 +1,30 @@
 # Setup
 title:        ChenBlog
-tagline:      A responsive theme for your project on GitHub Pages
+tagline:      Chen Blog Based on GitHub Pages
 url:          "http://chen-node.com"
 baseurl:      ""
-paginate:     1
+#paginate:     1
 
 # About/contact
 author:
   name:       Chen Xie
-  url:        https://github.com/neilChenXie
+  url:        http://github.com/neilChenXie
 
 # Gems
 gems:
-  - jekyll-paginate
+  #- jekyll-paginate
+  #- jekyll-seo-tag
 
 #Others
 markdown: kramdown
+
+collections:
+  my_tags:
+      output: true
+      permalink: /tag/:slug/
+defaults:
+    - scope:
+        path: ""
+        type: my_tags
+      values:
+        layout: articles_by_tag

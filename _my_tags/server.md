@@ -1,0 +1,5 @@
+---
+slug: server
+name: server
+---
+

@@ -1,0 +1,45 @@
+---
+layout: page-horizontal
+permalink: /tags/
+---
+
+<h1>Tag Cloud</h1>
+
+<div class="tag-meta">
+	{% assign tags = site.tags | sort %}
+	{% for tag in tags %}
+	<li>
+	<a class="tag-link" href="{{ site.baseurl }}/tag/{{ tag | first | slugify }}/"
+		style="font-size: {{ tag | last | size  |  times: 4 | plus: 90  }}%">
+		<!--<a href="{{ site.baseurl }}/tag/{{ tag | first | slugify }}/">-->
+		<span class="term">{{ tag[0] | replace:'-', ' ' }}</span><span class="count">{{ tag | last | size }}</span>
+	</a>
+	</li>
+	{% endfor %}
+</div>
+
+<!--<ul class="tag-cloud">-->
+	<!--{% for tag in site.tags %}-->
+	<!--<li style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">-->
+	<!--<a href="#{{ tag | first | slugize }}">-->
+		<!--{{ tag | first }}-->
+	<!--</a>-->
+	<!--</li>-->
+	<!--{% endfor %}-->
+<!--</ul>-->
+
+<!--<div id="archives">-->
+	<!--{% for tag in site.tags %}-->
+	<!--<div class="archive-group">-->
+		<!--{% capture tag_name %}{{ tag | first }}{% endcapture %}-->
+		<!--<a name="{{ tag_name | slugize }}"></a>-->
+		<!--<h3 id="#{{ tag_name | slugize }}">{{ tag_name }}</h3>-->
+		<!--{% for post in site.tags[tag_name] %}-->
+		<!--<article class="archive-item">-->
+			<!--<h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>-->
+			<!--<blockquote>{{ post.content | truncatewords:10 | strip_html }}</blockquote>-->
+		<!--</article>-->
+		<!--{% endfor %}-->
+	<!--</div>-->
+	<!--{% endfor %}-->
+<!--</div>-->

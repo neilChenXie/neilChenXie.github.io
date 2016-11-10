@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  
+  {% include head.html %}
+
+  <body class="body-horizontal">
+  
+    {% include page-header-horizontal.html %}
+
+    <section class="main-content main-content-horizontal">
+      
+		<article class="post">
+
+			<header class="small-post-header">
+				<h1 class="small-post-title">{{ page.title }}</h1>
+			</header>
+
+			<div class="small-post-content">
+				{{ content }}
+			</div>
+
+		</article>
+
+      {% include page-footer.html %}
+
+    </section>
+
+  </body>
+</html>
+
