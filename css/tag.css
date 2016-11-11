@@ -30,6 +30,18 @@
 	border-bottom-left-radius: 0.3em;
 } 
 
+.term_only {
+	background-color: #C4E8F8;
+	border-top-left-radius: 0.3em;
+	border-top-right-radius: 0.3em;
+	border-bottom-left-radius: 0.3em;
+	border-bottom-right-radius: 0.3em;
+} 
+
+.term_only:hover {
+	background-color: #62B3E5;
+}
+
 .term:hover {
 	background-color: #62B3E5;
 }

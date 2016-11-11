@@ -1,9 +1,10 @@
 ---
 layout: post
-title: 安装Jekyll
+title: Ruby环境及Jekyll安装
 date: 2016-05-11 9:30:15 +0800
-category: ChenBlog
-tags: [jekyll, tutorial]
+permalink: /:categories/ruby_jekyll_setup/
+category: communication
+tags: [communication, jekyll, ruby]
 ---
 
 选择Jekyll，因为GitHub Page直接支持Jekyll，不用像Hexo要提前编译成HTML
@@ -25,13 +26,22 @@ Jekyll 是基于Ruby的，所以需要先安装相关环境，教程见官方文
 
 `rvm is not a function`
 
-> `bash --login`
+**solution:**
+
+```
+bash --login
+```
 
 ### GEM
 
-gem install
+#### \*.gem
 
-> gem管理工具, \*.gem 是Ruby包文件扩展名
+\*.gem 是Ruby包文件扩展名。
+
+#### `gem`
+
+> gem管理工具,通过`gem install {pkgName}` 安装gem包,在安装ruby时已经一同安装。
+
 
 [官网](https://rubygems.org/)
 
@@ -39,11 +49,34 @@ gem install
 
 项目管理工具，与Java的Maven，Node.js的npm类似。
 
+#### setup
+
+> need `gem` installed
+
+```ruby
+gem install bundler
+```
+
+#### Gemfile
+
+`bundle` 依赖于Gemfile找到所需的gem包，并生成Gemfile.lock。
+
+```bash
+# 在项目（博客模版）文件夹下运行
+bundle install
+```
+
 [官网](http://bundler.io/)
 
-## Install Jekyll
+### 安装 Jekyll
 
 ```bash
 gem install jekyll
-gem install jekyll-paginate
+```
+
+### 检查安装版本
+
+```bash
+ruby -v
+jekyll -v
 ```

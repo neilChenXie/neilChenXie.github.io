@@ -11,9 +11,11 @@
 	* product
 	* architecture
 	* maintainance
+	* communication
 * life
 	* conclusion
-	* material
+		* hobby
+	* information
 
 ## Tag System
 
@@ -28,19 +30,23 @@
 	* `ubuntu`
 	* `centos`
 * `windows`
+* `ios`
 
 ### app
 
-### document
+* {name}
+* tips
 
 ### language
 
 * java
 * python
 * js
+* ruby
 
-### entertain
+### hobby
 
+* efficiency
 * music
 * movie
 * humor
