@@ -57,4 +57,4 @@
 
 * conclusion
 * principle
-* cheat\_sheet
+* cheat-sheet

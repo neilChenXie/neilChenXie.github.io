@@ -4,7 +4,7 @@ layout: page-horizontal
 
 {% if site.tags[page.slug] %}
 	{% for post in site.tags[page.slug] %}
-	<a href="{{ site.baseurl }}/{{ post.url }}" title="{{ post.title }}">
+	<a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
 		<h3 class="article-list-h3">{{ post.title }}</h3>
 	</a>
 		<span class="article-list-date">

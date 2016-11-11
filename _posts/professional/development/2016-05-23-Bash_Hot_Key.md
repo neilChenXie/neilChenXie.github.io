@@ -3,7 +3,7 @@ layout: post
 title: Bash Hot-key
 date: 2016-05-23 9:30:15 +0800
 category: development
-tags: [development, linux, cheat_sheet]
+tags: [development, linux, cheat-sheet]
 ---
 
 ### Search history
