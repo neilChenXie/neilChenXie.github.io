@@ -1,14 +1,15 @@
 # Setup
-title:        ChenBlog
-tagline:      Chen Blog Based on GitHub Pages
-url:          "http://chen-node.com"
+title:        Sekorm Doc
+tagline:      世强开发文档
+url:          "http://chen-node.com/"
 baseurl:      ""
 #paginate:     1
 
 # About/contact
 author:
   name:       Chen Xie
-  url:        http://github.com/neilChenXie
+  repoUrl:    https://github.com/neilChenXie
+  repo:       GitHub
 
 # Gems
 gems:
@@ -18,6 +19,7 @@ gems:
 #Others
 markdown: kramdown
 
+#Collection
 collections:
   tags_page:
       output: true
