@@ -2,6 +2,7 @@
 layout: post
 title: Bash Hot-key
 date: 2016-05-23 9:30:15 +0800
+permalink: :categories/bash_hot_key/
 category: development
 tags: [development, linux, cheat-sheet]
 ---
