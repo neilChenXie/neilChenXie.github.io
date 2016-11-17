@@ -1,5 +1,3 @@
 ---
-slug: osx
-name: osx
 ---
 

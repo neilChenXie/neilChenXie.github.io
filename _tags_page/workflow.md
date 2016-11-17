@@ -1,5 +1,2 @@
 ---
-slug: workflow
-name: workflow
 ---
-

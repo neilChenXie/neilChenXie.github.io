@@ -43,6 +43,7 @@
 * python
 * js
 * ruby
+* liquid
 
 ### hobby
 

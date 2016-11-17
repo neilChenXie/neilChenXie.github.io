@@ -1,4 +1,2 @@
 ---
-slug: matainance
-name: matainance
 ---

@@ -1,5 +1,3 @@
 ---
-slug: life
-name: life
 ---
 

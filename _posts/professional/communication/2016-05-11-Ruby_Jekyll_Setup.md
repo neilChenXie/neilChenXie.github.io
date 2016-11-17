@@ -1,8 +1,6 @@
 ---
-layout: post
 title: Ruby环境及Jekyll安装
 date: 2016-05-11 9:30:15 +0800
-permalink: :categories/ruby_jekyll_setup/
 category: communication
 tags: [communication, jekyll, ruby]
 ---

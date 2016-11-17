@@ -1,5 +1,3 @@
 ---
-slug: ios
-name: ios
 ---
 

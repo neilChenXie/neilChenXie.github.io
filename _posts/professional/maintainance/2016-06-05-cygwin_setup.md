@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Cygwin
-permalink: :categories/cygwin/
 date: 2016-06-05 12:30:15 +0800
 category: maintainance
 tags: [matainance, windows, cygwin, bash]

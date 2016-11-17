@@ -1,5 +1,3 @@
 ---
-slug: hobby
-name: hobby
 ---
 

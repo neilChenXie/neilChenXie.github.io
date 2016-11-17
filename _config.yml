@@ -23,10 +23,18 @@ markdown: kramdown
 collections:
   tags_page:
       output: true
-      permalink: /tag/:slug/
+          
+#文章yml头默认参数
 defaults:
     - scope:
         path: ""
         type: tags_page
       values:
         layout: page_tag
+        permalink: /tag/:title/
+    - scope:
+        path: ""
+        type: "posts"
+      values:
+        layout: post
+        permalink: :categories/:title/
