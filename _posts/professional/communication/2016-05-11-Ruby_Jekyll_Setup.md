@@ -55,9 +55,9 @@ bash --login
 gem install bundler
 ```
 
-#### Gemfile
+#### Gemfile & Gemfile.lock
 
-`bundle` 依赖于Gemfile找到所需的gem包，并生成Gemfile.lock。
+`bundle` 依赖于Gemfile找到所需的gem包，并生成Gemfile.lock。不同环境下，先删除Gemfile.lock,运行`bundle install`生成新的.
 
 ```bash
 # 在项目（博客模版）文件夹下运行
@@ -77,4 +77,26 @@ gem install jekyll
 ```bash
 ruby -v
 jekyll -v
+```
+
+### Github & Jekyll
+
+#### {username}.github.io
+
+直接推送master分支即可，有自主域名的话，根目录下添加CNAME文件.
+
+#### 已存在项目
+
+* [Official](https://help.github.com/articles/creating-project-pages-manually/)
+
+创建新分支
+
+```bash
+git checkout --orphan gh-pages
+```
+
+第一次push
+
+```bash
+git push --set-upstream origin gh-pages
 ```

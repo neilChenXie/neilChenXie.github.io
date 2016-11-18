@@ -1,5 +1,5 @@
 ---
-title: Jekyll博客标签页
+title: Jekyll博客标签页及经验
 date: 2016-11-17 9:30:15 +0800
 category: communication
 tags: [jekyll, liquid]
@@ -116,3 +116,13 @@ There are no posts in {{ page.slug }}.
 * [permalink变量](https://jekyllrb.com/docs/permalinks/)
 * [_config.yml配置](https://jekyllrb.com/docs/configuration/)
 * [Collection](https://jekyllrb.com/docs/collections/)
+
+### Liquid语言
+
+liquid等模板语言，对于静态化页面的灵活性提高，有重要的作用
+
+#### 技巧及总结
+
+1. [中文入门 liquid用法笔记 ](http://blog.csdn.net/dont27/article/details/38097581)
+2. [英文入门 Liquid for designers](https://github.com/Shopify/liquid/wiki/liquid-for-designers)
+3. [liquid官网](http://shopify.github.io/liquid/)
