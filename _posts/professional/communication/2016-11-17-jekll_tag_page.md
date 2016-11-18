@@ -1,5 +1,5 @@
 ---
-title: Jekyll博客标签页及经验
+title: Jekyll博客标签页及Liquid经验
 date: 2016-11-17 9:30:15 +0800
 category: communication
 tags: [jekyll, liquid]
