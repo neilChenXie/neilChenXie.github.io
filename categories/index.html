@@ -3,41 +3,17 @@ layout: default
 title: {{ site.name }}
 ---
 
-<div id="blog-index">
-
-	<h1><span class="article-list-h1">Blog Posts</span></h1>
-
+<div id="home">
+	<!--Post Section-->
+	<h1>Blog Posts</h1>
 	<!--category-->
-	{% for category in site.categories %}
-		<h2><span class="article-list-h2">{{ category | first }}</span></h2>
-		<!--</span>{{ category | last | size }}</span> -->
+	{% for category in site.categories reversed %}
+	<h2>{{ category | first }}</h2>
+	<!-- </span>{{ category | last | size }}</span> -->
+	<ul class="arc-list">
 		{% for post in category.last %}
-		<li>
-			<div class="article-list-div">
-				<a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">
-					<h3 class="article-list-h3">
-						<span class="article-list-h3">
-							{{ post.title }}
-						</span>
-					</h3>
-				</a>
-				<span class="article-list-date">
-					{{ post.date | date: "%B %-d, %Y" }}
-				</span>
-				<!--<p>{{ post.content | truncatewords:20 | strip_html }}</p>-->
-				<div class="article-list-footer">
-					<ul class="article-list-tags">
-						{% for tag in post.tags %}
-						<li>
-						<a href="{{ site.baseurl }}tag/{{ tag }}" class="tag-link" title="See all posts by this tag">
-							<span class="term_only"> {{ tag }}</span>
-						</a>
-						</li>
-						{% endfor %}
-					</ul>
-				</div>
-			</div>
-		</li>
-		{% endfor %} <!-- post cycle-->
-	{% endfor %} <!--category cycle-->
+		<li>{{ post.date | date:"%m/%d/%Y" }} <a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+		{% endfor %}
+	</ul>
+	{% endfor %}
 </div>
