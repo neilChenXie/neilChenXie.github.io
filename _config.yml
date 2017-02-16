@@ -1,7 +1,7 @@
 # Setup
 title:        Chen Blog
 tagline:      All Shared Blogs Based on GitHub Pages
-url:          "http://chen-node.com/"
+url:          "http://chenblog.me/"
 baseurl:      ""
 #paginate:     1
 
@@ -23,7 +23,7 @@ markdown: kramdown
 collections:
   tags_page:
       output: true
-          
+
 #文章yml头默认参数
 defaults:
     - scope:
