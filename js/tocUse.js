@@ -1,6 +1,6 @@
 var config = {
 	listType: 'ul',
-	headers: 'h3, h4, h5, h6',
+	headers: 'h2, h3, h4, h5, h6',
 	minimumHeaders: 1,
 };
 
