@@ -13,7 +13,10 @@
         <h2>{{ page.title }}
         </h2>
         <p class="meta">
-            <span>{{ page.date | date_to_string }}<span>
+            <span>Created:&nbsp;{{ page.date | date_to_string }}<span>
+        </p>
+        <p class="meta">
+            <span>Author:&nbsp;&nbsp;{{ site.author.name }}<span>
         </p>
 
 		<div id="tiny_toc"></div>
