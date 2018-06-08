@@ -12,7 +12,7 @@ author:
   repo:       GitHub
 
 # Gems
-gems:
+plugins:
   #- jekyll-paginate
   #- jekyll-seo-tag
 
