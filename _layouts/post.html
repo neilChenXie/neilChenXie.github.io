@@ -27,7 +27,7 @@
         <span class="tag-list">
             #
             {% for tag in page.tags %}
-            <a class="tag-link" href="{{ site.baseurl }}/tag/{{ tag | first | slugify }}/">{{ tag }}</a>
+            <a class="tag-link" href="{{ site.baseurl }}/tag/{{ tag }}/">{{ tag }}</a>
             {% endfor %}
         </span>
         {% include page-footer.html %}
