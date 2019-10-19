@@ -33,9 +33,9 @@ description: 菲力、西冷、肉眼、T骨、牛小排都在哪呢？煎、烤
 
 ## 牛排的各种做法
 
-薄切得牛排1~2cm厚度，容易熟，基本都通过“煎”的方式烹饪。（如果一面煎久了会中间凸起变形，导致另一面在翻面后无法均匀煎熟。
+薄切的牛排1~2cm厚度，容易熟，基本都通过“煎”的方式烹饪。（如果一面煎久了会中间凸起变形，导致另一面在翻面后无法均匀煎熟。因此，需要勤翻面）
  
-厚切牛排2.5~3.5cm厚度，有多更多“操作空间”，可以“煎”，也可以用慢煮做法，也可以表面煎后进烤箱，甚至可以多种结合，产生各有不同口感。
+厚切牛排2.5~3.5cm厚度，有多更多“操作空间”，可以“煎”，可以用慢煮做法，也可以表面煎后进烤箱，甚至可以多种结合，产生各有不同口感。
 
 ### 煎牛排
 
@@ -49,6 +49,6 @@ description: 菲力、西冷、肉眼、T骨、牛小排都在哪呢？煎、烤
 
 > 65度水中，慢煮2小时；再用涂抹橄榄油，通过喷枪将表面焦化。
 
-![](https://chenblog.oss-cn-hongkong.aliyuncs.com/cook/steak/pic5.1.jpg)
+![慢煮后，炙烤之前](https://chenblog.oss-cn-hongkong.aliyuncs.com/cook/steak/pic5.1.jpg)
 
-![](https://chenblog.oss-cn-hongkong.aliyuncs.com/cook/steak/pic7.1.jpg)
+![炙烤](https://chenblog.oss-cn-hongkong.aliyuncs.com/cook/steak/pic7.1.jpg)
