@@ -1,11 +1,11 @@
 ---
-title: Humor 搞笑
+title: 搞笑视频
 date: 2019-10-17 23:46:15 +0800
-category: Hobby
-tags: [hobby, humor]
+category: Humor 幽默
+tags: [humor]
 ---
 
-## 搞笑系列
+## 系列搞笑视频
 
 
 ### 韩国恶作剧，恶搞路人
@@ -23,23 +23,10 @@ tags: [hobby, humor]
 * [如果隔壁桌的男生喜欢男生](https://weibo.com/tv/v/I8K005XGe?fid=1034:4420833767027147)
 * [bilibili合集](https://www.bilibili.com/video/av70599653)
 
-## 日常搞笑
+## 日常搞笑视频
 
 * [大东北反向砍价](http://n.miaopai.com/media/tL752yuOA5cwfGfPIWNOtLnO0j48cCH8.htm)
 * [停车停不进](https://weibo.com/tv/v/I89Jtnmo4?fid=1034:4419440155289796)
 * [声音超级苏的同声传译(利物浦-克洛普)](https://weibo.com/tv/v/I5dzviyh4?fid=1034:4412437236226796)
 
 
-## 顺口溜大全
-
-头上卷块布，全球我最富
-
-没心没肺，快乐加倍
-
-东边不亮西边亮 憨批啥样你啥样
-
-长江，嫩江，松花江，江江泽民，
-巢湖，太湖，洞庭湖，湖湖惊涛，
-预习，自习，晚自习，习习禁评！
-
-你的酒窝没有酒，我却醉得像条狗
