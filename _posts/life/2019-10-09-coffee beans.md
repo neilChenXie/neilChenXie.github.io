@@ -1,5 +1,5 @@
 ---
-title: 豆种及知名庄园
+title: 咖啡系列：豆种及知名庄园
 date: 2019-10-09 07:46:15 +0800
 category: Coffee ‘N Tea
 tags: [cuisine,coffee,cook]

@@ -1,5 +1,5 @@
 ---
-title: 烘焙度及生豆处理法
+title: 咖啡系列：烘焙度及生豆处理法
 date: 2019-10-08 07:46:15 +0800
 category: Coffee ‘N Tea
 tags: [cuisine,coffee,cook]
