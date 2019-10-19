@@ -6,7 +6,7 @@ tags: [steak,cook,cuisine]
 description: 菲力、西冷、肉眼、T骨、牛小排都在哪呢？煎、烤、慢煮怎么好吃😋
 ---
 
-## 牛排
+## 牛排部位
 
 > 菲力牛排、西冷牛排、肉眼牛排、T骨牛排、牛小排，有什么区别
 
@@ -18,7 +18,7 @@ description: 菲力、西冷、肉眼、T骨、牛小排都在哪呢？煎、烤
 
 ![纽约客T骨牛小排](https://chenblog.oss-cn-hongkong.aliyuncs.com/cook/steak/pic3.JPG)
 
-## 怎么识别
+## 怎么识别牛排质量
 
 > 为什么有些牛排平均每块10元不到，有些店家至少都要50元一块。
 
@@ -31,7 +31,7 @@ description: 菲力、西冷、肉眼、T骨、牛小排都在哪呢？煎、烤
 ![是否调味](https://chenblog.oss-cn-hongkong.aliyuncs.com/cook/steak/pic7.png)
 
 
-## 各种做法
+## 牛排的各种做法
 
 薄切得牛排1~2cm厚度，容易熟，基本都通过“煎”的方式烹饪。（如果一面煎久了会中间凸起变形，导致另一面在翻面后无法均匀煎熟。
  
