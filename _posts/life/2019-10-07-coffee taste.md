@@ -42,7 +42,7 @@ https://chenblog.oss-cn-hongkong.aliyuncs.com/coffee/pic8.jpg)
 
 > 咖啡作为一种水果，果酸、花香是其本身的一种属性。而巧克力、焦糖味，则是烘焙焦化过程中，产生的味道。而除了烘焙，生豆在处理时是否去掉果皮果肉，决定了咖啡味道的干净度、复杂性、酸甜的比例，小众的生豆发酵法还会产生一些独特的味道。
 
-第二章：[烘焙度及生豆处理法]({{ site.url }}/{{ page.category }}/coffee-bean-process/)
+第二章：[烘焙度及生豆处理法]({{ site.url }}/{{ page.category | downcase}}/coffee-bean-process/)
 
 ## 豆种及庄园
 
@@ -50,7 +50,7 @@ https://chenblog.oss-cn-hongkong.aliyuncs.com/coffee/pic8.jpg)
 
 > 一杯咖啡的好坏，有一个从基因决定的差异，那就是豆种的不同。除了“先天条件”，“后天”豆子生长的海拔、雨水、日照等条件也是决定其品质的重要条件。
 
-第三章：[豆种及知名庄园]({{ site.url }}/{{ page.category }}/coffee-beans/)
+第三章：[豆种及知名庄园]({{ site.url }}/{{ page.category | downcase}}/coffee-beans/)
 
 ## 冲泡法
 
@@ -58,7 +58,7 @@ https://chenblog.oss-cn-hongkong.aliyuncs.com/coffee/pic8.jpg)
 
 > 说到冲泡，如果是到精品咖啡店，只需要选择冲泡的手法，店里的咖啡师负责将你选择冲泡方式发挥到极致。而自己在家，要做出一杯好咖啡，还需要知道冲泡成功与哪些关键因素相关。
 
-第四章：[咖啡冲泡法]({{ site.url }}/{{ page.category }}/coffee-method/)
+第四章：[咖啡冲泡法]({{ site.url }}/{{ page.category | downcase}}/coffee-method/)
 
 ## 小结
 
