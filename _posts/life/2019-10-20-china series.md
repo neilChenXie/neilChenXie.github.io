@@ -10,5 +10,12 @@ description: 通过豆瓣整理我的电影、电视剧信息
 
 * [优秀国产电视剧](https://www.douban.com/doulist/110914062/)
 * [优秀国产电影](https://www.douban.com/doulist/120612496/)
-
 * [优秀的中国导演]({{ site.url }}/{{ page.category | downcase}}/chinese-director/)
+
+## 分场景豆列
+
+* [日常放松](https://www.douban.com/doulist/120762812/)
+
+## 各种分类
+
+* [音乐电影](https://www.douban.com/doulist/111261571/)
