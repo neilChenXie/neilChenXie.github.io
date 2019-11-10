@@ -14,6 +14,7 @@ tags: [humor]
 * [隔壁桌的地主投资失败](https://weibo.com/tv/v/IaPDu5cfI?fid=1034:4425816726031101)
 * [隔壁桌的地主客户接待](https://weibo.com/tv/v/IcdlFC9T7?fid=1034:4429112232598063)
 * [隔壁桌的地主买钻石](https://www.bilibili.com/video/av74012097)
+* [隔壁桌的地主买车](https://www.bilibili.com/video/av74953338)
 
 * [如果你在健身房看到这一幕](https://weibo.com/tv/v/I9WhCwes5?fid=1034:4423688754244671)
 * [隔壁桌的男生跟四个恋人提分手](https://weibo.com/tv/v/Ib88JsXzN?fid=1034:4426528243827606)
