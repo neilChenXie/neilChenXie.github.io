@@ -2,7 +2,7 @@
 title: ssh 登录乱码
 date: 2016-07-21 09:16:15 +0800
 category: OSX
-tags: [osx, linux-tool, linux-config]
+tags: [osx,linux]
 ---
 
 ### 问题

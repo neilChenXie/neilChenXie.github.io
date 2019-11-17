@@ -2,7 +2,7 @@
 title: app.desktop
 date: 2016-06-26 11:16:15 +0800
 category: Linux
-tags: [linux, linux-config, linux-config-desktop]
+tags: [linux]
 ---
 
 本文章以eclipse为例

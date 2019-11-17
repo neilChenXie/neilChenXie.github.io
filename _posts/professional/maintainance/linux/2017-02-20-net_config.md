@@ -2,7 +2,7 @@
 title: Linux(CentOS 7)网络配置
 date: 2016-07-21 16:20:15 +0800
 category: Linux
-tags: [linux, linux-config]
+tags: [linux]
 ---
 
 > CentOS 7

@@ -2,7 +2,7 @@
 title: CentOS 7 装机
 date: 2016-06-05 11:16:15 +0800
 category: Linux
-tags: [linux, linux-config]
+tags: [linux]
 ---
 
 ## Setup

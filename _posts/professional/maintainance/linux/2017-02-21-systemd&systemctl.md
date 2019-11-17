@@ -2,7 +2,7 @@
 title: Sysvinit, Systemd & Systemctl
 date: 2017-02-21 10:54:45 +0800
 category: Linux
-tags: [linux, linux-tool]
+tags: [linux]
 ---
 
 ## 起因

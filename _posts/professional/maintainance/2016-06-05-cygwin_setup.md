@@ -2,7 +2,7 @@
 title: Cygwin
 date: 2016-06-05 12:30:15 +0800
 category: maintainance
-tags: [matainance, windows, cygwin, bash]
+tags: [windows, cygwin, bash]
 ---
 
 > Provide Linux Interface(POSIX) for Windows.

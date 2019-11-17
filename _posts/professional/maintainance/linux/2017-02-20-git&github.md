@@ -2,7 +2,7 @@
 title: Git & GitHub
 date: 2016-05-30 14:00:15 +0800
 category: Linux
-tags: [linux, linux-tool]
+tags: [linux]
 ---
 
 ### 1 Config

@@ -2,7 +2,7 @@
 title: 包管理
 date: 2016-05-30 11:16:15 +0800
 category: Linux
-tags: [linux-tool, linux]
+tags: [linux]
 ---
 
 `rpm` `yum` `apt-get` 等工具为程序安装提供了方便便捷的方法，但是，散落在各处的文件却不善于被统一管理。
