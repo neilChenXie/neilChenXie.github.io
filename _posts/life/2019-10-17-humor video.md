@@ -5,11 +5,6 @@ category: Humor 幽默
 tags: [humor]
 ---
 
-## 系列搞笑视频
-
-
-### 韩国恶作剧，恶搞路人
-
 **隔壁桌的地主系列：**
 * [隔壁桌的地主投资失败](https://weibo.com/tv/v/IaPDu5cfI?fid=1034:4425816726031101)
 * [隔壁桌的地主客户接待](https://weibo.com/tv/v/IcdlFC9T7?fid=1034:4429112232598063)
@@ -49,7 +44,7 @@ tags: [humor]
 * [bilibili合集](https://www.bilibili.com/video/av70599653)
 * [译制组长小哈板](https://space.bilibili.com/320488860?spm_id_from=333.788.b_765f7570696e666f.2)
 
-## 日常搞笑视频
+**其他搞笑视频：**
 
 * [大东北反向砍价](http://n.miaopai.com/media/tL752yuOA5cwfGfPIWNOtLnO0j48cCH8.htm)
 * [停车停不进](https://weibo.com/tv/v/I89Jtnmo4?fid=1034:4419440155289796)
