@@ -2,7 +2,7 @@
 title: 我的影视豆列
 date: 2019-10-19 23:46:15 +0800
 category: Movie & Series
-tags: [series,video,国产]
+tags: [series,movie,shows]
 description: 通过豆瓣整理我的电影、电视剧信息
 ---
 
