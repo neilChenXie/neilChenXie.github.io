@@ -2,7 +2,7 @@
 title: 咖啡系列Start：如何品尝一杯精品咖啡
 date: 2019-10-07 07:46:15 +0800
 category: Coffee ‘N Tea
-tags: [cuisine,coffee,cook]
+tags: [cuisine,coffee,drinks]
 description: 如果你也还认为“苦”是咖啡的代名词，赶紧找一间精品咖啡店，让店主推荐一只果酸、花香最明显的豆子（我推荐埃塞俄比亚的花魁），在第一口之后，咖啡之味的大门才算真正打开。
 ---
 
