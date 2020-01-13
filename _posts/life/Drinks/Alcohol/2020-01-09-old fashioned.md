@@ -7,9 +7,9 @@ description:
 ---
 
 
-![1](https://chenblog.oss-cn-hongkong.aliyuncs.com/alcohol/old%20fashioned-1.jpeg)
+![1](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/drinks/alcohol/old%20fashioned-1.jpeg)
 
-![2](https://chenblog.oss-cn-hongkong.aliyuncs.com/alcohol/old%20fashioned.jpeg)
+![2](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/drinks/alcohol/old%20fashioned.jpeg)
 
 *参考阅读：*
 

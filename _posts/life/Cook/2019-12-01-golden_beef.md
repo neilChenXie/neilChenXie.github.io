@@ -14,6 +14,9 @@ description:
 ![pic1](https://chenblog.oss-cn-hongkong.aliyuncs.com/cook/golden_beef/pic1.jpeg)
 ![pic2](https://chenblog.oss-cn-hongkong.aliyuncs.com/cook/golden_beef/pic2.jpeg)
 
+![pic3](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/cook/golden_beef/pic1.jpeg)
+![pic4](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/cook/golden_beef/pic2.jpeg)
+
 *参考：*
 
 * [酸汤肥牛-日食记](https://www.bilibili.com/video/av11560490?from=search&seid=18082350424074592167)
