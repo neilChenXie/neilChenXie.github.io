@@ -11,9 +11,9 @@ description: 精品咖啡除了多数是浅度烘焙外，一定是"单品豆"�
 一杯咖啡的好坏，有一个从基因决定的差异，那就是豆种的不同。除了“先天条件”，“后天”豆子生长的海拔、雨水、日照等条件也是决定其品质的重要条件。
 
 先放两张中英文对照的豆种总览图:
-![coffee bean](https://chenblog.oss-cn-hongkong.aliyuncs.com/coffee/pic1.1.jpg)
+![coffee bean](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/drinks/coffee/pic1.1.jpg)
 
-![coffee bean](https://chenblog.oss-cn-hongkong.aliyuncs.com/coffee/pic1.2.jpg)
+![coffee bean](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/drinks/coffee/pic1.2.jpg)
 
 ## 阿拉比卡（Arabica）与罗布斯塔（Robusta)
 
@@ -29,7 +29,7 @@ description: 精品咖啡除了多数是浅度烘焙外，一定是"单品豆"�
 
 阿拉比卡的外形较平，中央线呈S形；罗布斯塔的外形较圆，呈直线形。
 
-![coffee bean](https://chenblog.oss-cn-hongkong.aliyuncs.com/coffee/pic2.jpg)
+![coffee bean](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/drinks/coffee/pic2.jpg)
 
 
 > 接下来我们看一些主流豆种，基本都是阿拉比卡，有一两种为阿拉比卡与罗布斯塔的混种，但没有纯罗布斯塔种。
@@ -45,7 +45,7 @@ description: 精品咖啡除了多数是浅度烘焙外，一定是"单品豆"�
 除了巴拿马之外，哥伦比亚、危地马拉、哥斯达黎加、洪都拉斯，也是著名的瑰夏产地。
 
 >小记：巴拿马翡翠庄园瑰夏 & 洪都拉斯COE利马庄园瑰夏
-![coffee bean](https://chenblog.oss-cn-hongkong.aliyuncs.com/coffee/pic7.jpg)
+![coffee bean](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/drinks/coffee/pic7.jpg)
 
 *参考阅读：*
 * [瑰夏，咖啡世界之光](https://zhuanlan.zhihu.com/p/28309477)
@@ -57,7 +57,7 @@ description: 精品咖啡除了多数是浅度烘焙外，一定是"单品豆"�
 
 埃塞俄比亚有以下九大产区：西达摩、耶加雪菲、金玛、哈拉、林姆、伊鲁巴柏、金比（列坎提）、铁比、贝贝卡。
 
-![coffee bean](https://chenblog.oss-cn-hongkong.aliyuncs.com/coffee/pic6.jpg)
+![coffee bean](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/drinks/coffee/pic6.jpg)
 
 耶加雪菲和西达摩可以代表埃塞的整体风味，它有着柔软的口感，带有原野气息的酒香，且略呈酸味，喝过以后令人难以忘怀。
 
@@ -89,7 +89,7 @@ description: 精品咖啡除了多数是浅度烘焙外，一定是"单品豆"�
 > 小记：曾经买过一支2016年的萨尔瓦多的帕卡马拉，由井崎英典（对，就是瑞幸广告的那位WBC咖啡冠军）烘焙
 
 ![coffee bean](
-https://chenblog.oss-cn-hongkong.aliyuncs.com/coffee/pic4.jpg)
+https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/drinks/coffee/pic4.jpg)
 
 ## 其他常见豆种
 

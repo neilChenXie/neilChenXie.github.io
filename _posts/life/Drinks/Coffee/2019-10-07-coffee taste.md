@@ -32,7 +32,7 @@ description: 如果你也还认为“苦”是咖啡的代名词，赶紧找一�
 * 黄金曼特宁：优质草本、丁香、松木芳香、焦糖、奶油、坚果、黑巧克力
 
 ![coffee bean](
-https://chenblog.oss-cn-hongkong.aliyuncs.com/coffee/pic8.jpg)
+https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/drinks/coffee/pic8.jpg)
 
 *参考阅读*
 * [闻香、尝味、回味三步教你品鉴咖啡](https://mp.weixin.qq.com/s?__biz=MzA4MjQwMjcxMw==&mid=2654795091&idx=3&sn=fdaff2fcd4d1255e51052a493e30563b&chksm=844e19a5b33990b3f9b3dd1ebf26090fe719908c308a677b3e0c7dcb5b2449267138cef45ef4&mpshare=1&scene=1&srcid=&sharer_sharetime=1570932219392&sharer_shareid=32cb5ecf20d7cf40d0444448d940c526#rd)

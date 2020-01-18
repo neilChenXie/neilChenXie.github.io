@@ -18,7 +18,7 @@ description: 咖啡的**果酸、花香**与**巧克力、焦糖、醇厚**是�
 
 下图可以看出咖啡豆是咖啡果的种子。
 ![coffee bean](
-https://chenblog.oss-cn-hongkong.aliyuncs.com/coffee/pic5.jpg)
+https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/drinks/coffee/pic5.jpg)
 
 一杯单品咖啡，大多数是“浅烘焙”，品尝咖啡豆本身的果酸、花香。其是酸味是否丰富、其花香是否温和，都由咖啡豆种、生长环境等豆子本身的品质决定，这也是精品咖啡有趣的地方。但因此除了对咖啡豆本身的品质要求很高，对咖啡师冲泡技巧要求也很高。
 
@@ -28,7 +28,7 @@ https://chenblog.oss-cn-hongkong.aliyuncs.com/coffee/pic5.jpg)
 
 下图，最左边是星巴克的“French Roast”（深烘），其他都是单品豆，通过颜色就能分辨烘焙度。
 ![coffee bean](
-https://chenblog.oss-cn-hongkong.aliyuncs.com/coffee/pic3.jpg)
+https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/drinks/coffee/pic3.jpg)
 
 ## 生豆处理法
 

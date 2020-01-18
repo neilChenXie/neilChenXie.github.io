@@ -10,7 +10,7 @@ description:
 
 腌肉：300g五花肉，5g花椒粉，3g盐
 
-![prepare](https://chenblog.oss-cn-hongkong.aliyuncs.com/cook/crispy_pork/pic1.jpeg)
+![prepare](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/cook/crispy_pork/pic1.jpeg)
 
 *参考：*
 

@@ -28,13 +28,13 @@ description: 说到冲泡，如果是到精品咖啡店，只需要选择冲泡�
 手冲咖啡，则更擅长体现咖啡的果酸与花香，所以一般都选取单品咖啡豆，品尝咖啡的本味，基本不再加糖或奶。（也就是俗称黑咖啡）
 
 ![coffee bean](
-https://chenblog.oss-cn-hongkong.aliyuncs.com/coffee/pic9.jpg)
+https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/drinks/coffee/pic9.jpg)
 
 除了意式和手冲，还有很多有意思的冲泡方式，如虹吸壶、法压壶（French Press）、摩卡壶、土耳其咖啡等。详见”参考阅读“。
 
 > 漂亮的虹吸壶——星巴克甄选
 ![coffee bean](
-https://chenblog.oss-cn-hongkong.aliyuncs.com/coffee/pic10.jpg)
+https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/drinks/coffee/pic10.jpg)
 
 *参考阅读：*
 * [一分钟了解浓缩咖啡、玛奇朵、拿铁、卡布、 Flat White的区别](https://mp.weixin.qq.com/s?__biz=MzA4MjQwMjcxMw==&mid=2654791969&idx=3&sn=59434a021368bdb78e246815c3b068d7&chksm=844e05d7b3398cc1e70fdd0e265751fe588039269e70107540da31a7256d67dc43bf70b143ca&mpshare=1&scene=1&srcid=1013PfB7OtBJzYkV88GxEymZ&sharer_sharetime=1570936923829&sharer_shareid=32cb5ecf20d7cf40d0444448d940c526#rd)
