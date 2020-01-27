@@ -1,7 +1,7 @@
 ---
 title: UID CAFE CO.
 date: 2020-01-22 17:46:15 +0800
-category: Travel China
+category: Chengdu
 tags: [chengdu,cafe]
 ---
 

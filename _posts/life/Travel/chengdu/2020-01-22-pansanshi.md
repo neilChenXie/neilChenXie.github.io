@@ -1,7 +1,7 @@
 ---
 title: 盤飱市
 date: 2020-01-22 12:46:15 +0800
-category: Travel China
+category: Chengdu
 tags: [chengdu,restaurant]
 ---
 
