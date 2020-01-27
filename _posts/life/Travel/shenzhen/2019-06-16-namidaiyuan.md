@@ -5,7 +5,7 @@ category: Shenzhen
 tags: [shenzhen,restaurant]
 ---
 
-云南人推荐的云南菜，正宗！不过，菜都是土豆、米、红豆做的，有点撑肚子。
+云南人推荐的云南菜，正宗！不过，菜都是土豆、米、红豆做的，有点撑肚子🤣
 
 ![pic1](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/travel/shenzhen/namidaiyuan_pic1.jpeg)
 
