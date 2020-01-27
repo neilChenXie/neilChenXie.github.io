@@ -2,7 +2,7 @@
 title: 咖啡系列之四：咖啡冲泡法
 date: 2019-10-10 07:46:15 +0800
 category: Coffee ‘N Tea
-tags: [cuisine,coffee,drinks]
+tags: [coffee]
 description: 说到冲泡，如果是到精品咖啡店，只需要选择冲泡的手法，店里的咖啡师负责将你选择冲泡方式发挥到极致。而自己在家，要做出一杯好咖啡，还需要知道冲泡成功与哪些关键因素相关。
 ---
 

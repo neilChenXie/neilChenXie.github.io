@@ -2,7 +2,7 @@
 title: 阿里云数加平台-推荐引擎
 date: 2016-11-18 9:30:15 +0800
 category: development
-tags: [development, recommand, tutorial]
+tags: [development, recommand system, tutorial]
 ---
 
 > 阿里云数加平台的推荐服务，提供了一个算法实验的平台，不用自己搭建大数据平台。

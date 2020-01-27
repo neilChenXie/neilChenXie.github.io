@@ -2,7 +2,7 @@
 title: Old Fashioned 鸡尾酒
 date: 2020-01-09 22:23:15 +0800
 category: Alcohol
-tags: [alcohol,whiskey,drinks]
+tags: [alcohol,whiskey]
 description: 
 ---
 
