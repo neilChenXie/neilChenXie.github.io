@@ -2,7 +2,7 @@
 title: 优秀的中国导演
 date: 2019-10-20 07:46:15 +0800
 category: Movie & Series
-tags: [series,video,国产]
+tags: [series,国产]
 description: 国内也不乏优秀的电视剧与电影
 ---
 

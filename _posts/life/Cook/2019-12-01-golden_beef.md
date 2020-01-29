@@ -2,7 +2,7 @@
 title: 金汤肥牛
 date: 2019-12-01 10:46:15 +0800
 category: 👨‍🍳Cook
-tags: [cook,cuisine]
+tags: [cook,dishes]
 description: 
 ---
 
