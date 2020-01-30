@@ -2,7 +2,7 @@
 title: 咖啡系列之三：豆种及知名庄园
 date: 2019-10-09 07:46:15 +0800
 category: Coffee ‘N Tea
-tags: [coffee]
+tags: [coffee,coffee bean]
 description: 精品咖啡除了多数是浅度烘焙外，一定是"单品豆"——单一产地单一豆种。因为，一杯咖啡的好坏，除了豆子的生长条件决定了其品质，还有一个从基因决定的差异，那就是豆种的不同。
 ---
 
