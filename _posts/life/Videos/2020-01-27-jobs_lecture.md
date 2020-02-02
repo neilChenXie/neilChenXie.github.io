@@ -1,6 +1,6 @@
 ---
 title: Steven Jobs 乔布斯：Stay Hungry. Stay Foolish.
-date: 2020-01-27 11:46:15 +0800
+date: 2017-01-27 11:46:15 +0800
 category: Videos
 tags: [lecture]
 description: 
