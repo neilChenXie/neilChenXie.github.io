@@ -27,7 +27,7 @@ PEG=PE/EPS增速
 最理想的对象是0-0.5，0.5-1算安全范围，大于1则是高估。
 简单来说，就是成长性公司的PE值最高可以与其利润增长率持平。
 
-![PEG](https://chenblog.oss-cn-hongkong.aliyuncs.com/invest/stock_value_estimate/PEG.jpg)
+![PEG](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/invest/stock_value_estimate/PEG.jpg)
 
 参考阅读：
 [1] [PEG估值法评判的依据是什么](https://www.zhihu.com/question/46370838/answer/218064104)
@@ -42,7 +42,7 @@ PEG=PE/EPS增速
 
 杜邦分析：（东方财富网的工具很清晰）
 
-![DuPontAnalysis](https://chenblog.oss-cn-hongkong.aliyuncs.com/invest/stock_value_estimate/DuPontAnalysis.png)
+![DuPontAnalysis](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/invest/stock_value_estimate/DuPontAnalysis.png)
 
 ## PB
 
