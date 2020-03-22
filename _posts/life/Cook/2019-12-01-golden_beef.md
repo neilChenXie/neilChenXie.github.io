@@ -11,8 +11,9 @@ description:
 最简单步骤：烧油，然后依次下锅蒜、泡山椒、泡萝卜、肥牛、黄辣椒酱；加水，烧开加入金针菇。
 复杂步骤见“参考”的视频，为了汤色，可以用南瓜熬制。
 
-![pic3](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/cook/golden_beef/pic1.jpeg)
-![pic4](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/cook/golden_beef/pic2.jpeg)
+![pic1](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/cook/golden_beef/pic1.jpeg)
+![pic2](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/cook/golden_beef/pic2.jpeg)
+![pic3](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/cook/golden_beef/pic3.jpeg)
 
 *参考：*
 
