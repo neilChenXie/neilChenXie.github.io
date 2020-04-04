@@ -12,7 +12,7 @@ description: 通过豆瓣整理我的电影、电视剧信息
 
 > 多数时候，电影是一个放松的方式，快速入戏的剧情，搞笑或者轻松的情绪，是收藏的核心考虑。
 
-* [剧情抓人，日常放松](https://www.douban.com/doulist/120762812/)
+* [剧情抓人，日常放松](https://www.douban.com/doubanapp/dispatch?uri=/doulist/120762812/&dt_dapp=1)
 * [励志、体育电影](https://www.douban.com/doubanapp/dispatch?uri=/doulist/110829719/&dt_dapp=1)
 * [温暖日剧、平淡生活电影](https://www.douban.com/doubanapp/dispatch?uri=/doulist/110914557/&dt_dapp=1)
 
@@ -42,7 +42,7 @@ description: 通过豆瓣整理我的电影、电视剧信息
 
 ## 优秀国产电影、电视剧
 
-* [国产好电影](https://www.douban.com/doulist/120612496/)
-* [国产好剧](https://www.douban.com/doulist/110914062/)
-* [国产优秀综艺](https://www.douban.com/doulist/110921764/)
+* [国产好电影](https://www.douban.com/doubanapp/dispatch?uri=/doulist/120612496/&dt_dapp=1)
+* [国产好剧](https://www.douban.com/doubanapp/dispatch?uri=/doulist/110914062/&dt_dapp=1)
+* [国产优秀综艺](https://www.douban.com/doubanapp/dispatch?uri=/doulist/110914062/&dt_dapp=1)
 * [优秀的中国导演]({{ site.url }}/{{ page.category | downcase}}/chinese-director/)
