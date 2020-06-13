@@ -46,6 +46,7 @@ https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/drinks/coffee/pic3.jpg)
 最近，”厌氧发酵处理法“这一个本来小众的处理法，变得很火。把咖啡果实置于密闭的容器中或是置于水洗槽中以在水中发酵，在这个过程中使用不同的微生物进行发酵以制造出特殊的风味。
 
 *参考阅读：*
+* [咖啡豆的四件衣服以及四种处理方式](https://www.bilibili.com/video/BV17E41137ZA)
 * [哪些豆子酸一点，哪些甜一点，认识咖啡处理法](https://mp.weixin.qq.com/s?__biz=MzA4MjQwMjcxMw==&mid=2654795454&idx=3&sn=b763dc3ea25dda23ab621108771cee8c&chksm=844e1a48b339935e54d1a1aa6ef9aad808cdea9c1c8069e7c1c16021e7eca27bfa5143e1b89d&mpshare=1&scene=1&srcid=1007HhXO6PNuQVqq9TZjjTsX&sharer_sharetime=1570384006401&sharer_shareid=32cb5ecf20d7cf40d0444448d940c526#rd)
 * [日晒、水洗、蜜处理：不同的咖啡豆处理方法对咖啡的风味有什么影响？](https://mp.weixin.qq.com/s?__biz=MzA4MjQwMjcxMw==&mid=2654791143&idx=2&sn=49eb25d61dc80a4b72343a0b264eef16&chksm=844e0911b339800788063410559164883085bdec27a5e3b33cab1cdfde93a57d97c3595f5059&scene=21#wechat_redirect)
 * [盘点咖啡界几种的咖啡生豆「特殊处理法」](https://mp.weixin.qq.com/s?__biz=MzA4MjQwMjcxMw==&mid=2654807887&idx=2&sn=4ecd2b5b88b7643e4e2686345e883b3d&chksm=844fcbb9b33842aff9d3011835121d65d319324bc8f4ed3b98383226be9653b7e8cff32e7eb6&mpshare=1&scene=1&srcid=1007Zs1yu6tUYuSjiAzW0dw0&sharer_sharetime=1570409807662&sharer_shareid=32cb5ecf20d7cf40d0444448d940c526#rd)
