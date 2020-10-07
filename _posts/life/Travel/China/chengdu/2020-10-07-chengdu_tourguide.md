@@ -24,9 +24,9 @@ description:
 
 ## 成都美食&Cafe
 
-馆子：[大众点评-【成都】名小吃与苍蝇馆子](https://h5.dianping.com/app/usercenter/myfavoritebumdetail.html?albumId=5370512)；上述路线中的餐厅都收录在清单中，可以查看评分以及直接导航。
+[大众点评-【成都】名小吃与苍蝇馆子](https://h5.dianping.com/app/usercenter/myfavoritebumdetail.html?albumId=5370512)；上述路线中的餐厅都收录在清单中，可以查看评分以及直接导航。
 
-咖啡店：[大众点评-【成都】Cafè&Dessert](https://h5.dianping.com/app/usercenter/myfavoritebumdetail.html?albumId=124549)；多数聚集在铛钯街，可以作为逛太古里的歇脚处。
+[大众点评-【成都】Cafè&Dessert](https://h5.dianping.com/app/usercenter/myfavoritebumdetail.html?albumId=124549)；多数聚集在铛钯街，可以作为逛太古里的歇脚处。
 
 美食探店列表：
 * [青石桥老瓦房肥肠粉]({{ site.url }}/chengdu/qingshiqiaofeichangfen/)
