@@ -2,7 +2,7 @@
 title: 成都及周边攻略
 date: 2020-10-07 08:46:15 +0800
 category: Travel
-tags: [chengdu]
+tags: [chengdu,restaurant,cafe,coffee]
 description: 
 ---
 
@@ -22,9 +22,19 @@ description:
 
 ![pic2](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/travel/chengdu/pandabase.png)
 
-## 成都美食
+## 成都美食&Cafe
 
-[大众点评清单](https://h5.dianping.com/app/usercenter/myfavoritebumdetail.html?albumId=5370512)：上述路线中的餐厅都收录在清单中，可以查看评分以及直接导航。
+馆子：[大众点评-【成都】名小吃与苍蝇馆子](https://h5.dianping.com/app/usercenter/myfavoritebumdetail.html?albumId=5370512)；上述路线中的餐厅都收录在清单中，可以查看评分以及直接导航。
+
+咖啡店：[大众点评-【成都】Cafè&Dessert](https://h5.dianping.com/app/usercenter/myfavoritebumdetail.html?albumId=124549)；多数聚集在铛钯街，可以作为逛太古里的歇脚处。
+
+美食探店列表：
+* [青石桥老瓦房肥肠粉]({{ site.url }}/chengdu/qingshiqiaofeichangfen/)
+* [盤飱市]({{ site.url }}/chengdu/pansanshi/)
+
+Cafe探店列表：
+* [UID CAFE CO.]({{ site.url }}/chengdu/uid_coffee/)
+* [Let's Grind]({{ site.url }}/chengdu/letsgrind/)
 
 ## 成都周边
 
