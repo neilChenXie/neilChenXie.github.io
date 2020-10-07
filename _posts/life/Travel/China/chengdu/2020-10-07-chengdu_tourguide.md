@@ -26,7 +26,7 @@ description:
 
 [大众点评清单](https://h5.dianping.com/app/usercenter/myfavoritebumdetail.html?albumId=5370512)：上述路线中的餐厅都收录在清单中，可以查看评分以及直接导航。
 
-## 周边
+## 成都周边
 
 ### 乐山
 
