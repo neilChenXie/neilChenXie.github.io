@@ -32,10 +32,11 @@ description:
 
 景点：乐山大佛，[乐山犍为蒸汽火车](https://b23.tv/ep314352)
 
-[leshan_cuisine](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/travel/chengdu/chengdu_neighborhood/leshan_cuisine.jpeg)
+![leshan_cuisine](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/travel/chengdu/chengdu_neighborhood/leshan_cuisine.jpeg)
 
 ## Reference
 
 [1] [成都国庆游玩美食最最最最硬核攻略！](https://b23.tv/34qYXE)
 [2] [暴走成都的精华一日游！](https://www.bilibili.com/video/BV1Eh411Z7je)
-[3] [成都建设巷，好吃到扶墙](https://b23.tv/IuPZnE)
+[3] [熊猫基地”奶妈“攻略](https://www.bilibili.com/video/BV16k4y1m7Ej)
+[4] [成都建设巷，好吃到扶墙](https://b23.tv/IuPZnE)
