@@ -4,6 +4,9 @@ date: '2025-01-15 11:23:00'
 permalink: /post/chaozhou-tourism-guide-zvp0pn.html
 layout: post
 published: true
+category: Travel|旅行
+tags:
+  - travel
 ---
 
 # 潮州旅游攻略
