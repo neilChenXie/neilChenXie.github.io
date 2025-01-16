@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="baidu-site-verification" content="XuznPXuk19" />
+  <title>Jenkins搭建Gitlab持续集成</title>
+  <meta name="Description" content="">
+  <meta name="Keywords" content="jenkins,gitlab,linux,">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/cayman.css">
+  <link rel="stylesheet" href="/css/custome.css">
+  <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="stylesheet" href="/css/tag.css">
+  <script src="/js/jquery-3.1.0.min.js"></script>
+  <script src="/js/toc.js"></script>
+  <script src="/js/tocUse.js"></script>
+</head>
+
+
+<body class="body-vertical">
+
+	<section class="left-slide">
+		<div id="big_toc"></div>
+	</section>
+    <section class="main-content main-content-vertical main-article-content">
+
+        <h2>Jenkins搭建Gitlab持续集成
+        </h2>
+        <p class="meta">
+            <span>Created:&nbsp;15 Feb 2017<span>
+        </p>
+        <p class="meta">
+            <span>Author:&nbsp;&nbsp;Chen Xie<span>
+        </p>
+
+		<div id="tiny_toc"></div>
+
+		<p>公司内部博客通过Jekyll编写，并存储在内部gitlab服务器上。通过持续集成，可以实现博客的实时更新。</p>
+
+<p>但是gitlab-ci项目首次安装遇到奇怪Bug，在公司搬迁后，又出现了通信问题；加上其难以Debug，决定使用替代方案Jenkins。</p>
+
+<h3 id="1-jenkins-install">1 Jenkins Install</h3>
+
+<blockquote>
+  <p>CentOS 7</p>
+</blockquote>
+
+<h4 id="11-repo-file">1.1 Repo file</h4>
+
+<blockquote>
+  <p>add repo file under <code class="language-plaintext highlighter-rouge">/etc/yum.repos.d/</code></p>
+</blockquote>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[jenkins]
+name=Jenkins
+baseurl=http://pkg.jenkins.io/redhat
+gpgcheck=0
+</code></pre></div></div>
+
+<h4 id="12-install">1.2 Install</h4>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yum update
+yum <span class="nb">install </span>jenkins
+</code></pre></div></div>
+
+<ul>
+  <li><a href="https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Red+Hat+distributions">Reference</a></li>
+</ul>
+
+<h3 id="2-jenkins-config">2 Jenkins Config</h3>
+
+<p>find jenkins config file <code class="language-plaintext highlighter-rouge">rpm -ql jenkins</code>, normally, you can see <code class="language-plaintext highlighter-rouge">/etc/sysconfig/jenkins</code></p>
+
+<p>edit <code class="language-plaintext highlighter-rouge">/etc/sysconfig/jenkins</code> file. e.g. <code class="language-plaintext highlighter-rouge">JENKINS_PORT</code> for which port jenkins is listening.</p>
+
+<h3 id="3-startup">3 Startup</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>service jenkins start/stop/restart
+</code></pre></div></div>
+
+<h4 id="31-explain">3.1 Explain</h4>
+
+<p><code class="language-plaintext highlighter-rouge">service</code> run <strong>System V init scripts</strong>, which are under <code class="language-plaintext highlighter-rouge">/etc/init.d/</code>.</p>
+
+<p>We can also use <code class="language-plaintext highlighter-rouge">systemctl</code></p>
+
+<p><a href="http://unix.stackexchange.com/questions/170068/service-vs-systemctl-scripts-which-to-use">difference between <strong>service</strong> and <strong>systemctl</strong></a></p>
+
+<h3 id="4-setup-process">4 Setup Process</h3>
+
+<h4 id="41-admin">4.1 Admin</h4>
+
+<ol>
+  <li>Create <code class="language-plaintext highlighter-rouge">new item</code> with name <strong>Blog-{name}</strong></li>
+  <li>Send <code class="language-plaintext highlighter-rouge">GitLab CI Service URL</code> and <code class="language-plaintext highlighter-rouge">Secret Token</code> under Build Triggers to <strong>User</strong></li>
+  <li>generate <code class="language-plaintext highlighter-rouge">ssh key pair</code> &amp; send <code class="language-plaintext highlighter-rouge">public key</code> to <strong>User</strong>.</li>
+</ol>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh-keygen -t rsa -f ~/Documents/sshkey/{name}
+</code></pre></div></div>
+
+<h4 id="42-user">4.2 User</h4>
+
+<ol>
+  <li>Fork <strong>Blog Template</strong></li>
+  <li>Add <code class="language-plaintext highlighter-rouge">ssh public key</code> to <strong>account</strong></li>
+  <li>Add <code class="language-plaintext highlighter-rouge">webhook</code> under <code class="language-plaintext highlighter-rouge">Integration</code> of <strong>this project</strong>;</li>
+  <li>Generate <code class="language-plaintext highlighter-rouge">Gitlab Access Token</code>; send <code class="language-plaintext highlighter-rouge">project git url</code> &amp; <code class="language-plaintext highlighter-rouge">Access Token</code> to <strong>Admin</strong></li>
+</ol>
+
+<h4 id="43-admin">4.3 Admin</h4>
+
+<ol>
+  <li>Create <code class="language-plaintext highlighter-rouge">Configure System</code>-&gt;<code class="language-plaintext highlighter-rouge">Gitlab Connection</code> using <strong>User</strong> <code class="language-plaintext highlighter-rouge">Access Token</code> with name <strong>Gitlab-API-Token-{username}</strong></li>
+  <li>Complete <code class="language-plaintext highlighter-rouge">new item</code> configuration using <code class="language-plaintext highlighter-rouge">ssh private key</code> with name <strong>sshKey-{username}</strong>.</li>
+</ol>
+
+<h3 id="5-reference">5 Reference</h3>
+
+<p><a href="https://github.com/jenkinsci/gitlab-plugin/wiki/Setup-Example">Jenkins Gitlab-plugin doc</a></p>
+
+
+        <!--Links-->
+        <span class="tag-list">
+            #
+            
+            <a class="tag-link" href="/tag/jenkins/">jenkins</a>
+            
+            <a class="tag-link" href="/tag/gitlab/">gitlab</a>
+            
+            <a class="tag-link" href="/tag/linux/">linux</a>
+            
+        </span>
+        <footer class="site-footer">
+  <span class="site-footer-owner"><a href="http://www.chenxie.fun/">Chen Blog</a> is maintained by <a href="/about">Chen Xie</a>.</span>
+  <span class="site-footer-credits">Source code is keep by GitHub account: <a href="https://github.com/neilChenXie">Chen Xie</a>.</span>
+</footer>
+
+
+    </section>
+
+</body>
+</html>

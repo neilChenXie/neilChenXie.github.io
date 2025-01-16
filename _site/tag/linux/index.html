@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  
+  <head>
+  <meta charset="UTF-8">
+  <meta name="baidu-site-verification" content="XuznPXuk19" />
+  <title>Linux</title>
+  <meta name="Description" content="">
+  <meta name="Keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/cayman.css">
+  <link rel="stylesheet" href="/css/custome.css">
+  <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="stylesheet" href="/css/tag.css">
+  <script src="/js/jquery-3.1.0.min.js"></script>
+  <script src="/js/toc.js"></script>
+  <script src="/js/tocUse.js"></script>
+</head>
+
+
+  <body class="body-horizontal">
+  
+    <section class="page-header page-header-horizontal">
+	<div id="page-header-div page-header-div-horizontal">
+		<h1 class="project-name">Chen Blog</h1>
+		<h2 class="project-tagline">All Shared Blogs Based on GitHub Pages</h2>
+		<a href="/" class="btn">首页</a>
+		<a href="/categories/" class="btn">类别页</a>
+		<a href="/tags/" class="btn">标签页</a>
+		<!--<a href="#" class="btn">View on GitHub</a>-->
+		<!--<a href="#" class="btn">Download .zip</a>-->
+		<!--<a href="#" class="btn">Download .tar.gz</a> -->
+	</div>
+</section>
+
+
+    <section class="main-content main-content-horizontal">
+      
+		<article class="post">
+
+			<header class="small-post-header">
+				<h1 class="small-post-title">Linux</h1>
+			</header>
+
+			<div class="small-post-content">
+				
+	
+	<a href="/linux/systemd&systemctl/" title="Sysvinit, Systemd & Systemctl">
+		<h3 class="article-list-h3">Sysvinit, Systemd & Systemctl</h3>
+	</a>
+		<span class="article-list-date">
+			February 21, 2017
+		</span>
+	<p>起因     此次研究的起因是，希望能够配置一个程序开机启动，但网上的教程十分杂乱，脚本和代码都没有写明原理。虽然最后通过service命令成功配置，但是在centos7中，shell打印 (via systemctl)，说明systemctl实际替代了service嘛。     于是层层深挖，挖出了linux整个系统的初始化流程，以及机制的历史发展进程。一下大多数为摘抄，最后Reference中列举所有阅读资料。 阅读要求：   有接触过service，systemctl命令，/etc/init.d/,/etc/rc.d/,/etc/systemd/system/等目录下的文件。   或者，需要 配置系统自动启动等脚本 等实际使用需求，可先查看第4章 实际使用场景。   摘要     在各种Linux版本的系统中，init是不可或缺的进程之一。所谓init进程，是一个由内核启动的用户级进程，其ID进程编号始终是1。这一进程负责激活系统中的其他服务，较为常用的守护进程在系统启动时通过shell脚本启动，而不常用的守护进程由其他服务根据需要来启动。因此，许多年来init始终是Linux和UNIX系统的第一个进程。     大多数 Linux 发行版的 init 系统是和 System V 相兼容的，被称为 sysvinit。这是人们最熟悉的 init 系统。Ubuntu 16.04 和 RHEL 7 之前采用 upstart...</p>
+	<div class="article-list-footer">
+		<ul class="article-list-tags">
+			
+			<li>
+			<a href="/tag/linux" class="tag-link" title="See all posts by this tag">
+				<span class="term_only"> linux</span>
+			</a>
+			</li>
+			
+		</ul>
+	
+	<a href="/maintainance/jenkins_gitlab_ci/" title="Jenkins搭建Gitlab持续集成">
+		<h3 class="article-list-h3">Jenkins搭建Gitlab持续集成</h3>
+	</a>
+		<span class="article-list-date">
+			February 15, 2017
+		</span>
+	<p>公司内部博客通过Jekyll编写，并存储在内部gitlab服务器上。通过持续集成，可以实现博客的实时更新。 但是gitlab-ci项目首次安装遇到奇怪Bug，在公司搬迁后，又出现了通信问题；加上其难以Debug，决定使用替代方案Jenkins。 1 Jenkins Install  CentOS 7  1.1 Repo file  add repo file under /etc/yum.repos.d/  [jenkins] name=Jenkins baseurl=http://pkg.jenkins.io/redhat gpgcheck=0  1.2 Install yum update yum install jenkins   Reference ...</p>
+	<div class="article-list-footer">
+		<ul class="article-list-tags">
+			
+			<li>
+			<a href="/tag/jenkins" class="tag-link" title="See all posts by this tag">
+				<span class="term_only"> jenkins</span>
+			</a>
+			</li>
+			
+			<li>
+			<a href="/tag/gitlab" class="tag-link" title="See all posts by this tag">
+				<span class="term_only"> gitlab</span>
+			</a>
+			</li>
+			
+			<li>
+			<a href="/tag/linux" class="tag-link" title="See all posts by this tag">
+				<span class="term_only"> linux</span>
+			</a>
+			</li>
+			
+		</ul>
+	
+	<a href="/linux/net_config/" title="Linux(CentOS 7)网络配置">
+		<h3 class="article-list-h3">Linux(CentOS 7)网络配置</h3>
+	</a>
+		<span class="article-list-date">
+			July 21, 2016
+		</span>
+	<p> CentOS 7  配置位置 /etc/hosts  本机配置DNS  /etc/hostname  本机名字  /etc/resolv.conf  DNS Server IP  /etc/sysconfig/network-scripts/ifcfg-{name}  连接配置的脚本,DNS参数会同步到/etc/resolv.conf中  代理 /etc/profile  实际是增加一个全局变量  http_proxy="{httpServer:port}"...</p>
+	<div class="article-list-footer">
+		<ul class="article-list-tags">
+			
+			<li>
+			<a href="/tag/linux" class="tag-link" title="See all posts by this tag">
+				<span class="term_only"> linux</span>
+			</a>
+			</li>
+			
+		</ul>
+	
+	<a href="/osx/ssh_encoding/" title="ssh 登录乱码">
+		<h3 class="article-list-h3">ssh 登录乱码</h3>
+	</a>
+		<span class="article-list-date">
+			July 21, 2016
+		</span>
+	<p>问题 当OSX Terminal ssh登录 CentOS时 出现 warning: -bash: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory  原因 OSX Terminal 用 UTF-8 编码，而且ssh连接时会试图将远程编码设为UTF-8 (等价代码 export LC_CTYPE=UTF-8)。 但是，一些系统,如 CentOS 7，不支持UTF-8。 <pre...</p>
+	<div class="article-list-footer">
+		<ul class="article-list-tags">
+			
+			<li>
+			<a href="/tag/osx" class="tag-link" title="See all posts by this tag">
+				<span class="term_only"> osx</span>
+			</a>
+			</li>
+			
+			<li>
+			<a href="/tag/linux" class="tag-link" title="See all posts by this tag">
+				<span class="term_only"> linux</span>
+			</a>
+			</li>
+			
+		</ul>
+	
+	<a href="/linux/app_desktop/" title="app.desktop">
+		<h3 class="article-list-h3">app.desktop</h3>
+	</a>
+		<span class="article-list-date">
+			June 26, 2016
+		</span>
+	<p>本文章以eclipse为例 创建*.desktop文件  创建/usr/share/applications/eclipse.desktop文件  [Desktop Entry] Name=Eclipse Comment=Eclipse IDE Exec=/usr/share/eclipse/eclipse Icon=/usr/share/eclipse/icon.xpm Encoding=UTF-8 Terminal=false StartupNotify=true Type=Application Categories=Application;Development;  *.desktop文件权限  确保desktop文件权限  sudo chmod u+x /usr/share/applications/eclipse.desktop  注意 Exec  是运行文件位置  <code class="language-plaintext...</p>
+	<div class="article-list-footer">
+		<ul class="article-list-tags">
+			
+			<li>
+			<a href="/tag/linux" class="tag-link" title="See all posts by this tag">
+				<span class="term_only"> linux</span>
+			</a>
+			</li>
+			
+		</ul>
+	
+	<a href="/linux/centos7_setup/" title="CentOS 7 装机">
+		<h3 class="article-list-h3">CentOS 7 装机</h3>
+	</a>
+		<span class="article-list-date">
+			June 5, 2016
+		</span>
+	<p>Setup For centos 7 Compatible with windows Install ntfs-3g # or yum search epel wget https://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm rpm -ivUh epel-release-7-5.noarch.rpm yum install ntfs-3g  system bootup recovery grub2-mkconfig -o /boot/grub2/grub.cfg  Feature  package: yum and...</p>
+	<div class="article-list-footer">
+		<ul class="article-list-tags">
+			
+			<li>
+			<a href="/tag/linux" class="tag-link" title="See all posts by this tag">
+				<span class="term_only"> linux</span>
+			</a>
+			</li>
+			
+		</ul>
+	
+	<a href="/linux/vim/" title="Vim">
+		<h3 class="article-list-h3">Vim</h3>
+	</a>
+		<span class="article-list-date">
+			June 5, 2016
+		</span>
+	<p>Overview  Detail Move  Search &amp; Replace whole file :%s/foo/bar/g  Find each occurrence of ‘foo’ (in all lines), and replace it with ‘bar’.  :s/foo/bar/g  Find each occurrence of ‘foo’ (in the current line only),...</p>
+	<div class="article-list-footer">
+		<ul class="article-list-tags">
+			
+			<li>
+			<a href="/tag/linux" class="tag-link" title="See all posts by this tag">
+				<span class="term_only"> linux</span>
+			</a>
+			</li>
+			
+		</ul>
+	
+	<a href="/linux/tar/" title="Tar">
+		<h3 class="article-list-h3">Tar</h3>
+	</a>
+		<span class="article-list-date">
+			May 30, 2016
+		</span>
+	<p> compression and decompression Tools  tar.gz decompression # here with new folder tar -zxvf *.tar.gz # target folder tar -zxf *.tar.gz -C /path/to/parent  compression tar -zcf *.tar.gz...</p>
+	<div class="article-list-footer">
+		<ul class="article-list-tags">
+			
+			<li>
+			<a href="/tag/linux" class="tag-link" title="See all posts by this tag">
+				<span class="term_only"> linux</span>
+			</a>
+			</li>
+			
+		</ul>
+	
+	<a href="/linux/git&github/" title="Git & GitHub">
+		<h3 class="article-list-h3">Git & GitHub</h3>
+	</a>
+		<span class="article-list-date">
+			May 30, 2016
+		</span>
+	<p>1 Config # name,email 涉及contribution统计 git config --global user.name "Chen Xie" git config --global user.email "chenxie2016@outlook.com" # simple for current branch, matching for all branches git config --global push.default simple # sensitive to up/lower case git config...</p>
+	<div class="article-list-footer">
+		<ul class="article-list-tags">
+			
+			<li>
+			<a href="/tag/linux" class="tag-link" title="See all posts by this tag">
+				<span class="term_only"> linux</span>
+			</a>
+			</li>
+			
+		</ul>
+	
+	<a href="/linux/package_manage/" title="包管理">
+		<h3 class="article-list-h3">包管理</h3>
+	</a>
+		<span class="article-list-date">
+			May 30, 2016
+		</span>
+	<p>rpm yum apt-get 等工具为程序安装提供了方便便捷的方法，但是，散落在各处的文件却不善于被统一管理。 当然，以上问题在工具中有相应的管理命令。  源 源列表  http://mirrors.aliyun.com/ https://mirror.tuna.tsinghua.edu.cn/  位置    pkt manager main app     apt-get /etc/apt/source.list     yum /etc/yum.repos.d/ /etc/yum.repos.d/    <h3...</p>
+	<div class="article-list-footer">
+		<ul class="article-list-tags">
+			
+			<li>
+			<a href="/tag/linux" class="tag-link" title="See all posts by this tag">
+				<span class="term_only"> linux</span>
+			</a>
+			</li>
+			
+		</ul>
+	
+	<a href="/development/Bash_Hot_Key/" title="Bash Hot-key">
+		<h3 class="article-list-h3">Bash Hot-key</h3>
+	</a>
+		<span class="article-list-date">
+			May 23, 2016
+		</span>
+	<p>Search history
+
+ctrl + r
+
+
+Move
+
+word move
+
+ctrl+b #-&gt;
+ctrl+f #&lt;-
+ctrl+p # last
+ctrl+n # next
+
+
+line move
+
+ctrl + a # head
+ctrl + e # tail
+
+</p>
+	<div class="article-list-footer">
+		<ul class="article-list-tags">
+			
+			<li>
+			<a href="/tag/development" class="tag-link" title="See all posts by this tag">
+				<span class="term_only"> development</span>
+			</a>
+			</li>
+			
+			<li>
+			<a href="/tag/linux" class="tag-link" title="See all posts by this tag">
+				<span class="term_only"> linux</span>
+			</a>
+			</li>
+			
+			<li>
+			<a href="/tag/cheat-sheet" class="tag-link" title="See all posts by this tag">
+				<span class="term_only"> cheat-sheet</span>
+			</a>
+			</li>
+			
+		</ul>
+	
+
+
+			</div>
+
+		</article>
+
+      <footer class="site-footer">
+  <span class="site-footer-owner"><a href="http://www.chenxie.fun/">Chen Blog</a> is maintained by <a href="/about">Chen Xie</a>.</span>
+  <span class="site-footer-credits">Source code is keep by GitHub account: <a href="https://github.com/neilChenXie">Chen Xie</a>.</span>
+</footer>
+
+
+    </section>
+
+  </body>
+</html>
+

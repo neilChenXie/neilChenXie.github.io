@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="baidu-site-verification" content="XuznPXuk19" />
+  <title>ssh 登录乱码</title>
+  <meta name="Description" content="">
+  <meta name="Keywords" content="osx,linux,">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/cayman.css">
+  <link rel="stylesheet" href="/css/custome.css">
+  <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="stylesheet" href="/css/tag.css">
+  <script src="/js/jquery-3.1.0.min.js"></script>
+  <script src="/js/toc.js"></script>
+  <script src="/js/tocUse.js"></script>
+</head>
+
+
+<body class="body-vertical">
+
+	<section class="left-slide">
+		<div id="big_toc"></div>
+	</section>
+    <section class="main-content main-content-vertical main-article-content">
+
+        <h2>ssh 登录乱码
+        </h2>
+        <p class="meta">
+            <span>Created:&nbsp;21 Jul 2016<span>
+        </p>
+        <p class="meta">
+            <span>Author:&nbsp;&nbsp;Chen Xie<span>
+        </p>
+
+		<div id="tiny_toc"></div>
+
+		<h3 id="问题">问题</h3>
+
+<p>当OSX Terminal ssh登录 CentOS时 出现 <code class="language-plaintext highlighter-rouge">warning</code>:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">-bash</span>: warning: setlocale: LC_CTYPE: cannot change locale <span class="o">(</span>UTF-8<span class="o">)</span>: No such file or directory
+</code></pre></div></div>
+
+<h3 id="原因">原因</h3>
+
+<p>OSX Terminal 用 UTF-8 编码，而且ssh连接时会试图将远程编码设为UTF-8
+(等价代码
+<code class="language-plaintext highlighter-rouge">export LC_CTYPE=UTF-8</code>)。
+但是，一些系统,如 CentOS 7，不支持UTF-8。</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 查询系统支持的编码</span>
+locale <span class="nt">-a</span>
+
+<span class="c"># 查询当前使用编码</span>
+<span class="nb">echo</span> <span class="s2">"</span><span class="nv">$LC_CTYPE</span><span class="s2">"</span>
+</code></pre></div></div>
+
+<h3 id="解决">解决</h3>
+
+<p>编辑 /etc/ssh/ssh_config，注释掉<code class="language-plaintext highlighter-rouge">SendEnv</code></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#SendEnv LANG LC_*</span>
+</code></pre></div></div>
+
+
+        <!--Links-->
+        <span class="tag-list">
+            #
+            
+            <a class="tag-link" href="/tag/osx/">osx</a>
+            
+            <a class="tag-link" href="/tag/linux/">linux</a>
+            
+        </span>
+        <footer class="site-footer">
+  <span class="site-footer-owner"><a href="http://www.chenxie.fun/">Chen Blog</a> is maintained by <a href="/about">Chen Xie</a>.</span>
+  <span class="site-footer-credits">Source code is keep by GitHub account: <a href="https://github.com/neilChenXie">Chen Xie</a>.</span>
+</footer>
+
+
+    </section>
+
+</body>
+</html>

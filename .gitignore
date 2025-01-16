@@ -1,6 +1,7 @@
 # general
 *.[oa] *~
 .*.sw[po]
+.DS_Store
 
 # java
 *.class
@@ -20,7 +21,7 @@ target
 .metadata
 
 # jekyll
-_site
+#_site
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
