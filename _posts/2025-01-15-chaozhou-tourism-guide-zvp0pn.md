@@ -15,7 +15,9 @@ tags:
 * 整体以`休闲和美食`​为主。
 * 吃的：<span data-type="text" style="color: var(--b3-font-color13);">红色</span>为必吃、<span data-type="text" style="color: var(--b3-font-color5);">橙色</span>为特色
 
-## **早餐：** （随便找家路边店）
+## **早餐**
+
+> 随便找家路边店
 
 * 粿汁
 * 肠粉
@@ -45,7 +47,7 @@ tags:
 * <span data-type="text" style="color: var(--b3-font-color13);">鼎上潮鹅</span>
 * 阿永炒粿条-鳝鱼炒粿条
 
-## **西马路：**
+## **西马路**
 
 > 小吃一条路（与牌坊街相接）
 
@@ -61,7 +63,7 @@ tags:
 * 腐乳饼、葱饼 博香饼食店（西新花苑7号）
 * <span data-type="text" style="color: var(--b3-font-color13);">刘锐溪口传统老式卤鹅</span>（地点偏一点，值得专门去）
 
-## 参考：
+## 参考链接
 
 * 艾格吃饱了：[https://mp.weixin.qq.com/s/wfiu4MZjFa-RqPB7MMJfgw](https://mp.weixin.qq.com/s/wfiu4MZjFa-RqPB7MMJfgw)
 * 陈随便：[https://www.bilibili.com/video/BV1Pm411U73Q/](https://www.bilibili.com/video/BV1Pm411U73Q/)
