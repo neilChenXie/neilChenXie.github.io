@@ -5,9 +5,180 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 16 Jan 2025 14:13:35 +0800</pubDate>
-    <lastBuildDate>Thu, 16 Jan 2025 14:13:35 +0800</lastBuildDate>
+    <pubDate>Thu, 16 Jan 2025 15:34:31 +0800</pubDate>
+    <lastBuildDate>Thu, 16 Jan 2025 15:34:31 +0800</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
+    
+      <item>
+        <title>Github &amp; git</title>
+        <description>&lt;h1 id=&quot;github--git&quot;&gt;Github &amp;amp; git&lt;/h1&gt;
+
+&lt;h1 id=&quot;摘要&quot;&gt;摘要&lt;/h1&gt;
+
+&lt;h1 id=&quot;详细记录&quot;&gt;详细记录&lt;/h1&gt;
+
+&lt;h2 id=&quot;config&quot;&gt;Config&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# name,email 涉及contribution统计&lt;/span&gt;
+
+git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; user.name &lt;span class=&quot;s2&quot;&gt;&quot;Chen Xie&quot;&lt;/span&gt;
+git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; user.email &lt;span class=&quot;s2&quot;&gt;&quot;chenxie2016@163.com&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# check the origin URL AND modify the origin URL&lt;/span&gt;
+git remote &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt;
+git remote set-url origin &amp;lt;NEW_GIT_URL_HERE&amp;gt;
+&lt;span class=&quot;c&quot;&gt;# simple for current branch, matching for all branches&lt;/span&gt;
+
+git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; push.default simple
+
+&lt;span class=&quot;c&quot;&gt;# sensitive to up/lower case&lt;/span&gt;
+
+git config core.ignorecase &lt;span class=&quot;nb&quot;&gt;false&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# check all config&lt;/span&gt;
+git config &lt;span class=&quot;nt&quot;&gt;--list&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;ssh-key&quot;&gt;SSH key&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#Generate your key with your email.&lt;/span&gt;
+ssh-keygen &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; rsa &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; 4096 &lt;span class=&quot;nt&quot;&gt;-C&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;your_email@example.com&quot;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#all key file under ~/.ssh/&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#id_rsa is private key, don&apos;t give it to anyone.  &lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;#id_rsa.pub is public key for GitHub&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# different location to generate key Files&lt;/span&gt;
+ssh-keygen &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; rsa &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; ~/Documents/sshkey/&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;name&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;gitignore&quot;&gt;.gitignore&lt;/h2&gt;
+
+&lt;h3 id=&quot;rm-files-which-are-tracked-before-it-is-added-to-gitignore&quot;&gt;rm files which are tracked before it is added to .gitignore&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git &lt;span class=&quot;nb&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-r&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--cached&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+git add &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;reference: &lt;a href=&quot;https://stackoverflow.com/questions/1274057/how-do-i-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore&quot;&gt;How do I make Git forget about a file that was tracked, but is now in .gitignore?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;gitignore-file&quot;&gt;.gitignore file&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;### General&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.[oa] &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;~  &lt;span class=&quot;c&quot;&gt;# Gedit&lt;/span&gt;
+.&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.sw[po]  &lt;span class=&quot;c&quot;&gt;# Vim&lt;/span&gt;
+.DS_Store  &lt;span class=&quot;c&quot;&gt;# Mac_OS&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;### Java&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;#### Mobile Tools for Java (J2ME)&lt;/span&gt;
+
+.mtj.tmp/
+
+&lt;span class=&quot;c&quot;&gt;#### compile&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.class
+target
+
+&lt;span class=&quot;c&quot;&gt;#### Package&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.war
+&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.ear
+&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;.jar
+
+&lt;span class=&quot;c&quot;&gt;#### Eclipse&lt;/span&gt;
+.project
+.classpath
+.settings
+.metadata
+
+&lt;span class=&quot;c&quot;&gt;#### virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml&lt;/span&gt;
+hs_err_pid&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;add-commit--push&quot;&gt;Add, Commit &amp;amp; Push&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# git add all files &lt;/span&gt;
+git add &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# commit&lt;/span&gt;
+git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;
+
+git push origin main
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;branch&quot;&gt;Branch&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# list branch list&lt;/span&gt;
+git branch
+
+&lt;span class=&quot;c&quot;&gt;# change the default branch&lt;/span&gt;
+git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; init.defaultBranch &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;branchName&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# basic branching and merging&lt;/span&gt;
+git checkout &lt;span class=&quot;nt&quot;&gt;-b&lt;/span&gt; iss53
+&lt;span class=&quot;c&quot;&gt;# Switched to a new branch &quot;iss53&quot;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# do modifying and add commit things&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;#mergin&lt;/span&gt;
+git checkout main
+&lt;span class=&quot;c&quot;&gt;# Switched to branch &apos;master&apos;&lt;/span&gt;
+git merge iss53
+&lt;span class=&quot;c&quot;&gt;# merge iss53 to main&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;reference&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/51274430/change-from-master-to-a-new-default-branch-git&quot;&gt;Change from master to a new default branch git&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/11334045/how-to-set-the-default-branch-in-github-com&quot;&gt;How to set the default branch in GitHub.com?&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging&quot;&gt;Git Branching - Basic Branching and Merging&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;recovery&quot;&gt;Recovery&lt;/h2&gt;
+
+&lt;h3 id=&quot;for-entire-folder&quot;&gt;For Entire Folder&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git reset &lt;span class=&quot;nt&quot;&gt;--hard&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# discard all changes&lt;/span&gt;
+git clean &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#remove untracked&lt;/span&gt;
+git clean &lt;span class=&quot;nt&quot;&gt;-f&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-x&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# above plus ignored file&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;for-file&quot;&gt;For File&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# last commit&lt;/span&gt;
+git checkout filename
+
+&lt;span class=&quot;c&quot;&gt;# one commit&lt;/span&gt;
+git log
+&lt;span class=&quot;c&quot;&gt;# choose one commit to recover&lt;/span&gt;
+git checkout &lt;span class=&quot;nt&quot;&gt;--HEAD&lt;/span&gt; filename
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;for-commit-point&quot;&gt;For Commit point&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#TODO&lt;/span&gt;
+git reset
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;‍&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 Jan 2025 10:03:25 +0800</pubDate>
+        <link>http://localhost:4000/software%20development/git-test/</link>
+        <guid isPermaLink="true">http://localhost:4000/software%20development/git-test/</guid>
+        
+        <category>git</category>
+        
+        <category>github</category>
+        
+        
+        <category>Software Development</category>
+        
+      </item>
     
       <item>
         <title>Github &amp; git</title>
@@ -617,27 +788,6 @@ git reset
         <pubDate>Thu, 19 Mar 2020 17:46:15 +0800</pubDate>
         <link>http://localhost:4000/%F0%9F%91%A8%E2%80%8D%F0%9F%8D%B3cook/pork_with_fish_flavor/</link>
         <guid isPermaLink="true">http://localhost:4000/%F0%9F%91%A8%E2%80%8D%F0%9F%8D%B3cook/pork_with_fish_flavor/</guid>
-        
-        <category>cook</category>
-        
-        <category>川菜</category>
-        
-        
-        <category>👨‍🍳Cook</category>
-        
-      </item>
-    
-      <item>
-        <title>麻婆豆腐</title>
-        <description>&lt;p&gt;&lt;img src=&quot;https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/cook/mapo_toufu/pic1.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.bilibili.com/video/av25725893&quot;&gt;麻婆豆腐-王刚&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 19 Mar 2020 17:46:15 +0800</pubDate>
-        <link>http://localhost:4000/%F0%9F%91%A8%E2%80%8D%F0%9F%8D%B3cook/mapo_toufu/</link>
-        <guid isPermaLink="true">http://localhost:4000/%F0%9F%91%A8%E2%80%8D%F0%9F%8D%B3cook/mapo_toufu/</guid>
         
         <category>cook</category>
         
