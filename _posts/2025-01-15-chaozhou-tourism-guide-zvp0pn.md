@@ -11,7 +11,8 @@ tags:
 
 # 摘要
 
-* 住宿：可以选牌坊街里名宿，整体潮州旅游不算热闹，性价比高。
+* 住宿：可以选`牌坊街`​里名宿，整体潮州旅游不算热闹，性价比高。
+* 整体以`休闲和美食`​为主。
 * 吃的：<span data-type="text" style="color: var(--b3-font-color13);">红色</span>为必吃、<span data-type="text" style="color: var(--b3-font-color5);">橙色</span>为特色
 
 ## **早餐：** （随便找家路边店）
@@ -19,7 +20,9 @@ tags:
 * 粿汁
 * 肠粉
 
-## **牌坊街：** 逛开元寺、广济楼、广济桥
+## **牌坊街**
+
+> 逛开元寺、广济楼、广济桥
 
 * 喝茶（凤凰单丛茶）
 
@@ -34,13 +37,17 @@ tags:
     <span data-type="text" style="color: var(--b3-font-color13);">鸭母捻（绿豆沙、红豆沙、芋泥）、潮州酥饼（陈皮、香黄）</span>、<span data-type="text" style="color: var(--b3-font-color5);">春饼（炸大春卷）、腐乳饼（口味像鸡仔饼、外带配茶）、</span>猪肉云吞饺
   * ‍
 
-## **西湖公园：** 可以散步逛逛（离牌坊街1km）
+## **西湖公园**
+
+> 以吃为主，可以散步逛逛（离牌坊街1km）
 
 * <span data-type="text" style="color: var(--b3-font-color13);">潮镇老尾牛杂</span>（环城西路，南姜是点睛）
 * <span data-type="text" style="color: var(--b3-font-color13);">鼎上潮鹅</span>
 * 阿永炒粿条-鳝鱼炒粿条
 
-## **西马路：** 小吃一条路​（与牌坊街相接）
+## **西马路：**
+
+> 小吃一条路（与牌坊街相接）
 
 * <span data-type="text" style="color: var(--b3-font-color13);">甘草汁水果（青芒果）</span>-随便哪家
 * <span data-type="text" style="color: var(--b3-font-color13);">春饼（春卷）</span>、<span data-type="text" style="color: var(--b3-font-color5);">管煎、笋粿、韭菜粿、咸蛋卷</span>-林记小食店（随便看着点）
