@@ -24,9 +24,9 @@ published: true
 >
 >   * 发现Github Action
 >
->     * ​![image](assets/image-20250116162538-d3h2l3k.png)​
->     * ​![image](assets/image-20250116162600-ibjjvmv.png)​
->     * ​![image](assets/image-20250116162719-t3owkc3.png)​
+>     * ​![image](https://cdn.jsdelivr.net/gh/neilChenXie/ChenVideo/pic/image-20250116162538-d3h2l3k.png)​
+>     * ​![image](https://cdn.jsdelivr.net/gh/neilChenXie/ChenVideo/pic/image-20250116162600-ibjjvmv.png)​
+>     * ​![image](https://cdn.jsdelivr.net/gh/neilChenXie/ChenVideo/pic/image-20250116162719-t3owkc3.png)​
 >   * 研究Github Action
 >
 >     * 下载编译完的文件，发现没有最新的文章
