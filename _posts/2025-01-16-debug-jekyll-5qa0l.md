@@ -34,15 +34,15 @@ published: true
 >       * ​![image](https://cdn.jsdelivr.net/gh/neilChenXie/ChenVideo/pic/image-20250116162824-9g3zrbg.png)​
 >     * 研究Build里的信息
 >
->       * ​![image](assets/image-20250116162900-bdvup6u.png)​
->       * ​![image](assets/image-20250116162919-ot1c19i.png)​
+>       * ​![image](https://cdn.jsdelivr.net/gh/neilChenXie/ChenVideo/pic/image-20250116162900-bdvup6u.png)​
+>       * ​![image](https://cdn.jsdelivr.net/gh/neilChenXie/ChenVideo/pic/image-20250116162919-ot1c19i.png)​
 >     * 发现读取了源文件，但是编译Skip了
 >
->       * ![image](assets/image-20250116163007-qri8kva.png)​
->       * ​![image](assets/image-20250116163058-cuv740e.png)​
+>       * ​![image](https://cdn.jsdelivr.net/gh/neilChenXie/ChenVideo/pic/image-20250116163007-qri8kva.png)​
+>       * ​![image](https://cdn.jsdelivr.net/gh/neilChenXie/ChenVideo/pic/image-20250116163058-cuv740e.png)​
 >     * 猜到可能是时区的问题，
 > * 原因：Github默认时区是美国西部，比中国差不多晚一天，所以发布的文章都成了“Has a Future Date”
 > * 解决办法：在_config.yml文件中，增加Timezone的设置
 >
->   * ​![image](assets/image-20250116164152-pjzv8lu.png)​
+>   * ​![image](https://cdn.jsdelivr.net/gh/neilChenXie/ChenVideo/pic/image-20250116164152-pjzv8lu.png)​
 > * 参考链接：[jekyll Configuration Options](https://jekyllrb.com/docs/configuration/options/#global-configuration)
