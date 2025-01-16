@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="baidu-site-verification" content="XuznPXuk19" />
+  <title>Ruby环境及Jekyll安装</title>
+  <meta name="Description" content="">
+  <meta name="Keywords" content="communication,jekyll,ruby,">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/cayman.css">
+  <link rel="stylesheet" href="/css/custome.css">
+  <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="stylesheet" href="/css/tag.css">
+  <script src="/js/jquery-3.1.0.min.js"></script>
+  <script src="/js/toc.js"></script>
+  <script src="/js/tocUse.js"></script>
+</head>
+
+
+<body class="body-vertical">
+
+	<section class="left-slide">
+		<div id="big_toc"></div>
+	</section>
+    <section class="main-content main-content-vertical main-article-content">
+
+        <h2>Ruby环境及Jekyll安装
+        </h2>
+        <p class="meta">
+            <span>Created:&nbsp;11 May 2016<span>
+        </p>
+        <p class="meta">
+            <span>Author:&nbsp;&nbsp;Chen Xie<span>
+        </p>
+
+		<div id="tiny_toc"></div>
+
+		<p>选择Jekyll，因为GitHub Page直接支持Jekyll，不用像Hexo要提前编译成HTML</p>
+
+<p>Jekyll 是基于Ruby的，所以需要先安装相关环境，教程见官方文档，Google和百度</p>
+
+<p>以下是几个需要了解的概念及关系</p>
+
+<h3 id="rvm">RVM</h3>
+
+<p>对于Debian系的Linux，自带Ruby版本有问题，需要通过RVM管理Ruby版本
+其他环境也可以用RVM管理Ruby，与系统<strong>独立</strong>开</p>
+
+<p><a href="https://ruby-china.org/wiki/rvm-guide">RVM中文安装教程</a></p>
+
+<p><a href="https://rvm.io/">RVM官网</a></p>
+
+<h4 id="bug">BUG</h4>
+
+<p><code class="language-plaintext highlighter-rouge">rvm is not a function</code></p>
+
+<p><strong>solution:</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash --login
+</code></pre></div></div>
+
+<h3 id="gem">GEM</h3>
+
+<h4 id="gem-1">*.gem</h4>
+
+<p>*.gem 是Ruby包文件扩展名。</p>
+
+<h4 id="gem-2"><code class="language-plaintext highlighter-rouge">gem</code></h4>
+
+<blockquote>
+  <p>gem管理工具,通过<code class="language-plaintext highlighter-rouge">gem install {pkgName}</code> 安装gem包,在安装ruby时已经一同安装。</p>
+</blockquote>
+
+<p><a href="https://rubygems.org/">官网</a></p>
+
+<h3 id="bundle">Bundle</h3>
+
+<p>项目管理工具，与Java的Maven，Node.js的npm类似。</p>
+
+<h4 id="setup">setup</h4>
+
+<blockquote>
+  <p>need <code class="language-plaintext highlighter-rouge">gem</code> installed</p>
+</blockquote>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="n">install</span> <span class="n">bundler</span>
+</code></pre></div></div>
+
+<h4 id="gemfile--gemfilelock">Gemfile &amp; Gemfile.lock</h4>
+
+<p><code class="language-plaintext highlighter-rouge">bundle</code> 依赖于Gemfile找到所需的gem包，并生成Gemfile.lock。不同环境下，先删除Gemfile.lock,运行<code class="language-plaintext highlighter-rouge">bundle install</code>生成新的.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 在项目（博客模版）文件夹下运行</span>
+bundle <span class="nb">install</span>
+</code></pre></div></div>
+
+<p><a href="http://bundler.io/">官网</a></p>
+
+<h3 id="安装-jekyll">安装 Jekyll</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem <span class="nb">install </span>jekyll
+</code></pre></div></div>
+
+<h3 id="检查安装版本">检查安装版本</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby <span class="nt">-v</span>
+jekyll <span class="nt">-v</span>
+</code></pre></div></div>
+
+<h3 id="github--jekyll">Github &amp; Jekyll</h3>
+
+<h4 id="usernamegithubio">{username}.github.io</h4>
+
+<p>直接推送master分支即可，有自主域名的话，根目录下添加CNAME文件.</p>
+
+<h4 id="已存在项目">已存在项目</h4>
+
+<ul>
+  <li><a href="https://help.github.com/articles/creating-project-pages-manually/">Official</a></li>
+</ul>
+
+<p>创建新分支</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout <span class="nt">--orphan</span> gh-pages
+</code></pre></div></div>
+
+<p>第一次push</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push <span class="nt">--set-upstream</span> origin gh-pages
+</code></pre></div></div>
+
+
+        <!--Links-->
+        <span class="tag-list">
+            #
+            
+            <a class="tag-link" href="/tag/communication/">communication</a>
+            
+            <a class="tag-link" href="/tag/jekyll/">jekyll</a>
+            
+            <a class="tag-link" href="/tag/ruby/">ruby</a>
+            
+        </span>
+        <footer class="site-footer">
+  <span class="site-footer-owner"><a href="http://localhost:4000">Chen Blog</a> is maintained by <a href="/about">Chen Xie</a>.</span>
+  <span class="site-footer-credits">Source code is keep by GitHub account: <a href="https://github.com/neilChenXie">Chen Xie</a>.</span>
+</footer>
+
+
+    </section>
+
+</body>
+</html>

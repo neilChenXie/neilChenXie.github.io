@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="baidu-site-verification" content="XuznPXuk19" />
+  <title>CentOS 7 装机</title>
+  <meta name="Description" content="">
+  <meta name="Keywords" content="linux,">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/cayman.css">
+  <link rel="stylesheet" href="/css/custome.css">
+  <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="stylesheet" href="/css/tag.css">
+  <script src="/js/jquery-3.1.0.min.js"></script>
+  <script src="/js/toc.js"></script>
+  <script src="/js/tocUse.js"></script>
+</head>
+
+
+<body class="body-vertical">
+
+	<section class="left-slide">
+		<div id="big_toc"></div>
+	</section>
+    <section class="main-content main-content-vertical main-article-content">
+
+        <h2>CentOS 7 装机
+        </h2>
+        <p class="meta">
+            <span>Created:&nbsp;05 Jun 2016<span>
+        </p>
+        <p class="meta">
+            <span>Author:&nbsp;&nbsp;Chen Xie<span>
+        </p>
+
+		<div id="tiny_toc"></div>
+
+		<h2 id="setup">Setup</h2>
+
+<p>For centos <strong>7</strong></p>
+
+<h3 id="compatible-with-windows">Compatible with windows</h3>
+
+<p>Install ntfs-3g</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># or yum search epel</span>
+wget https://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
+rpm <span class="nt">-ivUh</span> epel-release-7-5.noarch.rpm
+
+yum <span class="nb">install </span>ntfs-3g
+</code></pre></div></div>
+
+<p>system bootup recovery</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>grub2-mkconfig <span class="nt">-o</span> /boot/grub2/grub.cfg
+</code></pre></div></div>
+
+<h2 id="feature">Feature</h2>
+
+<ul>
+  <li>package: yum and rpm</li>
+</ul>
+
+
+        <!--Links-->
+        <span class="tag-list">
+            #
+            
+            <a class="tag-link" href="/tag/linux/">linux</a>
+            
+        </span>
+        <footer class="site-footer">
+  <span class="site-footer-owner"><a href="http://localhost:4000">Chen Blog</a> is maintained by <a href="/about">Chen Xie</a>.</span>
+  <span class="site-footer-credits">Source code is keep by GitHub account: <a href="https://github.com/neilChenXie">Chen Xie</a>.</span>
+</footer>
+
+
+    </section>
+
+</body>
+</html>

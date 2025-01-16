@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="baidu-site-verification" content="XuznPXuk19" />
+  <title>包管理</title>
+  <meta name="Description" content="">
+  <meta name="Keywords" content="linux,">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/cayman.css">
+  <link rel="stylesheet" href="/css/custome.css">
+  <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="stylesheet" href="/css/tag.css">
+  <script src="/js/jquery-3.1.0.min.js"></script>
+  <script src="/js/toc.js"></script>
+  <script src="/js/tocUse.js"></script>
+</head>
+
+
+<body class="body-vertical">
+
+	<section class="left-slide">
+		<div id="big_toc"></div>
+	</section>
+    <section class="main-content main-content-vertical main-article-content">
+
+        <h2>包管理
+        </h2>
+        <p class="meta">
+            <span>Created:&nbsp;30 May 2016<span>
+        </p>
+        <p class="meta">
+            <span>Author:&nbsp;&nbsp;Chen Xie<span>
+        </p>
+
+		<div id="tiny_toc"></div>
+
+		<p><code class="language-plaintext highlighter-rouge">rpm</code> <code class="language-plaintext highlighter-rouge">yum</code> <code class="language-plaintext highlighter-rouge">apt-get</code> 等工具为程序安装提供了方便便捷的方法，但是，散落在各处的文件却不善于被统一管理。</p>
+
+<p>当然，以上问题在工具中有相应的管理命令。</p>
+
+<p><img src="https://cloud.githubusercontent.com/assets/5840527/23390869/9eb97f3c-fdab-11e6-89f4-673dea55da38.png" alt="linux_pkg" /></p>
+
+<h2 id="源">源</h2>
+
+<h3 id="源列表">源列表</h3>
+
+<ul>
+  <li><a href="http://mirrors.aliyun.com/">http://mirrors.aliyun.com/</a></li>
+  <li><a href="https://mirror.tuna.tsinghua.edu.cn/">https://mirror.tuna.tsinghua.edu.cn/</a></li>
+</ul>
+
+<h3 id="位置">位置</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>pkt manager</th>
+      <th>main</th>
+      <th>app</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>apt-get</td>
+      <td>/etc/apt/source.list</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>yum</td>
+      <td>/etc/yum.repos.d/</td>
+      <td>/etc/yum.repos.d/</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="格式">格式</h3>
+
+<h4 id="apt-get">apt-get</h4>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># deb {url}/{dist} {version} {component}</span>
+<span class="c"># deb-src {url}/{dist} {version} {component}</span>
+deb http://mirrors.aliyun.com/ubuntu trusty universe
+deb-src http://mirrors.aliyun.com/ubuntu trusty universe
+</code></pre></div></div>
+
+<p>version</p>
+
+<blockquote>
+  <ul>
+    <li>trusty</li>
+    <li>trusty-backports</li>
+    <li>trusty-proposed (not used)</li>
+    <li>trusty-security</li>
+    <li>trusty-updates</li>
+  </ul>
+</blockquote>
+
+
+        <!--Links-->
+        <span class="tag-list">
+            #
+            
+            <a class="tag-link" href="/tag/linux/">linux</a>
+            
+        </span>
+        <footer class="site-footer">
+  <span class="site-footer-owner"><a href="http://localhost:4000">Chen Blog</a> is maintained by <a href="/about">Chen Xie</a>.</span>
+  <span class="site-footer-credits">Source code is keep by GitHub account: <a href="https://github.com/neilChenXie">Chen Xie</a>.</span>
+</footer>
+
+
+    </section>
+
+</body>
+</html>
