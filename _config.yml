@@ -3,7 +3,7 @@ title:        Chen Blog
 tagline:      All Shared Blogs Based on GitHub Pages
 url:          "http://www.chenxie.fun/"
 baseurl:      ""
-timezone:     CN
+timezone:     Asia/Shanghai
 #paginate:     1
 
 # About/contact

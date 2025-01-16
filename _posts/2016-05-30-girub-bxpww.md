@@ -1,6 +1,6 @@
 ---
 title: Github & git
-date: '2025-01-15 10:03:25'
+date: '2025-01-16 10:03:25'
 layout: post
 published: true
 category: Software Development
