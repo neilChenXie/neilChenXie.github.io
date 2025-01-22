@@ -9,7 +9,7 @@ tags:
   - github
 ---
 
-# Github & git
+
 
 # 摘要
 
@@ -91,6 +91,14 @@ target
 .classpath
 .settings
 .metadata
+
+#### jekyll https://jekyllrb.com/tutorials/using-jekyll-with-bundler/#commit-to-source-control
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
 
 #### virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
