@@ -1,5 +1,5 @@
 ---
-title: 美国CPI数据
+title: 美国CPI数据关注点及逻辑
 date: '2024-07-15 16:44:44'
 permalink: /post/american-cpi-data-zfj2tm.html
 tags:
