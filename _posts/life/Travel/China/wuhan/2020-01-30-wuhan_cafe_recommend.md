@@ -1,7 +1,7 @@
 ---
 title: 武汉咖啡店推荐
 date: 2020-01-01 12:46:15 +0800
-category: Coffee ‘N Tea
+category: Drink&Snack｜饮品与小吃
 tags: [coffee,cafe,wuhan]
 description: 重点收录B站关注的咖啡师等推荐的中国各地的精品咖啡店，，以及探店总结的链接。
 ---

@@ -1,7 +1,7 @@
 ---
 title: 湖南辣椒炒肉
 date: 2020-04-12 11:46:15 +0800
-category: 👨‍🍳Cook
+category: Cook｜下厨
 tags: [cook,湖南菜]
 description: 
 ---

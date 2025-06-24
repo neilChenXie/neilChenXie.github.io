@@ -1,7 +1,7 @@
 ---
 title: 肉丝肉片的嫩处理
 date: 2020-02-22 09:46:15 +0800
-category: 👨‍🍳Cook
+category: Cook｜下厨
 tags: [cook]
 description: 
 ---

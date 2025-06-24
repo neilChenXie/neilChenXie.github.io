@@ -1,7 +1,7 @@
 ---
 title: 咖啡系列之二：烘焙度及生豆处理法
 date: 2019-10-08 07:46:15 +0800
-category: Coffee ‘N Tea
+category: Drink&Snack｜饮品与小吃
 tags: [coffee,coffee bean]
 description: 咖啡的**果酸、花香**与**巧克力、焦糖、醇厚**是对立的两端，主要由烘焙度决定。
 ---

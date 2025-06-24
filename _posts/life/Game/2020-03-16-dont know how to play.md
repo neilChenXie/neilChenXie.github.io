@@ -1,8 +1,8 @@
 ---
 title: 我觉得是你不会玩-炉石
 date: 2020-03-16 18:46:15 +0800
-category: Game
-tags: [game,humor]
+category: Game｜游戏
+tags: [humor｜搞笑]
 description: 老师老师，我觉得是你不会玩
 ---
 

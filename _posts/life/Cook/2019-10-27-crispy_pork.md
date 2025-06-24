@@ -1,7 +1,7 @@
 ---
 title: 小酥肉
 date: 2019-10-27 10:46:15 +0800
-category: 👨‍🍳Cook
+category: Cook｜下厨
 tags: [cook,snack,川菜]
 description: 
 ---

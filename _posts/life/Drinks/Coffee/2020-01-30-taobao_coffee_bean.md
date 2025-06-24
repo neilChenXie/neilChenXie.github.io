@@ -1,7 +1,7 @@
 ---
 title: 靠谱的淘宝咖啡豆及器具店铺
 date: 2020-01-30 12:46:15 +0800
-category: Coffee ‘N Tea
+category: Drink&Snack｜饮品与小吃
 tags: [coffee,coffee bean]
 description: 网上有哪些靠谱的淘宝店铺
 ---

@@ -1,7 +1,7 @@
 ---
 title: 红烧肉
 date: 2020-02-12 11:46:15 +0800
-category: 👨‍🍳Cook
+category: Cook｜下厨
 tags: [cook,川菜]
 description: 
 ---

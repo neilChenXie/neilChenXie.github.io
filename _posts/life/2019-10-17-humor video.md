@@ -1,8 +1,8 @@
 ---
 title: 搞笑视频
 date: 2019-10-17 23:46:15 +0800
-category: Humor 幽默
-tags: [humor]
+category: humor｜搞笑
+tags: [humor｜搞笑]
 ---
 
 **隔壁桌的地主系列：**

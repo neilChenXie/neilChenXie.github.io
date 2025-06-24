@@ -1,7 +1,7 @@
 ---
 title: 煎牛排、慢煮牛排及牛排分类
 date: 2019-10-19 17:46:15 +0800
-category: 👨‍🍳Cook
+category: Cook｜下厨
 tags: [steak,cook]
 description: 菲力、西冷、肉眼、T骨、牛小排都在哪呢？煎、烤、慢煮怎么好吃😋
 ---

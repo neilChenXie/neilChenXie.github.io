@@ -1,7 +1,7 @@
 ---
 title: 麻婆豆腐
 date: 2020-03-19 17:46:15 +0800
-category: 👨‍🍳Cook
+category: Cook｜下厨
 tags: [cook,川菜]
 description: 
 ---

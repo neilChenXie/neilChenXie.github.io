@@ -1,8 +1,8 @@
 ---
 title: Old Fashioned 鸡尾酒
 date: 2020-01-09 22:23:15 +0800
-category: Alcohol
-tags: [whiskey]
+category: Drink&Snack｜饮品与小吃
+tags: [alcohol,whiskey]
 description: 
 ---
 
@@ -10,11 +10,11 @@ description:
 
 > 在网上找了好多配方，发现要做好老广场并不容易，因此也从简单的Old Fashioned开始尝试。
 
-![pic1](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/drinks/alcohol/old%20fashioned-1.jpeg)
+![pic1](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/drinks/Drink&Snack｜饮品与小吃/old%20fashioned-1.jpeg)
 
 > 买了苦精之后的第一次尝试
 
-![pic2](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/drinks/alcohol/old%20fashioned.jpeg)
+![pic2](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/drinks/Drink&Snack｜饮品与小吃/old%20fashioned.jpeg)
 
 *参考阅读：*
 
