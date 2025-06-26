@@ -18,9 +18,13 @@ published: true
 
 # 摘要
 
-## 20251016
+## 新发的文章总是没有在博客显示
 
 > - 问题：新发的文章总是没有在博客显示
+> - 原因：Github默认时区是美国西部，比中国差不多晚一天，所以发布的文章都成了“Has a Future Date”
+> - 解决办法：在_config.yml文件中，增加Timezone的设置
+>
+>   - ![image](https://cdn.jsdelivr.net/gh/neilChenXie/ChenVideo/pic/image-20250116164152-pjzv8lu.png)
 > - 找到原因过程：
 >
 >   - 发现Github Action
@@ -42,8 +46,4 @@ published: true
 >       - ![image](https://cdn.jsdelivr.net/gh/neilChenXie/ChenVideo/pic/image-20250116163007-qri8kva.png)​
 >       - ![image](https://cdn.jsdelivr.net/gh/neilChenXie/ChenVideo/pic/image-20250116163058-cuv740e.png)​
 >     - 猜到可能是时区的问题，
-> - 原因：Github默认时区是美国西部，比中国差不多晚一天，所以发布的文章都成了“Has a Future Date”
-> - 解决办法：在_config.yml文件中，增加Timezone的设置
->
->   - ![image](https://cdn.jsdelivr.net/gh/neilChenXie/ChenVideo/pic/image-20250116164152-pjzv8lu.png)
 > - 参考链接：[jekyll Configuration Options](https://jekyllrb.com/docs/configuration/options/#global-configuration)
