@@ -15,7 +15,7 @@ published: true
 
 
 
-# 通过Docker装完ollama，为啥0.0.0.0:11434可以访问ollama，host.docker.internal:11434无法访问（显示502）
+
 
 # 摘要
 
