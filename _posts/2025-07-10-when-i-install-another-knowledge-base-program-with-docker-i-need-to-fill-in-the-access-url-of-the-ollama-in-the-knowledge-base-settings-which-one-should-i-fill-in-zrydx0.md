@@ -14,7 +14,7 @@ published: true
 
 
 
-# 当我用Docker安装了另一个知识库程序，需要在知识库的设置里填写ollama的访问URL，我应该填哪一个？
+
 
 # 摘要
 
