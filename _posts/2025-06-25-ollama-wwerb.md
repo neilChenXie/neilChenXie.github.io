@@ -13,7 +13,7 @@ published: true
 
 
 
-# ollama
+
 
 # 摘要
 
@@ -83,7 +83,7 @@ published: true
       ```
   - 本机访问`127.0.0.1:11434`​or`http://host.docker.internal:11434/`​，确保ollama在运行，供后续MaxKB、Dify等使用
 
-    - ![image](https://cdn.jsdelivr.net/gh/neilChenXie/ChenVideo/pic/image-20250709103338-gjvjvle.png)
+    - ![image](https://cdn.jsdelivr.net/gh/neilChenXie/ChenVideo/pic/image-20250709103338-gjvjvle.png)​
 
 # 详细记录
 
