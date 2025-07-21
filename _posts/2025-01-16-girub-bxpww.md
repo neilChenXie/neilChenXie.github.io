@@ -24,6 +24,9 @@ published: true
 git config --global user.name "Chen Xie"
 git config --global user.email "chenxie2016@163.com"
 
+# 查看设置
+git config --list
+
 # check the origin URL AND modify the origin URL
 git remote -v
 git remote set-url origin <NEW_GIT_URL_HERE>
@@ -165,7 +168,7 @@ git push origin main
 
 ```bash
 # list branch list
-git branch
+git branch -a
 
 # change the default branch
 git config --global init.defaultBranch {branchName}
@@ -180,6 +183,19 @@ git checkout main
 # Switched to branch 'master'
 git merge iss53
 # merge iss53 to main
+```
+
+### 跟远程分支相关
+
+```bash
+# 要clone远程仓库时，如果想要特定分支时，先clone整个仓库，在切换到对应分支.以MaxKB为例
+git clone https://github.com/1Panel-dev/MaxKB
+
+# 查看远程有哪些分支
+git branch -a
+
+# 新建本地分支，链接远程分支
+git checkout -b release-2.0 origin/release-2.0
 ```
 
 - reference
