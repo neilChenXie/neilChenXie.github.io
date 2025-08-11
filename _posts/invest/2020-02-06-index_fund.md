@@ -1,8 +1,8 @@
 ---
 title: 大盘指数有哪些?
 date: 2020-02-06 10:46:15 +0800
-category: Invest
-tags: [stocks,funds]
+category: Stock｜股票与基金
+tags: [stock｜股票与基金]
 ---
 
 “百分之八十的主动型基金跑不过大盘”这基本是一个投资界的共识。

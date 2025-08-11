@@ -1,8 +1,8 @@
 ---
 title: 基金与个股，我应该怎么选择?
 date: 2020-01-18 17:46:15 +0800
-category: Invest
-tags: [stocks,funds]
+category: Stock｜股票与基金
+tags: [stock｜股票与基金]
 ---
 
 

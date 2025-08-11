@@ -5,7 +5,7 @@ permalink: /post/federal-reserve-best-conference-z1yrdio.html
 tags:
   - stock｜股票与基金
 categories:
-  - Investment｜投资
+  - Stock｜股票与基金
 layout: post
 published: true
 ---

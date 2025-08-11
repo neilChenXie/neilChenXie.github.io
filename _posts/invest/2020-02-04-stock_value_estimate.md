@@ -1,8 +1,8 @@
 ---
 title: 股票评估指标及估值
 date: 2020-02-06 10:46:15 +0800
-category: Invest
-tags: [stocks]
+category: Stock｜股票与基金
+tags: [stock｜股票与基金]
 ---
 
 EPS每股利润及EPS增速

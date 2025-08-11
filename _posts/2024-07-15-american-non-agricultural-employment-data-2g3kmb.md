@@ -5,7 +5,7 @@ permalink: /post/american-non-agricultural-employment-data-2g3kmb.html
 tags:
   - stock｜股票与基金
 categories:
-  - Investment｜投资
+  - Stock｜股票与基金
 layout: post
 published: true
 ---
