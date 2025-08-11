@@ -41,7 +41,7 @@
 
 	.left-slide {
 		padding: 2rem 0 2rem 3rem;
-		min-width: 300px;
+		min-width: 400px;
 		background: ghostwhite;
 	}
 
@@ -51,8 +51,8 @@
 
 
 	#big_toc {
-		width:200px;
-		/*position: fixed;*/
+		width:350px;
+		position: fixed;
 	}
 }
 
