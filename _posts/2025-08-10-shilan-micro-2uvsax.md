@@ -16,18 +16,17 @@ published: true
 
 # 摘要
 
-- 关注（20250810）
+## 关注（20250810）
 
-  - 22Q4~24Q3的扣非利润都不好，<span data-type="text" style="color: var(--b3-font-color13);">看今年，只要稳定</span>就比之前<span data-type="text" style="color: var(--b3-font-color13);">好</span>。
-  - 2025年Q2、Q3的业绩预告，利润上升有欺骗性，
+- 22Q4~24Q3的扣非利润都不好，<span data-type="text" style="color: var(--b3-font-color13);">看今年，只要稳定</span>就比之前<span data-type="text" style="color: var(--b3-font-color13);">好</span>。
+- 2025年Q2、Q3的预增业绩预告，有欺骗性。
 
-    - 因为2023年Q2~2024Q3**昱能科技、安路科技**的股价下跌过多，导致归母利润和扣非利润差异过大。
-    - 预告的利润上升，不代表真的，要等财报出来，看“扣非利润”。
-  - 2025年Q2~Q4 营收增长速度，是否持续增长。
-  - 市盈率
-  - 市盈率：75（动）、117（TTM）、205（静），<span data-type="text" style="color: var(--b3-font-color13);">较高</span>；需要至少稳定的<span data-type="text" style="color: var(--b3-font-color13);">扣非利润增速</span>
-  - 市净率：3.68，<span data-type="text" style="color: var(--b3-font-color13);">较高</span>；
-  - 分红：0.04元/股（2024年）。<span data-type="text" style="color: var(--b3-font-color13);">约等于没有。</span>
+  - 因为2023年Q2~2024Q3**昱能科技、安路科技**的股价下跌过多，导致归母利润和扣非利润差异过大。
+  - 预告的利润上升，不代表真的，要等财报出来，看“扣非利润”。
+- 2025年Q2~Q4 营收增长速度，是否持续增长。
+- 市盈率：75（动）、117（TTM）、205（静），<span data-type="text" style="color: var(--b3-font-color13);">较高</span>；需要至少稳定的<span data-type="text" style="color: var(--b3-font-color13);">扣非利润增速</span>
+- 市净率：3.68，<span data-type="text" style="color: var(--b3-font-color13);">较高</span>；
+- 分红：0.04元/股（2024年）。<span data-type="text" style="color: var(--b3-font-color13);">约等于没有。</span>
 
 # 详细记录
 
@@ -76,7 +75,7 @@ published: true
 
   - 营收2021年爆发。
   - 2022底-2023行业整体形式不好（外国复工、20-21年膨胀的需求泡沫破灭）营收一直比较稳定，不出彩。
-  - 2024营收到今年，营收<span data-type="text" style="color: var(--b3-font-color13);">稳定提升</span>，<span data-type="text" style="color: var(--b3-font-color13);">有随行业复苏增长加速的可能。</span>
+  - 2024营收到今年，营收<span data-type="text" style="color: var(--b3-font-color13);">稳定提升</span>{: style="color: var(--b3-font-color13);"}{: style="color: var(--b3-font-color13);"}{: style="color: var(--b3-font-color13);"}，<span data-type="text" style="color: var(--b3-font-color13);">有随行业复苏增长加速的可能。</span>{: style="color: var(--b3-font-color13);"}{: style="color: var(--b3-font-color13);"}{: style="color: var(--b3-font-color13);"}
   - ![image](https://cdn.jsdelivr.net/gh/neilChenXie/ChenVideo/pic/image-20250811115037-zbq37om.png)
 - 归母利润
 
