@@ -114,7 +114,9 @@ a {
       padding: 2rem 1rem;
       font-size: 1rem; } }
   .main-content img {
-    max-width: 100%; }
+      width: min(100%, 800px);
+      height: auto;
+      display: block; }
   .main-content h1,
   .main-content h2,
   .main-content h3,
