@@ -99,4 +99,12 @@ published: true
 
   - ![image](https://cdn.jsdelivr.net/gh/neilChenXie/ChenVideo/pic/image-20250812102214-79rvbjf.png)
 
+### 参考资料
+
+- [万华化学财报解读](https://chen-video.oss-cn-guangzhou.aliyuncs.com/backup/%E4%B8%87%E5%8D%8E%E5%8C%96%E5%AD%A6%E8%B4%A2%E6%8A%A5%E8%A7%A3%E8%AF%BB.mp4)
+
+  <div>
+  <video class="blog video" tyle="width:100%;height:auto" src="https://chen-video.oss-cn-guangzhou.aliyuncs.com/backup/%E4%B8%87%E5%8D%8E%E5%8C%96%E5%AD%A6%E8%B4%A2%E6%8A%A5%E8%A7%A3%E8%AF%BB.mp4" controls="controls" />
+  </div>
+
 ‍
