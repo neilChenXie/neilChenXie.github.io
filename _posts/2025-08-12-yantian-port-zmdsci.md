@@ -32,7 +32,9 @@ published: true
 - 原文：[盐田港（2024年报）.pdf](assets/盐田港（2024年报）-20250812235032-8rmph2c.pdf)
 - 营收持续下降，扣非利润却最近大涨。是因为参股公司的只贡献“扣非利润”，不贡献“营收”。
 - 因此，盐田港的收益，来自于参股公司（不过看名字，以及分得利润比例，盐田港是大股东）
-- [盐田港（2024年报）.pdf - p31 - 九、主要控股参股公司分析](assets/盐田港（2024年报）-20250812235032-8rmph2c.pdf#page=31)
+- [九、主要控股参股公司分析](assets/盐田港（2024年报）-20250812235032-8rmph2c.pdf#page=31)
 
-  - ![image](https://cdn.jsdelivr.net/gh/neilChenXie/ChenVideo/pic//pic/image-20250812234805-alh6tpn.png)
-  - ![image](https://cdn.jsdelivr.net/gh/neilChenXie/ChenVideo/pic//pic/image-20250812235250-6o780uf.png)​
+  - ![image](https://cdn.jsdelivr.net/gh/neilChenXie/ChenVideo//pic/image-20250812234805-alh6tpn.png)
+  - ![image](https://cdn.jsdelivr.net/gh/neilChenXie/ChenVideo/pic/image-20250812235250-6o780uf.png)​
+
+‍
