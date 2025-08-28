@@ -16,19 +16,42 @@ published: true
 
 # 摘要
 
-## 关注（20250810）
+- 关注点
 
-- 22Q4~24Q3的**扣非利润**都不好，<span data-type="text" style="color: var(--b3-font-color13);">看今年，只要稳定</span>就比之前<span data-type="text" style="color: var(--b3-font-color13);">好</span>。
-- 2025年Q2、Q3的**利润**​<span data-type="text" style="color: var(--b3-font-color13);">预增</span>业绩预告，<span data-type="text" style="color: var(--b3-font-color13);">有欺骗性</span>。
+  - 20250810
 
-  - 因为2023年Q2~2024Q3**昱能科技、安路科技**的股价下跌过多，导致归母利润和扣非利润差异过大。
-  - 预告的利润上升，不代表真的，要等财报出来，看“扣非利润”。
-- 2025年Q2~Q4 **营收**增长速度，是否持续增长。
-- 市盈率：75（动）、117（TTM）、205（静），<span data-type="text" style="color: var(--b3-font-color13);">较高</span>；需要至少稳定的<span data-type="text" style="color: var(--b3-font-color13);">扣非利润增速</span>
-- 市净率：3.68，<span data-type="text" style="color: var(--b3-font-color13);">较高</span>；
-- 分红：0.04元/股（2024年）。<span data-type="text" style="color: var(--b3-font-color13);">约等于没有。</span>
+    - 22Q4至24Q3的**扣非利润**都不好，<span data-type="text" style="color: var(--b3-font-color8);">看今年，只要稳定</span>就比之前<span data-type="text" style="color: var(--b3-font-color8);">好</span>。
+    - 2025年Q2、Q3的**利润**​<span data-type="text" style="color: var(--b3-font-color8);">预增</span>业绩预告，<span data-type="text" style="color: var(--b3-font-color8);">有欺骗性</span>。
+
+      - 因为2023年Q2~2024Q3**昱能科技、安路科技**的股价下跌过多，导致归母利润和扣非利润差异过大。
+      - 预告的利润上升，不代表真的，要等财报出来，看“扣非利润”。
+    - 2025年Q2~Q4 **营收**增长速度，是否持续增长。
+    - 市盈率：75（动）、117（TTM）、205（静），<span data-type="text" style="color: var(--b3-font-color8);">较高</span>；需要至少稳定的<span data-type="text" style="color: var(--b3-font-color13);">扣非利润增速</span>
+    - 市净率：3.68，<span data-type="text" style="color: var(--b3-font-color8);">较高</span>；
+    - 分红：0.04元/股（2024年）。<span data-type="text" style="color: var(--b3-font-color13);">约等于没有。</span>
+- 趋势
+
+  20250828：2025半年报利润比较稳定，市值修复中。
 
 # 详细记录
+
+## 关注点
+
+- 20250810
+
+  - 22Q4至24Q3的**扣非利润**都不好，<span data-type="text" style="color: var(--b3-font-color8);">看今年，只要稳定</span>就比之前<span data-type="text" style="color: var(--b3-font-color8);">好</span>。
+  - 2025年Q2、Q3的**利润**​<span data-type="text" style="color: var(--b3-font-color8);">预增</span>业绩预告，<span data-type="text" style="color: var(--b3-font-color8);">有欺骗性</span>。
+
+    - 因为2023年Q2~2024Q3**昱能科技、安路科技**的股价下跌过多，导致归母利润和扣非利润差异过大。
+    - 预告的利润上升，不代表真的，要等财报出来，看“扣非利润”。
+  - 2025年Q2~Q4 **营收**增长速度，是否持续增长。
+  - 市盈率：75（动）、117（TTM）、205（静），<span data-type="text" style="color: var(--b3-font-color8);">较高</span>；需要至少稳定的<span data-type="text" style="color: var(--b3-font-color13);">扣非利润增速</span>
+  - 市净率：3.68，<span data-type="text" style="color: var(--b3-font-color8);">较高</span>；
+  - 分红：0.04元/股（2024年）。<span data-type="text" style="color: var(--b3-font-color13);">约等于没有。</span>
+
+## 趋势
+
+20250828：2025半年报利润比较稳定，市值修复中。
 
 ## 财报原文及分析
 
