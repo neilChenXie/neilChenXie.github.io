@@ -19,31 +19,23 @@ published: true
 
 # 摘要
 
-## 泊位规划
+## 泊位规划及管理规定
 
-![IMG_6366](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_6366-20250911225303-f3d6bt2.jpeg)
+![IMG_6377](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_6377-20250912105125-iqkfl0r.jpeg)
 
-![IMG_6377](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_6377-20250911225419-2hc1v3k.jpeg)
+![IMG_6378](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_6378-20250912105135-74kbqtr.jpeg)
 
-![IMG_6378](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_6378-20250911225430-wx8l96p.jpeg)
+![IMG_6382](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_6382-20250912105143-m76cbjd.jpeg)
 
-![IMG_6381](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_6381-20250911225459-fu3uwpr.jpeg)
-
-![IMG_6392](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_6392-20250911225616-f10x7rn.jpeg)
+![IMG_6392](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_6392-20250912105247-i0n2mmg.jpeg)
 
 ## 港区
 
-![IMG_6368](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_6368-20250911225325-18wowzj.jpeg)
+![IMG_6362](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_6362-20250912105105-j7089k6.jpeg)
 
-![IMG_6362](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_6362-20250911225355-ssflfqo.jpeg)
+![IMG_6399](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_6399-20250912105403-7dktv9t.jpeg)
 
-![IMG_8218](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_8218-20250911225821-43dnb5z.jpeg)
-
-![IMG_6398](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_6398-20250911225731-5g51al6.jpeg)
-
-![IMG_6399](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_6399-20250911225743-q3bdc5m.jpeg)
-
-![IMG_6400](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_6400-20250911225751-buudry0.jpeg)
+![IMG_6400](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_6400-20250912140809-vm9xatk.jpeg)
 
 ## 码头作业
 
@@ -66,30 +58,22 @@ published: true
 </div>
 
 <div>
-<video class="blog video" tyle="width:100%;height:auto" src="https://chen-video.oss-cn-guangzhou.aliyuncs.com/work/IMG_6389.mp4" controls="controls" />
-</div>
-
-<div>
 <video class="blog video" tyle="width:100%;height:auto" src="https://chen-video.oss-cn-guangzhou.aliyuncs.com/work/IMG_6395.mp4" controls="controls" />
 </div>
 
-![IMG_6359](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_6359-20250911225138-bd4n7hd.jpeg)
+​
 
 ## 渔获及交易
 
-​
+![IMG_6387](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_6387-20250912105208-7ybyg1x.jpeg)
 
-![IMG_6387](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_6387-20250911225550-f7m30c5.jpeg)
+![IMG_6393](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_6393-20250912105258-jy1r7bs.jpeg)
 
-![IMG_6393](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_6393-20250911225642-5jsyytk.jpeg)
-
-‍
-
-![IMG_6386](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_6386-20250911225535-cqfjlrj.jpeg)
+![IMG_6394](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_6394-20250912105334-mj4l4aw.jpeg)
 
 ## 三无渔船
 
-![IMG_6364](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_6364-20250911225228-rjf23j7.jpeg)
+![IMG_6359](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_6359-20250912105051-egvipgb.jpeg)
 
 ## 渔港管护中心（现状）
 
@@ -103,74 +87,60 @@ published: true
 
 ## 水产品管理中心（在建）
 
-![IMG_9541](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_9541-20250911230959-uv27f3e.jpeg)
-
-![IMG_8403](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_8403-20250911225905-pbv0f8w.jpeg)
-
-![IMG_8404](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_8404-20250911225905-002uek5.jpeg)
-
-![IMG_8405](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_8405-20250911225905-wcx0700.jpeg)
-
-![IMG_8409](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_8409-20250911225905-1tccr4t.jpeg)
-
-![IMG_9726](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_9726-20250911231059-vwebznl.jpeg)
+![IMG_9541](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_9541-20250912151936-1lzfj35.jpeg)
 
 ## 信息化建设现状
 
-![IMG_8899](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_8899-20250911225959-zpg0t09.jpeg)
+![IMG_8899](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_8899-20250912140847-i1tsnas.jpeg)
 
-![IMG_8898](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_8898-20250911225959-arl6phd.jpeg)
+![IMG_8898](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_8898-20250912140857-hzrkviy.jpeg)
 
-![IMG_8904](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_8904-20250911230028-q3s393e.jpeg)
+![IMG_8904](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_8904-20250912140913-qh18poc.jpeg)![IMG_8913](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_8913-20250912150310-jjw0fjk.jpeg)
 
-![IMG_8913](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_8913-20250911230459-pjy8sfp.jpeg)
+![IMG_8915](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_8915-20250912150349-h0hzg1c.jpeg)
 
-![IMG_8901](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_8901-20250911230028-xn4wzqv.jpeg)
+![IMG_8917](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_8917-20250912150415-r62l27e.jpeg)
 
-![IMG_8907](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_8907-20250911230400-urz4sgo.jpeg)
+![IMG_8919](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_8919-20250912150501-l76ax2t.jpeg)
 
-![IMG_8911](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_8911-20250911230423-eevpftn.jpeg)
-
-![IMG_8908](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_8908-20250911230409-hpulvqh.jpeg)
-
-![IMG_8900](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_8900-20250911230028-nzpdoxc.jpeg)
-
-![IMG_8918](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_8918-20250911230537-r8367g3.jpeg)
-
-![IMG_8919](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_8919-20250911230526-g44gue2.jpeg)
+![IMG_8921](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_8921-20250912150525-uwp2q5y.jpeg)
 
 ## 旧码头扩建
 
 ### 南侧
 
-![IMG_8926](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_8926-20250911230645-iinsb1u.jpeg)
+![IMG_8922](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_8922-20250912150552-nf1dg82.jpeg)
 
-![IMG_8928](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_8928-20250911230645-a7udekj.jpeg)
+![IMG_8926](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_8926-20250912150552-vjgu4jt.jpeg)
 
 ### 北侧
 
-![IMG_9277](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_9277-20250911230826-svpga0p.jpeg)
+![IMG_9542](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_9542-20250912151924-kj3eu73.jpeg)
 
-![IMG_9279](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_9279-20250911230842-5xh43v4.jpeg)
+![IMG_9700](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_9700-20250912151910-ol273ic.jpeg)
 
-![IMG_9280](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_9280-20250911230852-9g5x2aw.jpeg)
+![IMG_9703](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_9703-20250912152420-iwz51ti.jpeg)
 
-![IMG_9542](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_9542-20250911230947-dobdqj2.jpeg)
+![IMG_9701](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_9701-20250912152350-8u6mdg1.jpeg)
 
-![IMG_9702](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_9702-20250911231018-u7zgy11.jpeg)
+![IMG_9277](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_9277-20250912152041-3bf7a9y.jpeg)
 
 ## 新建道路
 
-![IMG_9746](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_9746-20250911231118-yatorok.jpeg)
+![IMG_9746](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_9746-20250912151834-pjnyehl.jpeg)
 
-![IMG_9747](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_9747-20250911231118-7ez4gri.jpeg)
+![IMG_9747](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_9747-20250912151841-3uw2u34.jpeg)
 
-![IMG_9272](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_9272-20250911230645-dpkpitx.jpeg)
+![IMG_9276](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_9276-20250912152109-jolsv2p.jpeg)![b3c97620bb363e68a8bc0effb8ee24b1](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/b3c97620bb363e68a8bc0effb8ee24b1-20250912152248-3wjuo49.jpg)
+
+![833693e2169703fc65e274d3cbd37e84](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/833693e2169703fc65e274d3cbd37e84-20250912152310-ls04ewk.jpg)
+
+![IMG_9274](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_9274-20250912152127-tithzly.jpeg)
 
 ## 旧澳湾
 
-![IMG_9282](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_9282-20250911230924-0spyhq8.jpeg)
+![IMG_9282](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_9282-20250912152001-phu8pno.jpeg)
 
-![IMG_9283](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_9283-20250911230924-k4cb5jk.jpeg)
+![IMG_9283](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_9283-20250912152001-leafsvz.jpeg)
 
-![IMG_9284](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/IMG_9284-20250911230924-wyht9px.jpeg)
+![IMG_9284](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_9284-20250912152001-mq8kugi.jpeg)
