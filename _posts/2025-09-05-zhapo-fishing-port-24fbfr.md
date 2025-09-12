@@ -25,6 +25,8 @@ published: true
 
 ![IMG_6378](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_6378-20250912105135-74kbqtr.jpeg)
 
+![IMG_6366](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/pic/IMG_6366-20250912154537-bu86eq1.jpeg)
+
 ![IMG_6382](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_6382-20250912105143-m76cbjd.jpeg)
 
 ![IMG_6392](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/IMG_6392-20250912105247-i0n2mmg.jpeg)
