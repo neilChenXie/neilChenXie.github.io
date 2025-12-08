@@ -92,3 +92,7 @@ published: true
   <span data-type="text" style="color: var(--b3-font-color8);">11月16日： </span>[南京马拉松（金标、A1）](https://nanjing.marathon.org.cn/)<span data-type="text" style="color: var(--b3-font-color8);">；报名时间9月6日 - 9月13日</span>
 
   <span data-type="text" style="color: var(--b3-font-color8);">12月21日：</span>[ 广州马拉松（金标、A1）](http://www.guangzhou-marathon.com/)<span data-type="text" style="color: var(--b3-font-color8);">；报名时间9月5日-9月25日</span>
+
+## 跑步小工具
+
+- [配速计算器](https://running.biji.co/index.php?q=tools)
