@@ -60,6 +60,7 @@ published: true
   - 删掉src/components、src/assets下面的所有文件夹和文件
   - src/App.vue改成
 
+{% raw %}
     ```html
     <template><!--html内容-->
 
@@ -76,8 +77,11 @@ published: true
     	}
     </script>
     ```
+{% endraw %}
+
 - 示例（App.vue文件）
 
+{% raw %}
   - ```html
     <template>
       <h3>h3Title</h3>
@@ -105,9 +109,11 @@ published: true
     }
     </script>
     ```
+{% endraw %}
 
 ## 07：模板语法-属性绑定`v-bind:`​或`:`
 
+{% raw %}
 - ```html
   <template><!--html内容-->
    <!-- <div class="{{ msg }}">test</div> 不行-->
@@ -126,6 +132,8 @@ published: true
   }
   </script>
   ```
+{% endraw %}
+
 - 如果绑定的值是`null`​或者`undifinded`​，这个`attribute`会被移除。
 - 因为`v-bind:`​很常用，所以可以简化成`:`
 
@@ -137,6 +145,7 @@ published: true
   ![image](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/life/image-20250928094419-3gysbfa.png)
 - 绑定多个值
 
+{% raw %}
   ```html
   <template><!--html内容-->
    <div v-bind="objectAttrs"></div>
@@ -157,6 +166,7 @@ published: true
       }
   }
   ```
+{% endraw %}
 
 ## 08：条件渲染`v-if`​、`v-else`​、`v-else-if`​、`v-show`
 
@@ -168,6 +178,7 @@ published: true
 
 ## 09：列表渲染`v-for`
 
+{% raw %}
 - ```html
   <template><!--html内容-->
       <h3>列表渲染</h3>
@@ -219,6 +230,7 @@ published: true
   	}
   </script>
   ```
+{% endraw %}
 
 ## 10：通过key管理状态（对`v-for`的补充）
 

@@ -39,3 +39,7 @@ defaults:
       values:
         layout: post
         permalink: :categories/:title/
+
+# Liquid会与代码块中的大量代码冲突
+exclude:
+  - "./_posts/2025-12-15-vue-from-beginner-to-proficient-1v0els.md"
