@@ -408,6 +408,7 @@ export default {
 
 #### 15：计算属性：（与函数的区别，只要值不变，计算属性不会重复运算，函数每次重新运算）
 
+{% raw %}
 - ```html
   <template><!--html内容-->
       <!-- 不容易维护 -->
@@ -446,6 +447,7 @@ export default {
   	}
   </script>
   ```
+{% endraw %}
 
 #### 16：Class绑定：`:class=""`中，可以绑定对象、数组
 
@@ -646,7 +648,7 @@ export default {
 
 ![image](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/image-20251004104025-ioemoqp.png)
 
-#### 21：组件组成 `<style scoped>`(仅当前文件，不加就是全局样式）
+#### 21：组件组成 `style scoped` (仅当前文件，不加就是全局样式）
 
 官方文档：[https://cn.vuejs.org/guide/essentials/component-basics.html](https://cn.vuejs.org/guide/essentials/component-basics.html)
 
@@ -672,6 +674,7 @@ export default {
 
 #### 24：组件传参`props`,只能父传子，不能子传父
 
+{% raw %}
 ```html
 <!--Parent.vue-->
 <template><!--html内容-->
@@ -718,6 +721,7 @@ import Child from './Child.vue';
 	}
 </script>
 ```
+{% endraw %}
 
 #### 25：传参的数据类型（数字、数组、对象都可以）
 
@@ -1005,7 +1009,7 @@ import PropFunChildDemo from './PropFunChildDemo.vue';
         }
     </script>
     ```
-- **插槽内容，需要使用父组件和子组件的内容时，父级**​`<template #插槽名="名称">{{名称.参数名}}`​ **，子级**​`<slot :参数名=子级参数>`
+- **插槽内容，需要使用父组件和子组件的内容时，父级**​`<template #插槽名="名称">{% raw %}{{名称.参数名}}{% endraw %}`​ **，子级**​`<slot :参数名=子级参数>`
 
   - **非具名插槽**情况
 

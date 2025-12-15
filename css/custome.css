@@ -53,6 +53,9 @@
 	#big_toc {
 		width:350px;
 		position: fixed;
+		top: 2rem;
+		height: calc(100vh - 4rem);
+		overflow-y: auto;
 	}
 }
 
