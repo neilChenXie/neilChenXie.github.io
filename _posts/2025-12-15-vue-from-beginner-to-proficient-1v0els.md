@@ -63,7 +63,6 @@ published: true
 - src/App.vue改成
 
 {% raw %}
-
 ```html
 <template><!--html内容-->
 
@@ -80,7 +79,6 @@ published: true
 	}
 </script>
 ```
-
 {% endraw %}
 
 ‍
