@@ -14,15 +14,15 @@ published: true
 
 # Vue从入门到精通
 
-# 摘要
+## 摘要
 
-## 视频链接
+### 视频链接
 
 教程：[https://www.bilibili.com/video/BV1rgnFzMEp4](https://www.bilibili.com/video/BV1rgnFzMEp4)
 
 视频备份：移动硬盘，尚未上传。
 
-## 主要内容
+### 主要内容
 
 1. v-if : 销毁渲染 , 占用资源
 2. v-show : 对属性的设置, display: none 隐藏
@@ -33,16 +33,16 @@ published: true
 7. v-for 遍历数据
 8. v-text ，v-html：区别于 v-html显而易见可以解析 html标签元素
 
-## 后续学习内容
+### 后续学习内容
 
 - 如何进行ajax请求
 - 其他vue插件
 
-# 详细记录
+## 详细记录
 
-## 基础
+### 基础
 
-### 04：Vue开发前的准备
+#### 04：Vue开发前的准备
 
 - ​`npm init vue@latest` 项目名，不要有大写
 
@@ -50,12 +50,12 @@ published: true
 -  `npm intall`​ 可以用`cnpm install`替代（用国内镜像安装）
 - ​`npm run dev` 运行
 
-### 05：目录结构
+#### 05：目录结构
 
 - 关键：src、vite.config.js
 - ![image](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/image-20250926163424-9ed4j1r.png)
 
-### 06：模板语法（开始编程、文本绑定`{{ msg }}`）
+#### 06：模板语法（开始编程、文本绑定`{{ msg }}`）
 
 - 准备工作：
 
@@ -108,7 +108,7 @@ published: true
     </script>
     ```
 
-### 07：模板语法-属性绑定`v-bind:`​或`:`
+#### 07：模板语法-属性绑定`v-bind:`​或`:`
 
 - ```html
   <template><!--html内容-->
@@ -160,7 +160,7 @@ published: true
   }
   ```
 
-### 08：条件渲染`v-if`​、`v-else`​、`v-else-if`​、`v-show`
+#### 08：条件渲染`v-if`​、`v-else`​、`v-else-if`​、`v-show`
 
 - ​`v-if`​和`v-show`比较
 
@@ -168,7 +168,7 @@ published: true
   - ​`v-show`​只是控制css的`display`参数
   - 总的来说，`v-if`​有更高的切换开销，而 `v-show`​ 有更高的初始渲染开销。因此，如果需要频繁切换，则使用`v-show`​ 较好;如果在运行时绑定条件很少改变，则`v-if`会更合适
 
-### 09：列表渲染`v-for`
+#### 09：列表渲染`v-for`
 
 - ```html
   <template><!--html内容-->
@@ -222,7 +222,7 @@ published: true
   </script>
   ```
 
-### 10：通过key管理状态（对`v-for`的补充）
+#### 10：通过key管理状态（对`v-for`的补充）
 
 - 推荐在任何时候都要为`v-for`​提供一个`key`属性
 - ```html
@@ -264,7 +264,7 @@ published: true
   </script>
   ```
 
-### 11：事件处理`v-on`​或者`@`​，`@click=“jsFunction”`
+#### 11：事件处理`v-on`​或者`@`​，`@click=“jsFunction”`
 
 - ```html
   <template><!--html内容-->
@@ -295,7 +295,7 @@ published: true
   </script>
   ```
 
-### 12：事件传参：默认传入`event`​对象，传入`变量`​，指定传入事件`$event`
+#### 12：事件传参：默认传入`event`​对象，传入`变量`​，指定传入事件`$event`
 
 - ```html
   <template><!--html内容-->
@@ -331,11 +331,11 @@ published: true
   </script>
   ```
 
-### 13：事件修饰符：`.stop`​、`.prevent`​、`.once`​、`.enter`
+#### 13：事件修饰符：`.stop`​、`.prevent`​、`.once`​、`.enter`
 
 - 官方文档：[https://cn.vuejs.org/guide/essentials/event-handling.html#event-modifiers](https://cn.vuejs.org/guide/essentials/event-handling.html#event-modifiers)
 
-### 14：数组变化侦测（数组变化时，UI自动更新`.push()`​or不更新`.concat()`）
+#### 14：数组变化侦测（数组变化时，UI自动更新`.push()`​or不更新`.concat()`）
 
 - 更新：`.push()`​, `.pop()`​, `.shift()`​, `.unshift()`​, `.splice()`​, `.sort()`​, `.reverse()`
 - 不更新：`.filter()`​、`.concat()`​、`.slice()`
@@ -381,7 +381,7 @@ published: true
   </script>
   ```
 
-### 15：计算属性：（与函数的区别，只要值不变，计算属性不会重复运算，函数每次重新运算）
+#### 15：计算属性：（与函数的区别，只要值不变，计算属性不会重复运算，函数每次重新运算）
 
 - ```html
   <template><!--html内容-->
@@ -422,7 +422,7 @@ published: true
   </script>
   ```
 
-### 16：Class绑定：`:class=""`中，可以绑定对象、数组
+#### 16：Class绑定：`:class=""`中，可以绑定对象、数组
 
 - 官方文档：[https://cn.vuejs.org/guide/essentials/class-and-style.html#binding-html-classes](https://cn.vuejs.org/guide/essentials/class-and-style.html#binding-html-classes)
 - ```html
@@ -482,9 +482,9 @@ published: true
   </style>
   ```
 
-### 17：Style绑定：真实使用推荐用`class`绑定，style权重太高，后期不好改。
+#### 17：Style绑定：真实使用推荐用`class`绑定，style权重太高，后期不好改。
 
-### 18：侦听器
+#### 18：侦听器
 
 - ```html
   <!--选项式API-->
@@ -518,7 +518,7 @@ published: true
   </script>
   ```
 
-### 19：表单绑定 `v-model`​、`.lazy`​、`.trim`​、`.number`
+#### 19：表单绑定 `v-model`​、`.lazy`​、`.trim`​、`.number`
 
 官方文档：[https://cn.vuejs.org/guide/essentials/forms.html](https://cn.vuejs.org/guide/essentials/forms.html)
 
@@ -575,7 +575,7 @@ published: true
 </script>
 ```
 
-### 20：模板引用 `ref`​、`this.$refs`（除非不得已，不要操作DOM，性能开销大）
+#### 20：模板引用 `ref`​、`this.$refs`（除非不得已，不要操作DOM，性能开销大）
 
 ```html
 <template><!--html内容-->
@@ -617,18 +617,18 @@ published: true
 </script>
 ```
 
-## 组件结构
+### 组件结构
 
 ![image](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/image-20251004104025-ioemoqp.png)
 
-### 21：组件组成 `<style scoped>`(仅当前文件，不加就是全局样式）
+#### 21：组件组成 `<style scoped>`(仅当前文件，不加就是全局样式）
 
 官方文档：[https://cn.vuejs.org/guide/essentials/component-basics.html](https://cn.vuejs.org/guide/essentials/component-basics.html)
 
 - 组件被引用多次，每个组件里的变量相互独立。
 - 推荐用`PascalCase`​的标签名，即`<buttonCounter />`
 
-### 23：组件注册：全局`main.js`vs局部
+#### 23：组件注册：全局`main.js`vs局部
 
 - 不推荐`全局`的场景：①没有实际被使用的；②使大型项目的依赖关系变得不明确，影响长期维护性
 - ```js
@@ -645,7 +645,7 @@ published: true
   app.mount('#app')
   ```
 
-### 24：组件传参`props`,只能父传子，不能子传父
+#### 24：组件传参`props`,只能父传子，不能子传父
 
 ```html
 <!--Parent.vue-->
@@ -694,9 +694,9 @@ import Child from './Child.vue';
 </script>
 ```
 
-### 25：传参的数据类型（数字、数组、对象都可以）
+#### 25：传参的数据类型（数字、数组、对象都可以）
 
-### 26：传参Props校验、`default`​值的设置、`required`​必传项，不能通过`this.参数=`​来修改传来的`Props`里的参数（只读的）
+#### 26：传参Props校验、`default`​值的设置、`required`​必传项，不能通过`this.参数=`​来修改传来的`Props`里的参数（只读的）
 
 ```html
 <!--Child.vue-->
@@ -738,7 +738,7 @@ import Child from './Child.vue';
 </script>
 ```
 
-### 27：组件事件 `$emit`，实现参数“子传父”
+#### 27：组件事件 `$emit`，实现参数“子传父”
 
 ```html
 <!--Parent-->
@@ -792,7 +792,7 @@ import Child from './Child.vue';
 </script>
 ```
 
-### 28：组件事件配合`v-model`使用（场景：组件A中输入，组件B实时接收）
+#### 28：组件事件配合`v-model`使用（场景：组件A中输入，组件B实时接收）
 
 ```html
 <!--Child-->
@@ -857,7 +857,7 @@ import Child from './Child.vue';
 </script>
 ```
 
-### 29：组件通过`props`实现数据子传父传递
+#### 29：组件通过`props`实现数据子传父传递
 
 ```html
 <!--Parent-->
@@ -930,13 +930,13 @@ import PropFunChildDemo from './PropFunChildDemo.vue';
 </script>
 ```
 
-### 30：透传属性Attributes（实际使用较少）
+#### 30：透传属性Attributes（实际使用较少）
 
-## 插槽
+### 插槽
 
 官方文档：[https://cn.vuejs.org/guide/components/slots.html](https://cn.vuejs.org/guide/components/slots.html)
 
-### 31：`<slot>`基础
+#### 31：`<slot>`基础
 
 - **渲染作用域**：插槽可以访问父级的数据，所以，`{{ msg }}`等变量，需要在父级中定义
 - 插槽默认值`<slot>默认值</slot>`，在父级没有传任何内容时，显示
@@ -1072,9 +1072,9 @@ import PropFunChildDemo from './PropFunChildDemo.vue';
       </script>   
       ```
 
-## 组件生命周期'
+### 组件生命周期'
 
-### 基础知识
+#### 基础知识
 
 生命周期钩子函数，来控制Vue组件的初始化时机（设置好侦听，编译模板，挂载实例到DOM，数据变化时更新DOM）
 
@@ -1136,9 +1136,9 @@ import PropFunChildDemo from './PropFunChildDemo.vue';
 </script> 
 ```
 
-### 生命周期的应用
+#### 生命周期的应用
 
-### 动态组件 **​`<component :is="componentName">`​** 
+#### 动态组件 **​`<component :is="componentName">`​** 
 
 关键：不能使用`<script setup>`​来`import`组件
 
@@ -1257,7 +1257,7 @@ import PropFunChildDemo from './PropFunChildDemo.vue';
 </script>
 ```
 
-### 保持组件存活`<keep-alive>`
+#### 保持组件存活`<keep-alive>`
 
 在console中，能看到
 
@@ -1388,7 +1388,7 @@ import PropFunChildDemo from './PropFunChildDemo.vue';
 </script>
 ```
 
-### 异步组件
+#### 异步组件
 
 官方文档：[https://cn.vuejs.org/guide/components/async.html](https://cn.vuejs.org/guide/components/async.html)
 
@@ -1536,7 +1536,7 @@ import PropFunChildDemo from './PropFunChildDemo.vue';
 </script>
 ```
 
-### 依赖注入(`props`​逐级透传：`provide`​、`inject`）
+#### 依赖注入(`props`​逐级透传：`provide`​、`inject`）
 
 官方文档：[https://cn.vuejs.org/guide/components/provide-inject.html](https://cn.vuejs.org/guide/components/provide-inject.html)
 
@@ -1635,7 +1635,7 @@ app.mount('#app')
 </script>
 ```
 
-## Vue应用
+### Vue应用
 
 官方文档：[https://cn.vuejs.org/guide/essentials/application.html](https://cn.vuejs.org/guide/essentials/application.html)
 
