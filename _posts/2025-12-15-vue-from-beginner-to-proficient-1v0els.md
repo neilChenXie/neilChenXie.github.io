@@ -57,56 +57,57 @@ published: true
 
 #### 06：模板语法（开始编程、文本绑定`{{ msg }}`）
 
-- 准备工作：
+准备工作：
 
-  - 删掉src/components、src/assets下面的所有文件夹和文件
-  - src/App.vue改成
+- 删掉src/components、src/assets下面的所有文件夹和文件
+- src/App.vue改成
 
-    ```html
-    <template><!--html内容-->
+  ```html
+  <template><!--html内容-->
 
-    </template>
+  </template>
 
-    <!--js code-->
-    <script>
-    	export default {
-    		data (){
-    			return {
-    				
-    			}
-    		}
-    	}
-    </script>
-    ```
-- 示例（App.vue文件）
+  <!--js code-->
+  <script>
+  	export default {
+  		data (){
+  			return {
+  				
+  			}
+  		}
+  	}
+  </script>
+  ```
 
-  - ```html
-    <template>
-      <h3>h3Title</h3>
-      <p>{{ msg }}</p>
-      <p>{{ number++ }}</p>
-      <p>{{ ok ? 'yes' : 'no' }}</p>
-      <p>{{ message.split("").reverse().join("") }}</p>
-      <!-- <p>{{ var a=10 }}</p> -->
-      <!-- <p>{{ if(ok){return message} }}</p> -->
-      <p v-html="rawHtml"></p>
-      <p>{{ rawHtml }}</p>
-    </template>
+示例（App.vue文件）
 
-    <script>
-    export default {
-      data(){
-        return{
-          msg:"神奇的语法",
-          number:10,
-          ok:true,
-          message:"大家好",
-          rawHtml:"<a href='https://baidu.com'>百度链接</a>"
-        }
-      } 
-    }
-    </script>
-    ```
+- ```html
+  <template>
+    <h3>h3Title</h3>
+    <p>{{ msg }}</p>
+    <p>{{ number++ }}</p>
+    <p>{{ ok ? 'yes' : 'no' }}</p>
+    <p>{{ message.split("").reverse().join("") }}</p>
+    <!-- <p>{{ var a=10 }}</p> -->
+    <!-- <p>{{ if(ok){return message} }}</p> -->
+    <p v-html="rawHtml"></p>
+    <p>{{ rawHtml }}</p>
+  </template>
+
+  <script>
+  export default {
+    data(){
+      return{
+        msg:"神奇的语法",
+        number:10,
+        ok:true,
+        message:"大家好",
+        rawHtml:"<a href='https://baidu.com'>百度链接</a>"
+      }
+    } 
+  }
+  </script>
+  ```
 
 #### 07：模板语法-属性绑定`v-bind:`​或`:`
 
