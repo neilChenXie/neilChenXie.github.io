@@ -44,16 +44,19 @@ published: true
 
 #### 04：Vue开发前的准备
 
-- ​`npm init vue@latest` 项目名，不要有大写
+​`npm init vue@latest` 项目名，不要有大写
 
-  ![image](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/image-20250926161811-nsfr88r.png)
--  `npm intall`​ 可以用`cnpm install`替代（用国内镜像安装）
-- ​`npm run dev` 运行
+![image](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/image-20250926161811-nsfr88r.png)
+
+​`npm intall`​ 可以用`cnpm install`替代（用国内镜像安装）
+
+​`npm run dev` 运行
 
 #### 05：目录结构
 
-- 关键：src、vite.config.js
-- ![image](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/image-20250926163424-9ed4j1r.png)
+关键：src、vite.config.js
+
+![image](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/image-20250926163424-9ed4j1r.png)
 
 #### 06：模板语法（开始编程、文本绑定`{{ msg }}`）
 
@@ -183,11 +186,11 @@ export default {
 
 #### 08：条件渲染`v-if`​、`v-else`​、`v-else-if`​、`v-show`
 
-- ​`v-if`​和`v-show`比较
+​`v-if`​和`v-show`比较
 
-  - ​`v-if`​ 是“真实”地按条件渲染，他确保了条件块内的事件监听和子组件会被<span data-type="text" style="color: var(--b3-font-color8);">销毁和重建。</span>同时，它也是<span data-type="text" style="color: var(--b3-font-color8);">惰性</span>的
-  - ​`v-show`​只是控制css的`display`参数
-  - 总的来说，`v-if`​有更高的切换开销，而 `v-show`​ 有更高的初始渲染开销。因此，如果需要频繁切换，则使用`v-show`​ 较好;如果在运行时绑定条件很少改变，则`v-if`会更合适
+- ​`v-if`​ 是“真实”地按条件渲染，他确保了条件块内的事件监听和子组件会被<span data-type="text" style="color: var(--b3-font-color8);">销毁和重建。</span>同时，它也是<span data-type="text" style="color: var(--b3-font-color8);">惰性</span>的
+- ​`v-show`​只是控制css的`display`参数
+- 总的来说，`v-if`​有更高的切换开销，而 `v-show`​ 有更高的初始渲染开销。因此，如果需要频繁切换，则使用`v-show`​ 较好;如果在运行时绑定条件很少改变，则`v-if`会更合适
 
 #### 09：列表渲染`v-for`
 
@@ -249,301 +252,303 @@ export default {
 
 #### 10：通过key管理状态（对`v-for`的补充）
 
-- 推荐在任何时候都要为`v-for`​提供一个`key`属性
-- ```html
-  <template><!--html内容-->
-      <h3>Key属性添加到v-for中</h3>
-      <p v-for="(item,index) in names" :key="index">{{ item }}</p>
-  	<!--不建议用index作为key-->
-  	<!--用数据对应的唯一ID作为key-->
-  	 <p v-for="(value,key,index) in result" :key="value.id">{{ value.title }}</p>
-  </template>
+推荐在任何时候都要为`v-for`​提供一个`key`属性
 
-  <!--js code-->
-  <script>
-  	export default {
-          data() {
-  			return {
-  				names:["AA","BB","CC"],
-  				result: [
-                      {
-                          "id":11,
-                          "title":"AA",
-                          "url":"https://baidu.com"
+```html
+<template><!--html内容-->
+    <h3>Key属性添加到v-for中</h3>
+    <p v-for="(item,index) in names" :key="index">{{ item }}</p>
+	<!--不建议用index作为key-->
+	<!--用数据对应的唯一ID作为key-->
+	 <p v-for="(value,key,index) in result" :key="value.id">{{ value.title }}</p>
+</template>
 
-                      },
-                      {
-                          "id":22,
-                          "title":"BB",
-                          "url":"https://google.com"
-                      },
-                      {
-                          "id":33,
-                          "title":"CC",
-                          "url":"https://quark.com"
-                      }
-                  ]
-  			}
-  		}
-  	}
-  </script>
-  ```
+<!--js code-->
+<script>
+	export default {
+        data() {
+			return {
+				names:["AA","BB","CC"],
+				result: [
+                    {
+                        "id":11,
+                        "title":"AA",
+                        "url":"https://baidu.com"
+
+                    },
+                    {
+                        "id":22,
+                        "title":"BB",
+                        "url":"https://google.com"
+                    },
+                    {
+                        "id":33,
+                        "title":"CC",
+                        "url":"https://quark.com"
+                    }
+                ]
+			}
+		}
+	}
+</script>
+```
 
 #### 11：事件处理`v-on`​或者`@`​，`@click=“jsFunction”`
 
-- ```html
-  <template><!--html内容-->
-      <h3>内联事件处理器</h3>
-      <button @click="count++">add</button>
-      <p>{{ count }}</p>
+```html
+<template><!--html内容-->
+    <h3>内联事件处理器</h3>
+    <button @click="count++">add</button>
+    <p>{{ count }}</p>
 
-      <h3>方法事件处理器</h3>
-      <button @click="addCount">add</button>
-      <p>{{ count2 }}</p>
-  </template>
+    <h3>方法事件处理器</h3>
+    <button @click="addCount">add</button>
+    <p>{{ count2 }}</p>
+</template>
 
-  <!--js code-->
-  <script>
-  	export default {
-  		data (){
-  			return {
-  				count:0,
-                  count2:0
-  			}
-  		},
-          methods:{
-              addCount(){
-                  this.count2 +=1
-              }
-          }
-  	}
-  </script>
-  ```
+<!--js code-->
+<script>
+	export default {
+		data (){
+			return {
+				count:0,
+                count2:0
+			}
+		},
+        methods:{
+            addCount(){
+                this.count2 +=1
+            }
+        }
+	}
+</script>
+```
 
 #### 12：事件传参：默认传入`event`​对象，传入`变量`​，指定传入事件`$event`
 
-- ```html
-  <template><!--html内容-->
-      <h3>事件传参</h3>
-      <button @click="addCount">add</button>
-      <p>{{ count }}</p>
+```html
+<template><!--html内容-->
+    <h3>事件传参</h3>
+    <button @click="addCount">add</button>
+    <p>{{ count }}</p>
 
-      <p @click="getNameHandler(value,$event)" v-for="(value,index) of names" :key="index">{{ value }}</p>
-  </template>
+    <p @click="getNameHandler(value,$event)" v-for="(value,index) of names" :key="index">{{ value }}</p>
+</template>
 
-  <!--js code-->
-  <script>
-  	export default {
-  		data (){
-  			return {
-  				count:0,
-                  names:["owen","amy","frank"]
-  			}
-  		},
-          methods:{
-              //传递Event对象
-              addCount(e){
-                  // console.log(e);
-                  e.target.innerHTML = "Add" + this.count;
-                  this.count +=1
-              },
-              getNameHandler(name,e){
-                  console.log(name);
-                  console.log(e);
-              }
-          }
-  	}
-  </script>
-  ```
+<!--js code-->
+<script>
+	export default {
+		data (){
+			return {
+				count:0,
+                names:["owen","amy","frank"]
+			}
+		},
+        methods:{
+            //传递Event对象
+            addCount(e){
+                // console.log(e);
+                e.target.innerHTML = "Add" + this.count;
+                this.count +=1
+            },
+            getNameHandler(name,e){
+                console.log(name);
+                console.log(e);
+            }
+        }
+	}
+</script>
+```
 
 #### 13：事件修饰符：`.stop`​、`.prevent`​、`.once`​、`.enter`
 
-- 官方文档：[https://cn.vuejs.org/guide/essentials/event-handling.html#event-modifiers](https://cn.vuejs.org/guide/essentials/event-handling.html#event-modifiers)
+官方文档：[https://cn.vuejs.org/guide/essentials/event-handling.html#event-modifiers](https://cn.vuejs.org/guide/essentials/event-handling.html#event-modifiers)
 
 #### 14：数组变化侦测（数组变化时，UI自动更新`.push()`​or不更新`.concat()`）
 
-- 更新：`.push()`​, `.pop()`​, `.shift()`​, `.unshift()`​, `.splice()`​, `.sort()`​, `.reverse()`
-- 不更新：`.filter()`​、`.concat()`​、`.slice()`
-- ```html
-  <template><!--html内容-->
-      <button @click="addListHandler">add</button>
-      <ul>
-          <li v-for="(value,index) in names" :key="index">{{ value }}</li>
-      </ul>
-      <button @click="combineNumHandler">合并数组</button>
-      <h3>数据1</h3>
-      <p v-for="(item,index) of num1" :key="index">{{ item }}</p>
-      <h3>数据2</h3>
-      <p v-for="(item,index) of num2" :key="index">{{ item }}</p>
-  </template>
+更新：`.push()`​, `.pop()`​, `.shift()`​, `.unshift()`​, `.splice()`​, `.sort()`​, `.reverse()`
 
-  <!--js code-->
-  <script>
-  	export default {
-  		data (){
-  			return {
-  				names:["bill","Mick","amy"],
-                  num1:[1,2,3,4],
-                  num2:[5,6,7,8]
-  			}
-  		},
-          methods:{
-              addListHandler(){
-                  //引起UI自动更新
-                  this.names.push("sakura")
-                  //不引起UI自动更新
-                  this.name.concat(["sakura"])
-                  console.log(names)
-                  //如果要更新需要
-                  this.name = this.name.concat(["sakura"])
-              },
-              combineNumHandler(){
-                  this.num1 = this.num1.concat(this.num2)
-                  // this.num1.push(this.num2)
-              }
-          }
-  	}
-  </script>
-  ```
+不更新：`.filter()`​、`.concat()`​、`.slice()`
+
+```html
+<template><!--html内容-->
+    <button @click="addListHandler">add</button>
+    <ul>
+        <li v-for="(value,index) in names" :key="index">{{ value }}</li>
+    </ul>
+    <button @click="combineNumHandler">合并数组</button>
+    <h3>数据1</h3>
+    <p v-for="(item,index) of num1" :key="index">{{ item }}</p>
+    <h3>数据2</h3>
+    <p v-for="(item,index) of num2" :key="index">{{ item }}</p>
+</template>
+
+<!--js code-->
+<script>
+	export default {
+		data (){
+			return {
+				names:["bill","Mick","amy"],
+                num1:[1,2,3,4],
+                num2:[5,6,7,8]
+			}
+		},
+        methods:{
+            addListHandler(){
+                //引起UI自动更新
+                this.names.push("sakura")
+                //不引起UI自动更新
+                this.name.concat(["sakura"])
+                console.log(names)
+                //如果要更新需要
+                this.name = this.name.concat(["sakura"])
+            },
+            combineNumHandler(){
+                this.num1 = this.num1.concat(this.num2)
+                // this.num1.push(this.num2)
+            }
+        }
+	}
+</script>
+```
 
 #### 15：计算属性：（与函数的区别，只要值不变，计算属性不会重复运算，函数每次重新运算）
 
-{% raw %}
-- ```html
-  <template><!--html内容-->
-      <!-- 不容易维护 -->
-      <p >{{ this.testContent.content.length > 0 ? 'Yes' : 'No' }}</p>
-      <!-- 计算1次 -->
-      <p>{{ hasValue }}</p>
-      <p>{{ hasValue }}</p>
-      <p>{{ hasValue }}</p>
-      <!-- 计算3次 -->
-      <p>{{ hasValueHandler() }}</p>
-      <p>{{ hasValueHandler() }}</p>
-      <p>{{ hasValueHandler() }}</p>
-  </template>
+```html
+<template><!--html内容-->
+    <!-- 不容易维护 -->
+    <p >{{ this.testContent.content.length > 0 ? 'Yes' : 'No' }}</p>
+    <!-- 计算1次 -->
+    <p>{{ hasValue }}</p>
+    <p>{{ hasValue }}</p>
+    <p>{{ hasValue }}</p>
+    <!-- 计算3次 -->
+    <p>{{ hasValueHandler() }}</p>
+    <p>{{ hasValueHandler() }}</p>
+    <p>{{ hasValueHandler() }}</p>
+</template>
 
-  <!--js code-->
-  <script>
-  	export default {
-  		data (){
-  			return {
-  				testContent:{
-                      name:"bill",
-                      content:["AA","BB"]
-                  }
-  			}
-  		},
-          computed:{
-              hasValue(){
-                  return this.testContent.content.length > 0 ? 'Yes' : 'No'
-              }
-          },
-          methods:{
-              hasValueHandler(){
-                  return this.testContent.content.length > 0 ? 'Yes' : 'No'
-              }
-          }
-  	}
-  </script>
-  ```
-{% endraw %}
+<!--js code-->
+<script>
+	export default {
+		data (){
+			return {
+				testContent:{
+                    name:"bill",
+                    content:["AA","BB"]
+                }
+			}
+		},
+        computed:{
+            hasValue(){
+                return this.testContent.content.length > 0 ? 'Yes' : 'No'
+            }
+        },
+        methods:{
+            hasValueHandler(){
+                return this.testContent.content.length > 0 ? 'Yes' : 'No'
+            }
+        }
+	}
+</script>
+```
 
 #### 16：Class绑定：`:class=""`中，可以绑定对象、数组
 
-- 官方文档：[https://cn.vuejs.org/guide/essentials/class-and-style.html#binding-html-classes](https://cn.vuejs.org/guide/essentials/class-and-style.html#binding-html-classes)
-- ```html
-  <template><!--html内容-->
-      <!-- id不能解析，Class可以解析 -->
-      <p :id="{ 'active':isActive,'hasError':hasError }" :class="{ 'active':isActive,'hasError':hasError }">Class样式绑定</p>
-      <!-- 对象 -->
-      <p :class="classObject">Class样式绑定2</p>
-      <!-- 数组 -->
-      <p :class="[arrActive, arrHasError]">Class样式绑定3</p>
-      <!-- 数组里嵌套对象（不能对象里嵌套数组），不推荐，不好理解 -->
-      <p :class="[ isActive? 'active' : '',{'hasError':hasError}]">Class样式绑定4</p>
-      <button @click="showObjectHandler">check</button>
-      <button @click="activeTrueHandler">activeTrue</button>
-      <button @click="hasErrorTrueHandler">hasErrorTrue</button>
-  </template>
+官方文档：[https://cn.vuejs.org/guide/essentials/class-and-style.html#binding-html-classes](https://cn.vuejs.org/guide/essentials/class-and-style.html#binding-html-classes)
 
-  <!--js code-->
-  <script>
-  	export default {
-  		data (){
-  			return {
-  				isActive:true,
-                  hasError:true,
-                  classObject:{
-                      'active':this.isActive,
-                      'hasError':this.hasError
-                  },
-                  arrActive:'active', 
-                  arrHasError:'hasError',
-                  'active':true
-  			}
-  		},
-          methods:{
-              showObjectHandler(){
-                  console.log(this.classObject)
-              },
-              activeTrueHandler(){
-                  this.isActive=true
-              },
-              hasErrorTrueHandler(){
-                  this.hasError=true
-              }
-          },
-          computed:{
+```html
+<template><!--html内容-->
+    <!-- id不能解析，Class可以解析 -->
+    <p :id="{ 'active':isActive,'hasError':hasError }" :class="{ 'active':isActive,'hasError':hasError }">Class样式绑定</p>
+    <!-- 对象 -->
+    <p :class="classObject">Class样式绑定2</p>
+    <!-- 数组 -->
+    <p :class="[arrActive, arrHasError]">Class样式绑定3</p>
+    <!-- 数组里嵌套对象（不能对象里嵌套数组），不推荐，不好理解 -->
+    <p :class="[ isActive? 'active' : '',{'hasError':hasError}]">Class样式绑定4</p>
+    <button @click="showObjectHandler">check</button>
+    <button @click="activeTrueHandler">activeTrue</button>
+    <button @click="hasErrorTrueHandler">hasErrorTrue</button>
+</template>
 
-          }
-  	}
-  </script>
-  <style>
-  .active{
-      font-size:30px
-  }
-  .hasError{
-      color:red;
-  }
-  </style>
-  ```
+<!--js code-->
+<script>
+	export default {
+		data (){
+			return {
+				isActive:true,
+                hasError:true,
+                classObject:{
+                    'active':this.isActive,
+                    'hasError':this.hasError
+                },
+                arrActive:'active', 
+                arrHasError:'hasError',
+                'active':true
+			}
+		},
+        methods:{
+            showObjectHandler(){
+                console.log(this.classObject)
+            },
+            activeTrueHandler(){
+                this.isActive=true
+            },
+            hasErrorTrueHandler(){
+                this.hasError=true
+            }
+        },
+        computed:{
+
+        }
+	}
+</script>
+<style>
+.active{
+    font-size:30px
+}
+.hasError{
+    color:red;
+}
+</style>
+```
 
 #### 17：Style绑定：真实使用推荐用`class`绑定，style权重太高，后期不好改。
 
 #### 18：侦听器
 
-- ```html
-  <!--选项式API-->
-  <template><!--html内容-->
-  <p>{{ msg }}</p>
-  <button @click="updateMsg">change msg</button>
-  </template>
+```html
+<!--选项式API-->
+<template><!--html内容-->
+<p>{{ msg }}</p>
+<button @click="updateMsg">change msg</button>
+</template>
 
-  <!--js code-->
-  <script>
-  	export default {
-  		data (){
-  			return {
-  				msg:'hello'
-  			}
-  		},
-          methods:{
-              updateMsg(){
-                  this.msg = 'hello vue3';
-              }
-          },
-          computed:{
-              
-          },
-          watch:{
-              msg(newValue,oldValue){
-                  console.log(`newValue:${newValue},oldValue:${oldValue}`);
-              }
-          }
-  	}
-  </script>
-  ```
+<!--js code-->
+<script>
+	export default {
+		data (){
+			return {
+				msg:'hello'
+			}
+		},
+        methods:{
+            updateMsg(){
+                this.msg = 'hello vue3';
+            }
+        },
+        computed:{
+            
+        },
+        watch:{
+            msg(newValue,oldValue){
+                console.log(`newValue:${newValue},oldValue:${oldValue}`);
+            }
+        }
+	}
+</script>
+```
 
 #### 19：表单绑定 `v-model`​、`.lazy`​、`.trim`​、`.number`
 
@@ -648,7 +653,7 @@ export default {
 
 ![image](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/image-20251004104025-ioemoqp.png)
 
-#### 21：组件组成 `style scoped` (仅当前文件，不加就是全局样式）
+#### 21：组件组成 `style scoped`(仅当前文件，不加就是全局样式）
 
 官方文档：[https://cn.vuejs.org/guide/essentials/component-basics.html](https://cn.vuejs.org/guide/essentials/component-basics.html)
 
@@ -657,24 +662,24 @@ export default {
 
 #### 23：组件注册：全局`main.js`vs局部
 
-- 不推荐`全局`的场景：①没有实际被使用的；②使大型项目的依赖关系变得不明确，影响长期维护性
-- ```js
-  // main.js
-  import { createApp } from 'vue'
-  import App from './App.vue'
+不推荐`全局`的场景：①没有实际被使用的；②使大型项目的依赖关系变得不明确，影响长期维护性
 
-  import RefDemo from './components/RefDemo.vue'
-  const app = createApp(App)
+```js
+// main.js
+import { createApp } from 'vue'
+import App from './App.vue'
 
-  // 在这中间写组件注册
-  app.component('RefDemo',RefDemo)
-  //
-  app.mount('#app')
-  ```
+import RefDemo from './components/RefDemo.vue'
+const app = createApp(App)
+
+// 在这中间写组件注册
+app.component('RefDemo',RefDemo)
+//
+app.mount('#app')
+```
 
 #### 24：组件传参`props`,只能父传子，不能子传父
 
-{% raw %}
 ```html
 <!--Parent.vue-->
 <template><!--html内容-->
@@ -721,7 +726,6 @@ import Child from './Child.vue';
 	}
 </script>
 ```
-{% endraw %}
 
 #### 25：传参的数据类型（数字、数组、对象都可以）
 
@@ -1009,7 +1013,7 @@ import PropFunChildDemo from './PropFunChildDemo.vue';
         }
     </script>
     ```
-- **插槽内容，需要使用父组件和子组件的内容时，父级**​`<template #插槽名="名称">{% raw %}{{名称.参数名}}{% endraw %}`​ **，子级**​`<slot :参数名=子级参数>`
+- **插槽内容，需要使用父组件和子组件的内容时，父级**​`<template #插槽名="名称">{{名称.参数名}}`​ **，子级**​`<slot :参数名=子级参数>`
 
   - **非具名插槽**情况
 
