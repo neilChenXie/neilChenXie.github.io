@@ -62,26 +62,7 @@ published: true
 - 删掉src/components、src/assets下面的所有文件夹和文件
 - src/App.vue改成
 
-{% raw %}
-```html
-<template><!--html内容-->
-
-</template>
-
-<!--js code-->
-<script>
-	export default {
-		data (){
-			return {
-				
-			}
-		}
-	}
-</script>
-```
-{% endraw %}
-
-‍
+![image](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/image-20251215171930-8blud1h.png)
 
 示例（App.vue文件）
 
