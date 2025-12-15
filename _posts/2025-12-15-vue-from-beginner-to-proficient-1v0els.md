@@ -62,6 +62,8 @@ published: true
 - 删掉src/components、src/assets下面的所有文件夹和文件
 - src/App.vue改成
 
+{% raw %}
+
 ```html
 <template><!--html内容-->
 
@@ -78,6 +80,10 @@ published: true
 	}
 </script>
 ```
+
+{% endraw %}
+
+‍
 
 示例（App.vue文件）
 
