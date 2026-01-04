@@ -13,8 +13,6 @@ published: true
 
 
 
-# 已有项目创建Github Pages
-
 ## 思路
 
 通过`jekyll new myblog`生成必要的文件，再将这些文件Copy到现有项目的指定分支下。
