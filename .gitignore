@@ -1,24 +1,16 @@
-# general
-*.[oa] *~
-.*.sw[po]
+# Mac_OS
 .DS_Store
+.Spotlight-V100
+.Trashes
+._*
 
-# java
-*.class
+# Windows
+Thumbs.db
+desktop.ini
 
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# ignore Maven generated target folders
-target
-
-# ignore eclipse files
-.project
-.classpath
-.settings
-.metadata
+# VS Code
+.vscode/
+*.code-workspace
 
 # jekyll
 _site
