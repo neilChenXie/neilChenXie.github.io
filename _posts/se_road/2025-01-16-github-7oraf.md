@@ -13,8 +13,6 @@ published: true
 
 
 
-# Github & git
-
 ## 创建仓库
 
 ### SSH
@@ -169,7 +167,7 @@ git add .
 ### 本地基本操作
 
 ```bash
-# list branch list
+# list all branches
 git branch -a
 
 # change the default branch
@@ -180,11 +178,21 @@ git checkout -b iss53
 # Switched to a new branch "iss53"
 # do modifying and add commit things
 
-#mergin
+# Mergin
 git checkout main
 # Switched to branch 'master'
 git merge iss53
 # merge iss53 to main
+
+# Delete
+git branch -d [branch-name] #can delete if the branch is merged
+git branch -D [branch-name] #can delete without merging the branch
+
+# Delete branches in Repository
+git push origin --delete [remote-branch-name]
+
+# Delete Fetched Remote Branches
+git fetch --prune # Auto-delete branches which are deleted in remote repository
 ```
 
 ### 获取远程仓库的分支
