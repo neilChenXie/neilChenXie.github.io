@@ -187,12 +187,6 @@ git merge iss53
 # Delete
 git branch -d [branch-name] #can delete if the branch is merged
 git branch -D [branch-name] #can delete without merging the branch
-
-# Delete branches in Repository
-git push origin --delete [remote-branch-name]
-
-# Delete Fetched Remote Branches
-git fetch --prune # Auto-delete branches which are deleted in remote repository
 ```
 
 ### 获取远程仓库的分支
@@ -213,6 +207,25 @@ git checkout -b release-2.0 origin/release-2.0
   - [Change from master to a new default branch git](https://stackoverflow.com/questions/51274430/change-from-master-to-a-new-default-branch-git)
   - [How to set the default branch in GitHub.com?](https://stackoverflow.com/questions/11334045/how-to-set-the-default-branch-in-github-com)
   - [Git Branching - Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+
+### 本地分支与远程仓库分支交互
+
+```bash
+# Check the relationship between local-branch and remote-branch
+git branch -vv
+
+# set the relationship between local-branch and remote-branch
+git branch --set-upstream-to=<RepoName>/<remote-branch-name> <local-branch>
+
+# Delete local-fetched remote-branches
+git branch -d -r origin/[remote-branch-name]
+
+# Delete remote branches in Repository
+git push origin --delete [remote-branch-name]
+
+# Delete Fetched Remote Branches
+git fetch --prune # Auto-delete branches which are deleted in remote repository
+```
 
 ### 当分支提交了Commit，主干也有新的Commit（`git rebase -i`）
 
