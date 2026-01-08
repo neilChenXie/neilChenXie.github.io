@@ -1,7 +1,12 @@
 ---
-title: ''
-date: '2026-01-08 15:26:36'
+title: 已有项目创建Github Pages
+date: '2026-01-04 10:55:08'
 permalink: /post/create-github-pages-for-existing-projects-z22oiul.html
+tags:
+  - github
+  - jekyll
+categories:
+  - Software Development｜软件开发
 layout: post
 published: true
 ---
