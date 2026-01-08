@@ -151,9 +151,7 @@ _site/
 vendor/
 ```
 
-### Cases
-
-#### rm files which are tracked before it is added to .gitignore
+### Remove files which are tracked before it is added to .gitignore
 
 ```bash
 git rm -r --cached .
@@ -214,8 +212,15 @@ git checkout -b release-2.0 origin/release-2.0
 # Check the relationship between local-branch and remote-branch
 git branch -vv
 
+# Add remote Repo
+git remote add <repo-nickname> <repoUrl>
+# Delete remote Repo
+git remote remove <repo-nickname>
+
 # set the relationship between local-branch and remote-branch
 git branch --set-upstream-to=<RepoName>/<remote-branch-name> <local-branch>
+#or Use -u when push
+git push -u <remote> <local_branch>
 
 # Delete local-fetched remote-branches
 git branch -d -r origin/[remote-branch-name]
