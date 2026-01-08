@@ -13,8 +13,6 @@ published: true
 
 
 
-# 摘要
-
 - [平安颐享（D）高端医疗保险.pdf](assets/平安颐享（D）高端医疗保险-20260105000128-4qyioyu.pdf)
 
 ![平安颐享（D）高端医疗保险](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/life/平安颐享（D）高端医疗保险-20260105000137-yk1thcv.jpg)
