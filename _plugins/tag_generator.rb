@@ -30,16 +30,29 @@ module Jekyll
 
     private
 
+    def slugify(string)
+      string
+        .downcase
+        .gsub(/[｜\|]/, '-')
+        .gsub(/[^\p{L}\p{N}\s_\-]/, '')
+        .gsub(/[\s_]+/, '-')
+        .gsub(/-+/, '-')
+        .gsub(/^-|-$/, '')
+    end
+
     def generate_tag_page(site, tag)
       tag_dir = File.join(site.source, '_tags_page')
-      tag_file = File.join(tag_dir, "#{tag}.md")
+      tag_slug = slugify(tag)
+      # tag_file = File.join(tag_dir, "#{tag_slug}.md")
+      tag_file=File.join(tag_dir, "#{tag}.md")
 
       begin
         # 如果文件不存在，则创建它
         unless File.exist?(tag_file)
           FileUtils.mkdir_p(tag_dir) unless File.exist?(tag_dir)
           
-          content = "---\nlayout: page_tag\ntitle: #{tag}\n---\n"
+          content = "---\nlayout: page_tag\ntitle: #{tag}\nslug: #{tag_slug}\n---\n"
+          #content = "---\n---\n"
           File.write(tag_file, content)
           
           Jekyll.logger.info "Tag Generator:", "Generated tag page for '#{tag}'"
