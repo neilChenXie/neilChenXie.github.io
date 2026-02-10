@@ -33,7 +33,7 @@ defaults:
         type: tags_page
       values:
         layout: page_tag
-        permalink: /tag/:title/
+        permalink: /tag/:slug/
     - scope:
         path: ""
         type: "posts"
