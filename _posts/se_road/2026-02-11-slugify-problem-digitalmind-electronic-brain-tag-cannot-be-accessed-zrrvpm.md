@@ -1,6 +1,6 @@
 ---
 title: Slugify问题：「digital_mind｜电子大脑」标签无法访问
-date: '2026-02-11 18:03:01'
+date: '2026-02-11 09:30:01'
 permalink: >-
   /post/slugify-problem-digitalmind-electronic-brain-tag-cannot-be-accessed-zrrvpm.html
 tags:
