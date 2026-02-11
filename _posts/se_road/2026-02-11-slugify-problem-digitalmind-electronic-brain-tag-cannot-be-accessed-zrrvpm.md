@@ -151,13 +151,13 @@ Jekyll 扫描 _tags_page/ 文件夹
 }
 ```
 
-​`{% if site.tags[page.slug] %}`就是访问某个标签下的post清单。
-
 所以，如果post（博文）中的标签是`digital_mind｜电子大脑`​，那么这里的取值需要是`digital_mind｜电子大脑`​，而不能是slugify之后的`digital-mind-电子大脑`​或`digital_mind-电子大脑`。
 
 所以，`_tags_page`​下的md文件可以是以下写法，然后这里改成`site.tags[page.title]`
 
 ![image](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/image-20260210113703-nbhawd7.png)
+
+​`if site.tags[page.slug]`就是访问某个标签下的post清单。
 
 ## AI改BUG使用经验 #vibe_coding#
 
