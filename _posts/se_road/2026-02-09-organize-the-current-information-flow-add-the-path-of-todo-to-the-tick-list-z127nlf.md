@@ -1,5 +1,5 @@
 ---
-title: 整理目前的信息流；增加Todo到滴答清单的路径
+title: 更新日志：整理目前的信息流；增加Todo到滴答清单的路径
 date: '2026-02-09 11:01:37'
 permalink: >-
   /post/organize-the-current-information-flow-add-the-path-of-todo-to-the-tick-list-z127nlf.html
