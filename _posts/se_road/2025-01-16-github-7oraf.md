@@ -245,7 +245,14 @@ git fetch --prune # Auto-delete branches which are deleted in remote repository
 
 <span data-type="text" style="color: var(--b3-font-color8);">黄金原则：不要使用rebase处理已经被其他人引用的提交。</span>
 
-引申，`git rebase -i`常用命令：pick、rework、squash、drop
+引申，`git rebase -i`常用命令：
+
+- ​`pick`：
+- ​`rework`：
+- ​`squash`：当前commit和之前（更旧）的commit合并成一个
+- ​`drop`：舍弃
+
+注意交互界面，commit从上到下是按照**从老到新**的顺序，然后squash的节点之前，一定要有一个pick的节点（更老的commit）。
 
 ![image](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/work/image-20251216160909-8nle2oc.png)
 
