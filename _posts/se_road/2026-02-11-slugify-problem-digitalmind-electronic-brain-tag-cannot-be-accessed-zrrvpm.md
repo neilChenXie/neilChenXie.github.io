@@ -12,7 +12,6 @@ published: true
 ---
 
 
-
 ## 摘要
 
 ### Jekyll Debug经验：Collections功能的逻辑学习
