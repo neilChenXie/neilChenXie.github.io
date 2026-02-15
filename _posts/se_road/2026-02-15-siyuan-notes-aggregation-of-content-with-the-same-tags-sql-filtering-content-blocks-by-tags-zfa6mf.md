@@ -1,6 +1,6 @@
 ---
 title: 思源笔记：相同标签内容聚合，SQL按标签筛选内容块
-date: '2026-02-15 23:31:26'
+date: '2026-01-06 15:36:43'
 permalink: >-
   /post/siyuan-notes-aggregation-of-content-with-the-same-tags-sql-filtering-content-blocks-by-tags-zfa6mf.html
 tags:
@@ -19,6 +19,8 @@ published: true
 这个案例中，AI不知道思源笔记提供的一些变量及值的对应关系。go语言基本逻辑相关的代码，输出没有问题。
 
 ## 一、结果
+
+{% raw %}
 
 ```go
 .action{$docid:=.id}
@@ -48,6 +50,8 @@ published: true
 .action{end}
 ```
 
+{% endraw %}
+
 ## 二、Claude Code输出思源笔记模板经验 #vibe_coding#
 
 ### 提示词
@@ -57,6 +61,8 @@ published: true
 ```
 
 ### AI输出结果
+
+{% raw %}
 
 ```go
 .action{$docid:=.id}
@@ -68,6 +74,8 @@ published: true
 {{SELECT * FROM blocks WHERE parent_id='.action{$h3Block.ID}'}}
 .action{end}
 ```
+
+{% endraw %}
 
 ### Debug
 
