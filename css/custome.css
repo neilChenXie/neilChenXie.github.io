@@ -43,10 +43,11 @@
 		padding: 2rem 0 2rem 3rem;
 		min-width: 400px;
 		background: ghostwhite;
+		flex-shrink: 0;
 	}
 
 	.main-article-content {
-		width: 90%;
+		flex: 1;
 	}
 
 
