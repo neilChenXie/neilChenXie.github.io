@@ -285,4 +285,34 @@ git checkout --HEAD filename
 git reset
 ```
 
-‍
+## 实战经验
+
+### Git在一个分支上做了修改，但是还没有提交，能否在另外一个分支上提交 #git#
+
+#### 场景
+
+我的博客项目，在SE_Road分支git pull了最新发布的内容，发现了博客tag系统的bug，然后直接在这个分支上做了很多调整，现在Bug调完了，我是否可以换一个分支专门提交博客框架上的修改。
+
+#### 解决方案
+
+不需要。可以通过选择特定的文件，来创建一个commit只提交框架相关的提交；然后第二个commit再提交博客和标签页的修改。
+
+```bash
+# add 特定文件
+git add _layouts/page_tag.html _plugins/tag_generator.rb _config.yml 
+
+# 查看哪些文件staged
+git status
+
+# unstaged不属于框架文件的文件
+git restore --staged _posts/
+
+# 提交框架的修改 并与github上的bug编号对应
+git commit -m "Slugify问题：「digital_mind｜电子大脑」标签无法访问 fixes #51"
+```
+
+然后其他博客发布分支，用`git rebase main`​来更新框架文件（其实也同步了其他分支发布的博客），不过每个分支的文章应该是不冲突的，所以可以就用`rebase`
+
+### 博客主题应用、内容发布Git管理流程 #git# #github#
+
+![](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/se_roadexcalidraw-image-20260227175932-buy9gja.svg)
