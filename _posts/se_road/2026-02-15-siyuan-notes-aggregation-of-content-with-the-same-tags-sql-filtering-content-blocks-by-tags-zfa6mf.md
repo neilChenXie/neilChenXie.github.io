@@ -18,7 +18,74 @@ published: true
 
 这个案例中，AI不知道思源笔记提供的一些变量及值的对应关系。go语言基本逻辑相关的代码，输出没有问题。
 
-## 一、结果
+## 20260227更新
+
+增加支持打上标签的文档（仅取`摘要`），并排除当前文档（防止自己引用自己）
+
+{% raw %}
+
+```go
+.action{$docid:=.id}
+.action{$searchTag:="#想聚合的标签"}
+
+.action{/*获取母文件目录清单*/}
+.action{$existTOCList:=(queryBlocks "SELECT * FROM blocks WHERE subtype='h3' AND root_id='?'" $docid)}
+
+
+
+.action{/*获取所有含指定标签的文档，按创建时间正序*/}
+.action{$tagFilesList:= (queryBlocks "SELECT * FROM blocks WHERE type='d' AND id !='?' AND tag LIKE '%?%' ORDER BY created" $docid $searchTag)}
+
+.action{/*如果母文件已经添加过了，就不在重复添加*/}
+.action{range $tagFileBlock:=$tagFilesList}
+	.action{$existFlag:=0}
+	.action{range $existTOC:=$existTOCList}
+		.action{/*每个子文件的标题，逐个与母文件已有的目录清单做对比*/}
+		.action{if eq $existTOC.Content $tagFileBlock.Content}
+			.action{/*如果发现相同的，即设置标志位，并停止循环*/}
+			.action{$existFlag = 1}
+			.action{break}
+		.action{end}
+	.action{end}
+	.action{/*如果标志位为0，说明该子文件标题不在母文件目录中*/}
+	.action{if eq $existFlag 0}
+	.action{/*输出该子文件标题及摘要*/}
+### ((.action{$tagFileBlock.ID} ".action{$tagFileBlock.Content}"))
+		.action{$hl:= (queryBlocks "SELECT * FROM blocks WHERE subtype='h2' and parent_id='?' and content LIKE '%摘要%'" $tagFileBlock.ID)}
+		.action{range $h:=$hl} 
+{{SELECT * FROM blocks WHERE parent_id='.action{$h.ID}'}}
+		.action{end}
+	.action{end}
+.action{end}
+
+.action{/*获取所有含指定标签的H2内容块，按创建时间倒序*/}
+.action{$tagBlocksList:= (queryBlocks "SELECT * FROM blocks WHERE subtype='h2' AND content LIKE '%?%' ORDER BY created" $searchTag)}
+
+.action{/*如果母文件已经添加过了，就不在重复添加*/}
+.action{range $tagBlock:=$tagBlocksList}
+	.action{$existFlag:=0}
+	.action{range $existTOC:=$existTOCList}
+		.action{/*每个子文件的标题，逐个与母文件已有的目录清单做对比*/}
+		.action{if eq $existTOC.Content $tagBlock.Content}
+			.action{/*如果发现相同的，即设置标志位，并停止循环*/}
+			.action{$existFlag = 1}
+			.action{break}
+		.action{end}
+	.action{end}
+	.action{/*如果标志位为0，说明该子文件标题不在母文件目录中*/}
+	.action{if eq $existFlag 0}
+	.action{/*输出该子文件标题及摘要*/}
+### ((.action{$tagBlock.ID} ".action{$tagBlock.Content}"))
+{{SELECT * FROM blocks WHERE parent_id='.action{$tagBlock.ID}'}}
+	.action{end}
+.action{end}
+
+
+```
+
+{% endraw %}
+
+## 20260215结果
 
 {% raw %}
 
