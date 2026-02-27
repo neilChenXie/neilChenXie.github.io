@@ -28,9 +28,7 @@ published: true
 
 ### **AI答案：**
 
-通过 `bundle update`​ 后，[Gemfile.lock](vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/code/electron-browser/workbench/workbench.html)
-
- 中的 `bigdecimal`​ 仍然是 3.3.1，因为它是间接依赖（通过 `sass-embedded`​ → `google-protobuf`​ → `bigdecimal`​），而 `google-protobuf`​ 的当前版本（4.33.2）要求 `bigdecimal (~> 3.1)`，不支持 4.x 版本。
+通过 `bundle update`​ 后，`Gemfile.lock`​中的 `bigdecimal`​ 仍然是 3.3.1，因为它是间接依赖（通过 `sass-embedded`​ → `google-protobuf`​ → `bigdecimal`​），而 `google-protobuf`​ 的当前版本（4.33.2）要求 `bigdecimal (~> 3.1)`，不支持 4.x 版本。
 
 #### 原因分析
 
