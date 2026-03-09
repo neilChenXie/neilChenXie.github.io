@@ -95,7 +95,7 @@ published: true
 .action{/*获取母文件的标题，并赋值给$searchTag*/}
 .action{$searchTag:="#想聚合的标签"}
 .action{range $doc:= $docs}
-	.action{$searchTag = $doc.Content}
+	.action{$searchTag = printf "#%s" $doc.Content}
 .action{end}
 
 
