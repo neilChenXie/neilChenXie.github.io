@@ -16,7 +16,143 @@ published: true
 
 ## 摘要
 
-这个案例中，AI不知道思源笔记提供的一些变量及值的对应关系。go语言基本逻辑相关的代码，输出没有问题。
+### 更新日志
+
+20260309：取母文件的标题作为标签，去聚合内容（1、含此标签的文档的摘要；2、含此标签的`H2`文档块）
+
+20260227：增加支持打上标签的文档（仅取`摘要`），并排除当前文档（防止自己引用自己）
+
+20260215：按标签聚合含此标签的`H2`文档块
+
+### AI经验
+
+20260309：元宝（Deepseek）在SQL语法上有些小错误；但是在`$v.Tag`​一来就写对了，我后面写成`$v.tag`​一直报错，debug了好久。Deepseek通过阅读思源笔记官方文档及论坛文档，输出的内容是`较可用的`​，不过核心还是需要**开发者**能看懂代码。
+
+20260215：这个案例中，AI不知道思源笔记提供的一些变量及值的对应关系。go语言基本逻辑相关的代码，输出没有问题。
+
+## 20260309更新
+
+每次按一个标签聚合都需要新建一个模板文件太麻烦，本次优化，取母文件的标题作为标签，去聚合：
+
+1. 含此标签的文档的摘要
+2. 含此标签的H2文档块
+
+### 了解文档有哪些属性
+
+那首先需要知道怎么获取“本文章的标题”，那本文有哪些属性可获取呢？
+
+{% raw %}
+
+```go
+.action{$docid:=.id}
+
+.action{$docs:= (queryBlocks "SELECT * FROM blocks WHERE type='d' AND id='?'" $docid)}
+
+.action{range $v:= $docs}
+完整对象: `.action{printf "%+v" $v}`
+- ID: `.action{$v.ID}`
+- 标题/内容: `.action{$v.Content}`
+- 标签: `.action{$v.Tag}`
+- 别名: `.action{$v.Alias}`
+- 路径: `.action{$v.HPath}`
+- 类型: `.action{$v.Type}`
+- 创建时间: `.action{$v.Created}`
+- 更新时间: `.action{$v.Updated}`
+.action{end}
+```
+
+{% endraw %}
+
+**输出结果为:**
+
+{% raw %}
+
+```md
+20260306102249-l9ib1rr
+
+完整对象: `&{ID:20260306102249-l9ib1rr ParentID: RootID:20260306102249-l9ib1rr Hash:bbcdfb5 Box:20251011153313-u6iarz2 Path:/20260306102249-l9ib1rr.sy HPath:/阿里云 Name: Alias: Memo: Tag:#aliyun｜阿里云# #bundle# #claude_code# Content:阿里云 FContent:阿里云 Markdown: Length:3 Type:d SubType: IAL:{: id="20260306102249-l9ib1rr" tags="aliyun｜阿里云,bundle,claude_code" title="阿里云" type="doc" updated="20260309171240"} Sort:0 Created:20260306102249 Updated:20260309171240}`
+
+- ID: `20260306102249-l9ib1rr`
+- 标题/内容: `阿里云`
+- 标签: `#aliyun｜阿里云# #bundle# #claude_code#`
+- 别名: ``
+- 路径: `/阿里云`
+- 类型: `d`
+- 创建时间: `20260306102249`
+- 更新时间: `20260309171240`
+```
+
+{% endraw %}
+
+最终优化聚合模板的代码
+
+{% raw %}
+
+```go
+.action{$docid:=.id}
+.action{$docs:= (queryBlocks "SELECT * FROM blocks WHERE type='d' AND id='?'" $docid)}
+
+.action{/*获取母文件的标题，并赋值给$searchTag*/}
+.action{$searchTag:="#想聚合的标签"}
+.action{range $doc:= $docs}
+	.action{$searchTag = $doc.Content}
+.action{end}
+
+
+.action{/*获取母文件目录清单*/}
+.action{$existTOCList:=(queryBlocks "SELECT * FROM blocks WHERE subtype='h3' AND root_id='?'" $docid)}
+
+
+
+.action{/*获取所有含指定标签的文档，按创建时间正序*/}
+.action{$tagFilesList:= (queryBlocks "SELECT * FROM blocks WHERE type='d' AND id !='?' AND tag LIKE '%?%' ORDER BY created" $docid $searchTag)}
+
+.action{/*如果母文件已经添加过了，就不在重复添加*/}
+.action{range $tagFileBlock:=$tagFilesList}
+	.action{$existFlag:=0}
+	.action{range $existTOC:=$existTOCList}
+		.action{/*每个子文件的标题，逐个与母文件已有的目录清单做对比*/}
+		.action{if eq $existTOC.Content $tagFileBlock.Content}
+			.action{/*如果发现相同的，即设置标志位，并停止循环*/}
+			.action{$existFlag = 1}
+			.action{break}
+		.action{end}
+	.action{end}
+	.action{/*如果标志位为0，说明该子文件标题不在母文件目录中*/}
+	.action{if eq $existFlag 0}
+	.action{/*输出该子文件标题及摘要*/}
+### ((.action{$tagFileBlock.ID} ".action{$tagFileBlock.Content}"))
+		.action{$hl:= (queryBlocks "SELECT * FROM blocks WHERE subtype='h2' and parent_id='?' and content LIKE '%摘要%'" $tagFileBlock.ID)}
+		.action{range $h:=$hl} 
+{{SELECT * FROM blocks WHERE parent_id='.action{$h.ID}'}}
+		.action{end}
+	.action{end}
+.action{end}
+
+.action{/*获取所有含指定标签的H2内容块，按创建时间倒序*/}
+.action{$tagBlocksList:= (queryBlocks "SELECT * FROM blocks WHERE subtype='h2' AND content LIKE '%?%' ORDER BY created" $searchTag)}
+
+.action{/*如果母文件已经添加过了，就不在重复添加*/}
+.action{range $tagBlock:=$tagBlocksList}
+	.action{$existFlag:=0}
+	.action{range $existTOC:=$existTOCList}
+		.action{/*每个子文件的标题，逐个与母文件已有的目录清单做对比*/}
+		.action{if eq $existTOC.Content $tagBlock.Content}
+			.action{/*如果发现相同的，即设置标志位，并停止循环*/}
+			.action{$existFlag = 1}
+			.action{break}
+		.action{end}
+	.action{end}
+	.action{/*如果标志位为0，说明该子文件标题不在母文件目录中*/}
+	.action{if eq $existFlag 0}
+	.action{/*输出该子文件标题及摘要*/}
+### ((.action{$tagBlock.ID} ".action{$tagBlock.Content}"))
+{{SELECT * FROM blocks WHERE parent_id='.action{$tagBlock.ID}'}}
+	.action{end}
+.action{end}
+```
+
+{% endraw %}
 
 ## 20260227更新
 
