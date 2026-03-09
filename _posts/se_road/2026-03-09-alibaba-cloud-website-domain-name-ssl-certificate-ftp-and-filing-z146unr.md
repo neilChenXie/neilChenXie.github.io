@@ -1,6 +1,6 @@
 ---
 title: 阿里云网站、域名、SSL证书、FTP及备案
-date: '2026-03-09 18:01:14'
+date: '2026-03-06 11:01:14'
 permalink: >-
   /post/alibaba-cloud-website-domain-name-ssl-certificate-ftp-and-filing-z146unr.html
 tags:
@@ -215,4 +215,14 @@ PassiveMode               yes
 
 ![image](https://chenxie-fun.oss-cn-shenzhen.aliyuncs.com/se_roadimage-20260309142800-hu9o2zq.png)
 
-‍
+#### 无法删除非空文件夹
+
+- 在宝塔面板的  **"文件"**  管理器中：
+- 找到`/www/wwwroot/www.chenxie.fun`目录
+- 右键点击或选中后点击  **"权限"**  按钮
+- 将权限设置为：
+
+  - ​**所有者**​：通常设置为 `www`（或其他Web服务器用户）
+  - ​**权限**​：建议设置为 `755`​（目录）和 `644`（文件）
+  - **勾选** "递归设置" 选项
+- 点击确定，然后通过FTP再次尝试删除
